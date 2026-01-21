@@ -1,5 +1,8 @@
 +++
-date = '2026-01-13T12:40:28+01:00'
-draft = true
+date = '2026-01-16T09:54:22+01:00'
+draft = false
 title = 'Positions'
+[build]
+  list = 'never'
+  render = 'never'
 +++

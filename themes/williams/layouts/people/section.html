@@ -1,0 +1,17 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+  Sec pag
+  <ul>
+    {{ range $term, $taxonomy := .Site.Taxonomies.positions }}
+      <li>{{ $term }}</li>
+      <ul>
+        {{ range $taxonomy.Pages }}
+          <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+        {{ end }}
+      </ul>
+    {{ end }}
+  </ul>
+  {{/*  {{ $taxonomyObject := .Site.Taxonomies }}
+  <pre>{{ debug.Dump $taxonomyObject }}</pre>  */}}
+{{ end }}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CASCB on Willams Lab</title>
+    <link>http://localhost:1313/funding/cascb/</link>
+    <description>Recent content in CASCB on Willams Lab</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 13 Jan 2026 13:24:54 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/funding/cascb/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Social Sampling of Physical Energy</title>
+      <link>http://localhost:1313/projects/social-sampling-of-physical-energy/</link>
+      <pubDate>Tue, 13 Jan 2026 13:24:54 +0100</pubDate>
+      <guid>http://localhost:1313/projects/social-sampling-of-physical-energy/</guid>
+      <description>&lt;p&gt;How do moving beings increase certainty in their movement decisions for cost-efficient movement? In this new project I’ll be working with paraglider M. Wilkes, ecologists K. Safi &amp;amp; M. Wikelski, and psychologist B. Renner and informatics F. Schreiber, to gain insight into how obligate soaring birds may be locating good conditions for soaring to up-the-odds in their probabilistic movement decisions. Work funded by MPI-AB and CASCB.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

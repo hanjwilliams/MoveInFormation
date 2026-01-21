@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Laura Fish on Willams Lab</title>
+    <link>http://localhost:1313/people/fish-laura/</link>
+    <description>Recent content in Laura Fish on Willams Lab</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 16 Jan 2026 11:27:45 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/people/fish-laura/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Flight Energetics and the Aeroecology of a Soaring Scavenger</title>
+      <link>http://localhost:1313/projects/flight-energetics-and-the-aeroecology-of-a-soaring-scavenger/</link>
+      <pubDate>Fri, 16 Jan 2026 11:27:45 +0100</pubDate>
+      <guid>http://localhost:1313/projects/flight-energetics-and-the-aeroecology-of-a-soaring-scavenger/</guid>
+      <description>&lt;p&gt;How do the largest birds move across the landscape in search of food while minimising their energy expenditure? Together, with Emily Shepard’s Flight team at SLAM (Swansea Laboratory for Animal Movement) and Sergio Lambertucci’s team, we are currently investigating the soaring strategy of the the Andean condor (Vultur gryphus) using high frequency bio-logging technology. Read more on the amazing feats of soaring birds in Audubon and how Emily, Mark Holton, Sergio and Orlando Mastrantuoni figured out how to collect movement data from the Andean Condor at The Conversation.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
