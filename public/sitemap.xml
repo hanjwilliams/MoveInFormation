@@ -14,6 +14,30 @@
     <loc>http://localhost:1313/positions/student-hiwi/</loc>
     <lastmod>2026-01-16T09:45:01+01:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/projects/perception-of-energies/</loc>
+    <lastmod>2026-01-26T11:15:39+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/soaring-strategy/</loc>
+    <lastmod>2026-01-26T11:20:13+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/thermal-climb/</loc>
+    <lastmod>2026-01-26T11:22:55+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/tri-axial-magnetometry/</loc>
+    <lastmod>2026-01-26T11:23:56+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/acceleration-of-soaring-birds/</loc>
+    <lastmod>2026-01-26T11:24:56+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/funding/cascb/</loc>
+    <lastmod>2026-01-22T12:02:19+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/funding/</loc>
+    <lastmod>2026-01-22T12:02:19+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/funding/mpiab/</loc>
+    <lastmod>2026-01-22T11:59:48+01:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/projects/flight-energetics-and-the-aeroecology-of-a-soaring-scavenger/</loc>
     <lastmod>2026-01-16T11:27:45+01:00</lastmod>
   </url><url>
@@ -52,15 +76,6 @@
   </url><url>
     <loc>http://localhost:1313/projects/optimal-movement/</loc>
     <lastmod>2026-01-13T13:31:38+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/funding/cascb/</loc>
-    <lastmod>2026-01-13T13:24:54+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/funding/</loc>
-    <lastmod>2026-01-13T13:24:54+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/funding/mpi-ab/</loc>
-    <lastmod>2026-01-13T13:24:54+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects/social-sampling-of-physical-energy/</loc>
     <lastmod>2026-01-13T13:24:54+01:00</lastmod>

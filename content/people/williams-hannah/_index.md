@@ -4,6 +4,7 @@ draft = false
 title = 'Dr. Hannah Williams'
 positions = ['Group Leader']
 foci = ['Collective Biologging']
+image = 'hannah.jpeg'
 +++
 I am a movement ecologist with a particular interest in how fine-scale movement patterns influence large-scale movement strategies. A major part of my research has focused on movement in the aerial landscape, investigating the flight behaviour of large soaring birds, including the Andean Condor and Cape griffon vulture species. Along the way I have become particularly interested in ‘social eavesdropping’ the concept of one individual observing others moving within its environment and using this information to better their own movement strategy in terms of energetic cost. To investigate this I work with bio-logging devices to collect fine-scale movement data and develop frameworks for multi-logger deployments.
 

@@ -4,4 +4,5 @@ draft = false
 title = 'Laura Fish'
 positions = ['Research Assistant']
 foci = ['']
+image = 'laura.jpeg'
 +++

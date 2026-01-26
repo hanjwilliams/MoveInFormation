@@ -1,8 +1,20 @@
 {{ define "main" }}
   <h1>{{ .Title }}</h1>
-  peoTerm page
-  {{ .Content }}
-  {{ range .Pages }}
-    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+  {{ with .Params.image }}
+  <figure class="person-headshot">
+    <img src="{{ . }}" alt="{{ $.Page.Title }}">
+  </figure>
   {{ end }}
+  {{ .Content }}
 {{ end }}
+
+{{ define "sidebar" }}
+<section class="side-project">
+{{ range .Pages.GroupBy "Section" "desc" }}
+    <h3>{{ .Key }}</h3>
+    {{range .Pages }}
+    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+    {{end}}
+  {{ end }}
+  </section>
+{{ end}}

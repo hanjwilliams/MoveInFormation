@@ -1,13 +1,19 @@
 {{ define "main" }}
   <h1>{{ .Title }}</h1>
   {{ .Content }}
-  PeoTaxo Page
   <ul>
     {{ range $term, $taxonomy := .Site.Taxonomies.positions }}
-      <li>{{ $term }}</li>
+      <li class="people-section">{{ $term }}</li>
       <ul>
         {{ range $taxonomy.Pages.ByLinkTitle }}
-          <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+        {{ $page := .RelPermalink }}
+          <li class="people-item">
+             {{ with .Params.image }}
+                <figure class="people-headshot">
+                    <img src="{{ $page }}{{ . }}" alt="{{ $.Page.Title }}">
+                </figure>
+            {{ end }}
+            <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
         {{ end }}
       </ul>
     {{ end }}

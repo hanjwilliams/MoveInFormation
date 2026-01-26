@@ -1,8 +1,14 @@
 {{ define "main" }}
   <h1>{{ .Title }}</h1>
   {{ .Content }}
-  Foci Page
   {{ range .Pages }}
     <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+    {{ .Content }}
+      {{ range .Pages.GroupBy "Section" "desc" }}
+    <h3>{{ .Key }}</h3>
+    {{range .Pages }}
+    <h4><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+    {{end}}
+  {{ end }}
   {{ end }}
 {{ end }}

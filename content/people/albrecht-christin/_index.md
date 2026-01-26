@@ -4,4 +4,6 @@ draft = false
 title = 'Christin Albrecht'
 positions = ['PhD Candidate']
 foci = ['']
+image = 'christin.jpg'
 +++
+Christin

@@ -2,10 +2,25 @@
   <h1>{{ .Title }}</h1>
   Focus page
   {{ .Content }}
-  {{ range .Pages.GroupBy "Section" "desc" }}
-    <h3>{{ .Key }}</h3>
-    {{range .Pages }}
+  {{ range (where .Pages "Section" "projects") }}
     <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-    {{end}}
+    {{ .Content }}
   {{ end }}
 {{ end }}
+
+{{ define "sidebar" }}
+<section class="side-people">
+  <ul>
+  {{ range (where .Pages "Section" "people") }}
+    {{ $page := .RelPermalink }}
+          <li class="icon-item">
+             {{ with .Params.image }}
+                <figure class="icon-image">
+                    <img src="{{ $page }}{{ . }}" alt="{{ $.Page.Title }}">
+                </figure>
+            {{ end }}
+            <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+  {{ end }}
+  </ul>
+  </section>
+  {{ end }}

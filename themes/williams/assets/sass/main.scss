@@ -1,6 +1,6 @@
 //Sass styles
 
-$standardWidth: 60rem;
+$standardWidth: 80rem;
 
 body {
     color: #222;
@@ -17,9 +17,18 @@ header {
     margin-bottom: 1rem;
 }
 
-main {
+.container {
     width: $standardWidth;
     margin: 0 auto;
+    display: flex;
+}
+
+main {
+    flex: 1 1 auto;
+}
+
+aside {
+    flex: 1 1 auto;
 }
 
 footer {
@@ -32,4 +41,55 @@ footer {
 a {
     color: #00e;
     text-decoration: none;
+}
+
+//sidebars
+.side-project {
+    width: 20rem;
+}
+.side-people {
+    width: 20rem;
+}
+
+//people
+.people-section {
+    clear: both;
+}
+.people-item {
+    clear: both;
+    min-height: 70px;
+}
+
+//media
+.people-headshot {
+    float: left;
+    max-width: 70px;
+    margin: 0 1rem 0 0;
+    img {
+        width: 100%;
+        margin: 0;
+    }
+}
+.person-headshot {
+    float: left;
+    max-width: 300px;
+    margin: 0 1rem 1rem 0;
+    img {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+.icon-item {
+        clear: both;
+    min-height: 70px;
+}
+.icon-image {
+float: left;
+    width: 70px;
+    margin: 0 1rem 0 0;
+    img {
+        width: 100%;
+        margin: 0;
+    }
 }

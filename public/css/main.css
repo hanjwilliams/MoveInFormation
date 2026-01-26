@@ -6,19 +6,28 @@ body {
 }
 
 header {
-  width: 60rem;
+  width: 80rem;
   margin: 0 auto;
   border-bottom: 1px solid #222;
   margin-bottom: 1rem;
 }
 
-main {
-  width: 60rem;
+.container {
+  width: 80rem;
   margin: 0 auto;
+  display: flex;
+}
+
+main {
+  flex: 1 1 auto;
+}
+
+aside {
+  flex: 1 1 auto;
 }
 
 footer {
-  width: 60rem;
+  width: 80rem;
   margin: 0 auto;
   border-top: 1px solid #222;
   margin-top: 1rem;
@@ -27,6 +36,58 @@ footer {
 a {
   color: #00e;
   text-decoration: none;
+}
+
+.side-project {
+  width: 20rem;
+}
+
+.side-people {
+  width: 20rem;
+}
+
+.people-section {
+  clear: both;
+}
+
+.people-item {
+  clear: both;
+  min-height: 70px;
+}
+
+.people-headshot {
+  float: left;
+  max-width: 70px;
+  margin: 0 1rem 0 0;
+}
+.people-headshot img {
+  width: 100%;
+  margin: 0;
+}
+
+.person-headshot {
+  float: left;
+  max-width: 300px;
+  margin: 0 1rem 1rem 0;
+}
+.person-headshot img {
+  width: 100%;
+  margin: 0;
+}
+
+.icon-item {
+  clear: both;
+  min-height: 70px;
+}
+
+.icon-image {
+  float: left;
+  width: 70px;
+  margin: 0 1rem 0 0;
+}
+.icon-image img {
+  width: 100%;
+  margin: 0;
 }
 
 /*# sourceMappingURL=main.css.map */

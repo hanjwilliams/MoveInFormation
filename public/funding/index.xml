@@ -6,20 +6,20 @@
     <description>Recent content in Funding on Willams Lab</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 13 Jan 2026 13:24:54 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 22 Jan 2026 12:02:19 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/funding/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>CASCB</title>
+      <title>Centre for the Advanced Study of Collective Behaviour</title>
       <link>http://localhost:1313/funding/cascb/</link>
-      <pubDate>Tue, 13 Jan 2026 13:24:54 +0100</pubDate>
+      <pubDate>Thu, 22 Jan 2026 12:02:19 +0100</pubDate>
       <guid>http://localhost:1313/funding/cascb/</guid>
       <description></description>
     </item>
     <item>
-      <title>MPI-AB</title>
-      <link>http://localhost:1313/funding/mpi-ab/</link>
-      <pubDate>Tue, 13 Jan 2026 13:24:54 +0100</pubDate>
-      <guid>http://localhost:1313/funding/mpi-ab/</guid>
+      <title>Max Planck Institute of Collective Behavior</title>
+      <link>http://localhost:1313/funding/mpiab/</link>
+      <pubDate>Thu, 22 Jan 2026 11:59:48 +0100</pubDate>
+      <guid>http://localhost:1313/funding/mpiab/</guid>
       <description></description>
     </item>
   </channel>

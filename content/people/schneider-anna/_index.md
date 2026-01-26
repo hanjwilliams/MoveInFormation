@@ -4,4 +4,5 @@ draft = false
 title = 'Anna Schneider'
 positions = ['Student HiWi']
 foci = ['']
+image = 'anna.jpg'
 +++
