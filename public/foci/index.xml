@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Areas of Focus on Willams Lab</title>
+    <title>Areas of Focus on Williams Lab</title>
     <link>http://localhost:1313/foci/</link>
-    <description>Recent content in Areas of Focus on Willams Lab</description>
+    <description>Recent content in Areas of Focus on Williams Lab</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 16 Jan 2026 10:39:58 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/foci/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Optimal Movement Theory</title>
-      <link>http://localhost:1313/foci/optimal-movement-theory/</link>
+      <link>http://localhost:1313/foci/movement/</link>
       <pubDate>Fri, 16 Jan 2026 10:39:58 +0100</pubDate>
-      <guid>http://localhost:1313/foci/optimal-movement-theory/</guid>
-      <description></description>
+      <guid>http://localhost:1313/foci/movement/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer est enim, efficitur non tellus ut, convallis tristique dui. Duis placerat diam et lorem lacinia faucibus. Nullam purus lectus, dignissim eu iaculis non, sollicitudin vitae ex. Maecenas eu nisi id sem vehicula blandit. Suspendisse eget efficitur tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris gravida lectus eu ligula placerat egestas. Nam nec pellentesque elit. Nunc tristique, tortor at venenatis euismod.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Collective Sensing of Flows</title>
-      <link>http://localhost:1313/foci/collective-sensing-of-flows/</link>
+      <link>http://localhost:1313/foci/sensing/</link>
       <pubDate>Fri, 16 Jan 2026 10:39:39 +0100</pubDate>
-      <guid>http://localhost:1313/foci/collective-sensing-of-flows/</guid>
-      <description></description>
+      <guid>http://localhost:1313/foci/sensing/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer est enim, efficitur non tellus ut, convallis tristique dui. Duis placerat diam et lorem lacinia faucibus. Nullam purus lectus, dignissim eu iaculis non, sollicitudin vitae ex. Maecenas eu nisi id sem vehicula blandit. Suspendisse eget efficitur tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris gravida lectus eu ligula placerat egestas. Nam nec pellentesque elit. Nunc tristique, tortor at venenatis euismod.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Collective Biologging</title>
-      <link>http://localhost:1313/foci/collective-biologging/</link>
+      <link>http://localhost:1313/foci/biologging/</link>
       <pubDate>Fri, 16 Jan 2026 10:39:33 +0100</pubDate>
-      <guid>http://localhost:1313/foci/collective-biologging/</guid>
-      <description></description>
+      <guid>http://localhost:1313/foci/biologging/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer est enim, efficitur non tellus ut, convallis tristique dui. Duis placerat diam et lorem lacinia faucibus. Nullam purus lectus, dignissim eu iaculis non, sollicitudin vitae ex. Maecenas eu nisi id sem vehicula blandit. Suspendisse eget efficitur tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris gravida lectus eu ligula placerat egestas. Nam nec pellentesque elit. Nunc tristique, tortor at venenatis euismod.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

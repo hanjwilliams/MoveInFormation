@@ -1,14 +1,13 @@
 {{ define "main" }}
   <h1>{{ .Title }}</h1>
+  <div class="intro-text">
   {{ .Content }}
+  </div>
   {{ range .Pages }}
     <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
     {{ .Content }}
-      {{ range .Pages.GroupBy "Section" "desc" }}
-    <h3>{{ .Key }}</h3>
-    {{range .Pages }}
+      {{ range (where .Pages "Section" "projects") }}
     <h4><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-    {{end}}
   {{ end }}
   {{ end }}
 {{ end }}

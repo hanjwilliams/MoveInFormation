@@ -1,15 +1,23 @@
 {{ define "main" }}
   <h1>{{ .Title }}</h1>
+    <div class="person-box">
   {{ with .Params.image }}
   <figure class="person-headshot">
     <img src="{{ . }}" alt="{{ $.Page.Title }}">
   </figure>
   {{ end }}
+  <div class="person-links">
+    {{ with .Params.email }}<a href='{{ . }}'>{{.}}</a>{{ end }}
+    {{ with .Params.website }}<a href='{{ . }}'>{{.}}</a>{{ end }}
+  </div>
+  </div>
   {{ .Content }}
 {{ end }}
 
 {{ define "sidebar" }}
-<section class="side-project">
+{{ if eq .RelPermalink "/people/williams-h/" }}
+{{ else }}
+<section class="sidebar">
 {{ range .Pages.GroupBy "Section" "desc" }}
     <h3>{{ .Key }}</h3>
     {{range .Pages }}
@@ -17,4 +25,5 @@
     {{end}}
   {{ end }}
   </section>
+  {{ end }}
 {{ end}}

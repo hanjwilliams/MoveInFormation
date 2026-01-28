@@ -9,7 +9,8 @@
 {{ end }}
 
 {{ define "sidebar" }}
-<section class="side-people">
+  {{ $focus := slice .Data.Term }}
+<section class="sidebar">
   <ul>
   {{ range (where .Pages "Section" "people") }}
     {{ $page := .RelPermalink }}
@@ -20,6 +21,15 @@
                 </figure>
             {{ end }}
             <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+  {{ end }}
+  </ul>
+  </section>
+  <hr/>
+<section class="sidebar">
+  <ul>
+  {{ $relevant := where .Site.Data.papers.papers "foci" "intersect" $focus }}
+  {{ range sort $relevant "year" "desc"}}
+  <li>{{ .authors }} {{ .year }}. {{ .title }} {{ .publication }}. {{ .issue }}</li>
   {{ end }}
   </ul>
   </section>

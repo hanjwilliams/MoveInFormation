@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Anna Schneider on Williams Lab</title>
+    <link>http://localhost:1313/people/schneider-a/</link>
+    <description>Recent content in Anna Schneider on Williams Lab</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 26 Jan 2026 11:23:56 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/people/schneider-a/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using Tri-axial Magnetometry to resolve animal movement patterns</title>
+      <link>http://localhost:1313/projects/tri-axial-magnetometry/</link>
+      <pubDate>Mon, 26 Jan 2026 11:23:56 +0100</pubDate>
+      <guid>http://localhost:1313/projects/tri-axial-magnetometry/</guid>
+      <description>&lt;p&gt;Many bio-loggers are now equipped with magnetometer sensors, most commonly used for dead-reckoning movement tracks. But since tri-axial magnetometers resolve orientation of an animal relative to magnetic north, movement ecologists can use this information to quantify patterns of rotation and therefore identify and interpret behaviours; much in the same way as accelerometry, but there are instances when magnetometers can resolve behaviours that are not easily perceived using accelerometers…&lt;/p&gt;&#xA;&lt;p&gt;Williams et al. (2017) Movement Ecology&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

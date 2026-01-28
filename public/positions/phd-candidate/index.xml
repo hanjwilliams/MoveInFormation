@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>PhD Candidate on Willams Lab</title>
+    <title>PhD Candidate on Williams Lab</title>
     <link>http://localhost:1313/positions/phd-candidate/</link>
-    <description>Recent content in PhD Candidate on Willams Lab</description>
+    <description>Recent content in PhD Candidate on Williams Lab</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 16 Jan 2026 09:28:16 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/positions/phd-candidate/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kate Steinfield</title>
-      <link>http://localhost:1313/people/steinfield-kate/</link>
+      <link>http://localhost:1313/people/steinfield-k/</link>
       <pubDate>Fri, 16 Jan 2026 09:28:16 +0100</pubDate>
-      <guid>http://localhost:1313/people/steinfield-kate/</guid>
+      <guid>http://localhost:1313/people/steinfield-k/</guid>
       <description></description>
     </item>
     <item>
       <title>Eleonora Gatti</title>
-      <link>http://localhost:1313/people/gatti-eleonora/</link>
+      <link>http://localhost:1313/people/gatti-e/</link>
       <pubDate>Fri, 16 Jan 2026 09:27:55 +0100</pubDate>
-      <guid>http://localhost:1313/people/gatti-eleonora/</guid>
+      <guid>http://localhost:1313/people/gatti-e/</guid>
       <description></description>
     </item>
     <item>
       <title>Christin Albrecht</title>
-      <link>http://localhost:1313/people/albrecht-christin/</link>
+      <link>http://localhost:1313/people/albrecht-c/</link>
       <pubDate>Fri, 16 Jan 2026 09:27:36 +0100</pubDate>
-      <guid>http://localhost:1313/people/albrecht-christin/</guid>
+      <guid>http://localhost:1313/people/albrecht-c/</guid>
       <description>&lt;p&gt;Christin&lt;/p&gt;</description>
     </item>
   </channel>

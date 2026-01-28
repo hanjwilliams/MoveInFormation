@@ -4,6 +4,7 @@ $standardWidth: 80rem;
 
 body {
     color: #222;
+    font-size: 1rem;
     font-family: sans-serif;
     line-height: 1.5;
     margin: 1rem;
@@ -28,7 +29,7 @@ main {
 }
 
 aside {
-    flex: 1 1 auto;
+    flex: 1 1 0px;
 }
 
 footer {
@@ -43,11 +44,13 @@ a {
     text-decoration: none;
 }
 
-//sidebars
-.side-project {
-    width: 20rem;
+//typography
+.intro-text {
+    font-size: 1.6rem;
 }
-.side-people {
+
+//sidebars
+.sidebar {
     width: 20rem;
 }
 
@@ -58,6 +61,11 @@ a {
 .people-item {
     clear: both;
     min-height: 70px;
+}
+.person-box {
+    float: left;
+    max-width: 300px;
+    margin: 0 1rem 1rem 0;
 }
 
 //media
@@ -71,9 +79,7 @@ a {
     }
 }
 .person-headshot {
-    float: left;
-    max-width: 300px;
-    margin: 0 1rem 1rem 0;
+    margin: 0;
     img {
         width: 100%;
         margin: 0;

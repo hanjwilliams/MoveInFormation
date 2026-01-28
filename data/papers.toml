@@ -1,0 +1,49 @@
+[[papers]]
+authors = 'Walker, J.S., Jones, M.W., Laramee, R.S., Bidder, O.R., Williams, H.J., Scott, R., Shepard, E.L.C. and Wilson, R.P'
+year = 2015
+title = 'TimeClassifier: A visual analytic system for the classification of multi-dimensional time-series data.'
+publication = 'The Visual Computer'
+issue = '1-5'
+url = 'https://link.springer.com/article/10.1007/s00371-015-1112-0'
+doi = ''
+foci = ['biologging']
+
+[[papers]]
+authors = 'Walker, J.S., Jones, M.W., Laramee, R.S., Holton, M., Shepard, E.L.C., Williams, H.J., et al.'
+year = 2015
+title = 'Prying into the intimate secrete of animal lives; software beyond hardware for comprehensive annotation in ‘Daily Diary’ tags.'
+publication = 'Movement Ecology'
+issue = '3(29)'
+url = 'https://movementecologyjournal.biomedcentral.com/articles/10.1186/s40462-015-0056-3'
+doi = ''
+foci = ['movement', 'biologging']
+
+[[papers]]
+authors = 'Wilson, G.I., Norman, B., Walker, J., Williams, H.J., Holton, M.D., Clarke, D. and Wilson, R.P.'
+year = 2015
+title = 'In search of rules behind environmental framing; the case of head pitch.'
+publication = 'Movement Ecology'
+issue = '3'
+url = 'https://movementecologyjournal.biomedcentral.com/articles/10.1186/s40462-015-0051-8'
+doi = ''
+foci = ['sensing']
+
+[[papers]]
+authors = 'Williams, H.J., Shepard, E.L.C., Duriez, O. and Lambertucci, S.A.'
+year = 2015
+title = 'Can Accelerometry be used to distinguish between flight types in soaring birds?'
+publication = 'Animal Biotelemetry'
+issue = '3(45)'
+url = 'https://animalbiotelemetry.biomedcentral.com/articles/10.1186/s40317-015-0077-0'
+doi = ''
+foci = ['biologging']
+
+[[papers]]
+authors = 'Williams, H.J., Holton, M.D., Shepard, E.L.C., Largey, N., Norman, B., Ryan, P.G., Duriez, O., Scantlebury, M., Quintana, F., Magowan, E.A., Marks,N.J., Alagaili,A.N., Bennett, N.C. & Wilson,R.P.'
+year = 2017
+title = 'Identification of animal movement patterns using tri-axial magnetometry.'
+publication = 'Movement Ecology'
+issue = '5(6)'
+url = 'https://movementecologyjournal.biomedcentral.com/articles/10.1186/s40462-017-0097-x'
+doi = ''
+foci = ['movement', 'biologging']

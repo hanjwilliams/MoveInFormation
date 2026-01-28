@@ -2,8 +2,9 @@
 date = '2026-01-26T11:15:39+01:00'
 draft = false
 title = 'Perception of Energies to "up-the-odds" for efficent movement'
-foci = ['']
+foci = ['sensing']
 funding = ['']
+people = ['fish-l']
 image = ''
 weight = 90
 +++

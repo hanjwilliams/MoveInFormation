@@ -1,0 +1,10 @@
+{{ define "main" }}
+{{ .Content }}
+<ol class="pub-list" reversed>
+    {{ $papers := .Site.Data.papers.papers }}
+    {{ $reversed := seq (sub (len $papers) 1) -1 0}}
+    {{ range $reversed}}
+    <li>{{ index $papers . "authors" }}. {{ index $papers . "year" }}. <a href ='{{ index $papers . "url" }}' target="_blank" rel="noreferrer" rel="noopener" ><strong>{{ index $papers . "title" }}</strong></a> {{ index $papers . "publication" }}. {{ index $papers . "issue" }}</li>
+    {{ end }}
+  </ol>
+{{ end }}

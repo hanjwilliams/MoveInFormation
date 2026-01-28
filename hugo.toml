@@ -1,6 +1,6 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'Willams Lab'
+title = 'Williams Lab'
 theme = 'williams'
 
 [taxonomies]
@@ -16,6 +16,11 @@ theme = 'williams'
     name = 'Home'
     pageRef = '/'
     weight = 10
+
+  [[menus.main]]
+    name = 'Hannah'
+    pageRef = '/people/williams-h'
+    weight = 15  
   
   [[menus.main]]
     name = 'Research'
@@ -26,3 +31,8 @@ theme = 'williams'
     name = 'People'
     pageRef = '/people'
     weight = 30
+
+  [[menus.main]]
+    name = 'Publications'
+    pageRef = '/publications'
+    weight = 40
