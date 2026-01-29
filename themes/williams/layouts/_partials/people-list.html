@@ -1,7 +1,7 @@
-{{ define "main" }}
-  <h1>{{ .Title }}</h1>
-  {{ .Content }}
-  <ul>
+{{- /*
+People list template by position
+*/}}
+<ul>
     {{- range $term, $taxonomy := .Site.Taxonomies.positions }}
       <li class="people-section">{{ $term }}</li>
       <ul>
@@ -18,4 +18,3 @@
       </ul>
     {{- end }}
   </ul>
-{{ end }}

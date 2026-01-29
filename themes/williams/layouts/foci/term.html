@@ -1,6 +1,5 @@
 {{ define "main" }}
   <h1>{{ .Title }}</h1>
-  Focus page
   {{ .Content }}
   {{ range (where .Pages "Section" "projects") }}
     <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
@@ -11,6 +10,7 @@
 {{ define "sidebar" }}
   {{ $focus := slice .Data.Term }}
 <section class="sidebar">
+  <h3>People</h3>
   <ul>
   {{ range (where .Pages "Section" "people") }}
     {{ $page := .RelPermalink }}
@@ -26,6 +26,7 @@
   </section>
   <hr/>
 <section class="sidebar">
+  <h3>Relevant papers</h3>
   <ul>
   {{ $relevant := where .Site.Data.papers.papers "foci" "intersect" $focus }}
   {{ range sort $relevant "year" "desc"}}

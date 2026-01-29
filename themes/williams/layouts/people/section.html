@@ -1,7 +1,6 @@
 {{ define "main" }}
   <h1>{{ .Title }}</h1>
   {{ .Content }}
-  Sec pag
   <ul>
     {{ range $term, $taxonomy := .Site.Taxonomies.positions }}
       <li>{{ $term }}</li>
