@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://soft-croquembouche-96d8af.netlify.app/'
 languageCode = 'en-us'
 title = 'Williams Lab'
 theme = 'williams'
