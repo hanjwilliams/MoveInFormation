@@ -36,3 +36,20 @@ theme = 'williams'
     name = 'Publications'
     pageRef = '/publications'
     weight = 40
+
+  [[menus.main]]
+    name = 'Join'
+    pageRef = '/join'
+    weight = 50
+  
+  [[menus.main]]
+    name = 'Creative'
+    pageRef = '/creative'
+    weight = 60
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = true
+      xhtml = false
