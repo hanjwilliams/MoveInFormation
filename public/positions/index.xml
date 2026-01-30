@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Positions on Williams Lab</title>
+    <link>http://localhost:1313/positions/</link>
+    <description>Recent content in Positions on Williams Lab</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 30 Jan 2026 11:07:19 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/positions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Group Leader</title>
+      <link>http://localhost:1313/positions/group-leader/</link>
+      <pubDate>Fri, 16 Jan 2026 09:43:33 +0100</pubDate>
+      <guid>http://localhost:1313/positions/group-leader/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PhD Candidate</title>
+      <link>http://localhost:1313/positions/phd-candidate/</link>
+      <pubDate>Fri, 16 Jan 2026 09:44:08 +0100</pubDate>
+      <guid>http://localhost:1313/positions/phd-candidate/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Research Assistant</title>
+      <link>http://localhost:1313/positions/research-assistant/</link>
+      <pubDate>Fri, 16 Jan 2026 09:44:37 +0100</pubDate>
+      <guid>http://localhost:1313/positions/research-assistant/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Student Hiwi</title>
+      <link>http://localhost:1313/positions/student-hiwi/</link>
+      <pubDate>Fri, 16 Jan 2026 09:45:01 +0100</pubDate>
+      <guid>http://localhost:1313/positions/student-hiwi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Collaborators</title>
+      <link>http://localhost:1313/positions/collaborator/</link>
+      <pubDate>Fri, 30 Jan 2026 11:06:22 +0100</pubDate>
+      <guid>http://localhost:1313/positions/collaborator/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Alumni</title>
+      <link>http://localhost:1313/positions/alumnus/</link>
+      <pubDate>Fri, 30 Jan 2026 11:07:19 +0100</pubDate>
+      <guid>http://localhost:1313/positions/alumnus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Alumni</title>
+      <link>http://localhost:1313/positions/alumni/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/positions/alumni/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

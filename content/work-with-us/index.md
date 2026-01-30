@@ -1,7 +1,7 @@
 +++
 date = '2026-01-30T09:01:48+01:00'
 draft = false
-title = 'Join Our Lab'
+title = 'Work with Us'
 +++
 Student HiWi positions within the new Move.inFormation research group within he Biology Dept. and CASCB University Konstanz. Tasks would include:
 

@@ -28,7 +28,7 @@ theme = 'williams'
     weight = 20
 
   [[menus.main]]
-    name = 'People'
+    name = 'Team'
     pageRef = '/people'
     weight = 30
 
@@ -38,13 +38,13 @@ theme = 'williams'
     weight = 40
 
   [[menus.main]]
-    name = 'Join'
-    pageRef = '/join'
+    name = 'Data and Open Positions'
+    pageRef = '/work-with-us'
     weight = 50
   
   [[menus.main]]
-    name = 'Creative'
-    pageRef = '/creative'
+    name = 'Teaching and Communications'
+    pageRef = '/teaching'
     weight = 60
 
 [markup]
