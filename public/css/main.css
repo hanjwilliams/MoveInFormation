@@ -1,3 +1,127 @@
+.main-navigation {
+  display: block;
+  font-size: 1rem;
+}
+.main-navigation ul {
+  display: none;
+  position: relative;
+  padding: 0;
+  margin: 1rem auto;
+  list-style: none;
+}
+.main-navigation ul ul {
+  box-shadow: none;
+  background-color: white;
+  float: none;
+  padding: 0;
+  position: relative;
+  top: 100%;
+  left: auto;
+  z-index: 99999;
+}
+.main-navigation ul ul ul {
+  left: -999em;
+  top: 0;
+}
+.main-navigation ul ul li:hover > ul, .main-navigation ul ul li.focus > ul {
+  display: block;
+  left: auto;
+}
+.main-navigation ul ul a {
+  width: 200px;
+}
+.main-navigation ul li:hover > ul,
+.main-navigation ul li.focus > ul {
+  left: auto;
+}
+.main-navigation ul li {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+.main-navigation ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: black;
+}
+.main-navigation ul li a:hover {
+  color: tomato;
+}
+.main-navigation ul li a:focus {
+  color: tomato;
+}
+
+/* Small menu. */
+.main-navigation button {
+  border-radius: none;
+  width: 100%;
+  border: none;
+  padding: 1rem;
+  background-color: white;
+  color: slategray;
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.main-navigation button:hover {
+  background-color: white;
+  transition: background-color 2s;
+}
+
+.menu-toggle,
+.main-navigation.toggled ul {
+  display: block;
+}
+
+@media screen and (min-width: 600px) {
+  .menu-toggle {
+    display: none;
+  }
+  .main-navigation {
+    padding-top: 1rem;
+  }
+  .main-navigation ul {
+    display: flex;
+    align-items: baseline;
+  }
+  .main-navigation ul ul {
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    float: left;
+    padding: 2rem 0;
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: -999em;
+    z-index: 99999;
+  }
+  .main-navigation ul ul ul {
+    left: -999em;
+    top: 0;
+  }
+  .main-navigation ul ul li {
+    text-align: left;
+    padding: 1rem;
+  }
+  .main-navigation ul ul li:hover > ul, .main-navigation ul ul li.focus > ul {
+    display: block;
+    left: auto;
+  }
+  .main-navigation ul ul a {
+    width: 200px;
+  }
+  .main-navigation ul li:hover > ul,
+  .main-navigation ul li.focus > ul {
+    left: auto;
+  }
+  .main-navigation ul li {
+    padding-right: 1rem;
+    width: auto;
+  }
+}
 body {
   color: #222;
   font-size: 1rem;
@@ -7,14 +131,14 @@ body {
 }
 
 header {
-  width: 80rem;
-  margin: 0 auto;
+  max-width: 90rem;
+  margin: 4rem auto 0;
   border-bottom: 1px solid #222;
   margin-bottom: 1rem;
 }
 
 .container {
-  width: 80rem;
+  max-width: 90rem;
   margin: 0 auto;
   display: flex;
 }
@@ -27,8 +151,20 @@ aside {
   flex: 1 1 0px;
 }
 
+.sidebar {
+  width: 20rem;
+}
+
+@media screen and (max-width: 60rem) {
+  .container {
+    display: block;
+  }
+  .sidebar {
+    width: 100%;
+  }
+}
 footer {
-  width: 80rem;
+  max-width: 90rem;
   margin: 0 auto;
   border-top: 1px solid #222;
   margin-top: 1rem;
@@ -43,11 +179,7 @@ a {
   font-size: 1.6rem;
 }
 
-.sidebar {
-  width: 20rem;
-}
-
-.people-section {
+.people-wrapper {
   clear: both;
   width: 100%;
   display: grid;
@@ -55,12 +187,26 @@ a {
   grid-gap: 2px;
 }
 
+@media screen and (max-width: 1200px) {
+  .people-wrapper {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (max-width: 60rem) {
+  .people-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 40rem) {
+  .people-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
 .people-item {
   clear: both;
 }
 
 .people-info {
-  width: 100%;
   margin: 0;
   padding: 2rem;
 }

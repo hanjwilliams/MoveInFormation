@@ -1,6 +1,10 @@
 //Sass styles
+//nav
+@use "nav";
 
-$standardWidth: 80rem;
+$standardWidth: 90rem;
+$narrowWidth: 60rem;
+$mobileWidth: 40rem;
 
 body {
     color: #222;
@@ -12,14 +16,14 @@ body {
 }
 
 header {
-    width: $standardWidth;
-    margin: 0 auto;
+    max-width: $standardWidth;
+    margin: 4rem auto 0;
     border-bottom: 1px solid #222;
     margin-bottom: 1rem;
 }
 
 .container {
-    width: $standardWidth;
+    max-width: $standardWidth;
     margin: 0 auto;
     display: flex;
 }
@@ -32,8 +36,21 @@ aside {
     flex: 1 1 0px;
 }
 
+.sidebar {
+    width: 20rem;
+}
+
+@media screen and (max-width: $narrowWidth) {
+    .container {
+    display: block
+}
+.sidebar {
+    width: 100%;
+}
+}
+
 footer {
-    width: $standardWidth;
+    max-width: $standardWidth;
     margin: 0 auto;
     border-top: 1px solid #222;
     margin-top: 1rem;
@@ -49,24 +66,33 @@ a {
     font-size: 1.6rem;
 }
 
-//sidebars
-.sidebar {
-    width: 20rem;
-}
-
 //people
-.people-section {
+.people-wrapper {
     clear: both;
     width: 100%;
 	display: grid;
     grid-template-columns: repeat(4, 1fr);
 		grid-gap: 2px;
 }
+@media screen and (max-width: 1200px) {
+	.people-wrapper {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+@media screen and (max-width: $narrowWidth) {
+	.people-wrapper {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+@media screen and (max-width: $mobileWidth) {
+	.people-wrapper {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
 .people-item {
     clear: both;
 }
 .people-info {
-    width: 100%;
     margin: 0;
     padding: 2rem;
 }

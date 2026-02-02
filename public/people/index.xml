@@ -6,8 +6,22 @@
     <description>Recent content in People on Williams Lab</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 16 Jan 2026 09:28:43 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 30 Jan 2026 11:09:19 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/people/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>David Bowie</title>
+      <link>http://localhost:1313/people/bowie-d/</link>
+      <pubDate>Fri, 30 Jan 2026 11:09:19 +0100</pubDate>
+      <guid>http://localhost:1313/people/bowie-d/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mike Costelloe</title>
+      <link>http://localhost:1313/people/costelloe-m/</link>
+      <pubDate>Fri, 30 Jan 2026 11:09:09 +0100</pubDate>
+      <guid>http://localhost:1313/people/costelloe-m/</guid>
+      <description>&lt;p&gt;Mike bio&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Anna Schneider</title>
       <link>http://localhost:1313/people/schneider-a/</link>

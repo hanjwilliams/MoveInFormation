@@ -1,7 +1,7 @@
 {{ define "main" }}
   <h1>Team</h1>
   {{ .Content }}
-  <div class="people-section">
+  <div class="people-wrapper">
   {{ with ($.Site.GetPage "positions") }}
     {{ range .Pages.ByWeight }}
       {{- $group := .File.ContentBaseName }}
