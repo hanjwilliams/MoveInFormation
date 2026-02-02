@@ -6,8 +6,8 @@
   {{ range .Pages }}
     <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
     {{ .Content }}
-      {{ range (where .Pages "Section" "projects") }}
+      {{/*  {{ range (where .Pages "Section" "projects") }}
     <h4><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-  {{ end }}
+  {{ end }}  */}}
   {{ end }}
 {{ end }}

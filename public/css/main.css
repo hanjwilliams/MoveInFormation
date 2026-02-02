@@ -167,7 +167,7 @@ footer {
   max-width: 90rem;
   margin: 0 auto;
   border-top: 1px solid #222;
-  margin-top: 1rem;
+  margin: 1rem auto 6rem;
 }
 
 a {
@@ -215,6 +215,10 @@ a {
   float: left;
   max-width: 300px;
   margin: 0 1rem 1rem 0;
+}
+
+.person-links {
+  padding: 1rem;
 }
 
 .group-leader {
