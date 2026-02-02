@@ -6,7 +6,14 @@
     <description>Recent content in Alumni on Williams Lab</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Fri, 30 Jan 2026 11:09:19 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/positions/alumnus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>David Bowie</title>
+      <link>http://localhost:1313/people/bowie-d/</link>
+      <pubDate>Fri, 30 Jan 2026 11:09:19 +0100</pubDate>
+      <guid>http://localhost:1313/people/bowie-d/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

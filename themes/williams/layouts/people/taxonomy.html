@@ -1,8 +1,48 @@
 {{ define "main" }}
   <h1>Team</h1>
   {{ .Content }}
-  <ul>
-    {{- range $term, $taxonomy := .Site.Taxonomies.positions }}
+  <div class="people-section">
+  {{ with ($.Site.GetPage "positions") }}
+    {{ range .Pages.ByWeight }}
+      {{- $group := .File.ContentBaseName }}
+          {{ range .Pages.ByTitle }}
+          <div class="people-item {{ $group }}" >
+            {{- $page := .RelPermalink }}
+             {{- with .Params.image -}}
+                <a href="{{ $page }}"><figure class="people-headshot">
+                  <img src="{{ $page }}{{ . }}" alt="{{ $.Page.Title }}">
+                </figure></a>
+            {{- end -}}
+            <div class="people-info">
+              <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a><br/>
+              {{- with .Params.positions -}}{{ index . 0 }}{{- end }}
+            </div></div>
+          {{ end }}
+    {{ end }}
+    </div>
+  {{ end }}
+  {{/*  <ul>
+  {{ with ($.Site.GetPage "positions") }}
+    {{ range .Pages.ByWeight }}
+      <li class="people-section">{{ .Title }}</li>
+      <ul>
+          {{ range .Pages }}
+          <li class="people-item">
+            {{- $page := .RelPermalink }}
+             {{- with .Params.image }}
+                <figure class="people-headshot">
+                    <img src="{{ $page }}{{ . }}" alt="{{ $.Page.Title }}">
+                </figure>
+            {{- end }}
+            <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+          {{ end }}
+        </ul>
+      </li>
+    {{ end }}
+  {{ end }}
+</ul>  */}}
+  {{/*  <ul>
+    {{- range $term, $taxonomy := .Site.Taxonomies.positions.Weighted }}
       <li class="people-section">{{ $term }}</li>
       <ul>
         {{- range $taxonomy.Pages.ByLinkTitle }}
@@ -17,5 +57,5 @@
         {{- end }}
       </ul>
     {{- end }}
-  </ul>
+  </ul>  */}}
 {{ end }}

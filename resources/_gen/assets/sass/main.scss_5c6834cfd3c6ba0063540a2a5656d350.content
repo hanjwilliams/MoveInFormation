@@ -49,11 +49,20 @@ a {
 
 .people-section {
   clear: both;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2px;
 }
 
 .people-item {
   clear: both;
-  min-height: 70px;
+}
+
+.people-info {
+  width: 100%;
+  margin: 0;
+  padding: 2rem;
 }
 
 .person-box {
@@ -62,14 +71,41 @@ a {
   margin: 0 1rem 1rem 0;
 }
 
+.group-leader {
+  background-color: pink;
+}
+
+.phd-candidate {
+  background-color: teal;
+}
+
+.research-assistant {
+  background-color: seagreen;
+}
+
+.student-hiwi {
+  background-color: darkorchid;
+}
+
+.collaborator {
+  background-color: goldenrod;
+}
+
+.alumnus {
+  background-color: cornflowerblue;
+}
+
 .people-headshot {
-  float: left;
-  max-width: 70px;
-  margin: 0 1rem 0 0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 .people-headshot img {
-  width: 100%;
+  padding: 0;
   margin: 0;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
 }
 
 .person-headshot {
