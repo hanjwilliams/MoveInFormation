@@ -2,9 +2,9 @@
 //nav
 @use "nav";
 
-$standardWidth: 90rem;
-$narrowWidth: 60rem;
-$mobileWidth: 40rem;
+$standardWidth: 80rem;
+$narrowWidth: 50rem;
+$mobileWidth: 35rem;
 
 body {
     color: #222;
@@ -64,6 +64,25 @@ a {
 //typography
 .intro-text {
     font-size: 1.6rem;
+}
+
+cite {
+
+}
+
+strong {
+    font-weight: 600;
+}
+
+i {
+    font-style: italic;
+}
+
+ul, ol {
+    margin-left: 1rem;
+    li {
+        margin-bottom: 1rem;
+    }
 }
 
 //people

@@ -47,3 +47,173 @@ issue = '5(6)'
 url = 'https://movementecologyjournal.biomedcentral.com/articles/10.1186/s40462-017-0097-x'
 doi = ''
 foci = ['movement', 'biologging']
+
+[[papers]]
+authors = 'Wilson, R.P., Holton, M.D., di Vigilio, A., Williams, H.J., et al.'
+year = 2018
+title = 'Give the machine a hand: A Boolean time-based decision-tree template for finding animal behaviours rapidly in multi-sensor data.'
+publication = 'MEE'
+issue = '9(11)'
+url = 'https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13069'
+doi = ''
+foci = ['movement', 'biologging']
+
+[[papers]]
+authors = 'Williams, H.J., King, A.J., Duriez, O., Börger, L. and Shepard, E.L.C'
+year = 2018
+title = 'Social eavesdropping allows for a more risky gliding strategy by thermal-soaring birds.'
+publication = 'Royal Society Interface'
+issue = '15(148)'
+url = 'https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13069'
+doi = ''
+foci = ['movement', 'biologging']
+
+[[papers]]
+authors = 'Williams, H.J., Duriez, O., Holton, M.D., Dell’Omo, G., Wilson, R.P. and Shepard, E.L.C.'
+year = 2018
+title = 'Vultures respond to challenges of near-ground thermal soaring by varying bank angle.'
+publication = 'JEB'
+issue = '221(23)'
+url = 'http://jeb.biologists.org/content/early/2018/10/17/jeb.174995'
+doi = ''
+foci = ['']
+
+[[papers]]
+authors = 'Wilson, R.P., Börger, L., Holton, M.D., Scantlebury, D.M., Gómez‐Laich, A., Quintana, F., Rosell, F., Graf, P.M., Williams, H.J. et al.'
+year = 2019
+title = 'Estimates for energy expenditure in free-living animals using acceleration proxies; a reappraisal.'
+publication = 'JAE'
+issue = '89(1)'
+url = 'https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/1365-2656.13040'
+doi = ''
+foci = ['']
+
+[[papers]]
+authors = 'Grecian, W.J. & Williams, H.J., Votier, S.C., Bearhop, S., Cleasby, I.R., Grémillet, D., Hamer, K.C., Le Nuz, M., Lescroël, A., Newton, J., Patrick, S.C., Phillips, R.A., Wakefield, E.D. and Bodey, T.W.'
+year = 2019
+title = 'Individual spatial consistency and dietary flexibility in the migratory behavior of northern gannets wintering in the Northeast Atlantic.'
+publication = 'FEE'
+issue = '7(214)'
+url = 'https://www.frontiersin.org/articles/10.3389/fevo.2019.00214/full'
+doi = ''
+foci = ['']
+
+[[papers]]
+authors = 'Williams, H.J. & Taylor, L.A., Benhamou, S., Bijleveld, A.I., Clay T.A., de Grissac, S., Demsar, U., English H.M., Franconi, N., Gomez-Laich, A., Griffiths, R.C., Kay W.P., Morales J.M., Potts, J.R., Rogerson, K.F., Rutz, C., Spelt, A., Trevail, A.M., Wilson, R.P. and Borger, L.'
+year = 2019
+title = 'Optimising the use of bio-loggers for movement ecology research.'
+publication = 'JAE'
+issue = '89(1)'
+url = 'https://besjournals.onlinelibrary.wiley.com/doi/10.1111/1365-2656.13094'
+doi = ''
+foci = ['']
+
+[[papers]]
+authors = 'Williams, H.J. & Shepard, E.L.C., Holton, M.D., Alarcón, P.A.E., Wilson, R.P., Lambertucci, S.A.'
+year = 2020
+title = 'Physical limits of flight performance in the heaviest soaring bird.'
+publication = 'PNAS'
+issue = '117(30)'
+url = 'https://www.pnas.org/content/early/2020/07/09/1907360117'
+doi = ''
+foci = ['']
+
+[[papers]]
+authors = 'Gunner, R. M., Holton, M.D. et al. & Wilson, R.P.'
+year = 2021
+title = 'How often should dead-reckoned animal movement paths be corrected for drift?'
+publication = 'Animal Biotelemetry'
+issue = '9(43)'
+url = 'https://animalbiotelemetry.biomedcentral.com/articles/10.1186/s40317-021-00265-9'
+doi = ''
+foci = ['']
+
+[[papers]]
+authors = 'Gunner, R. M., Holton, M.D. et al. & Wilson, R.P.'
+year = 2021
+title = 'Dead-reckoning animal movements in R: a reappraisal using Gundog.Tracks.'
+publication = 'Animal Biotelemetry'
+issue = '9(23)'
+url = 'https://animalbiotelemetry.biomedcentral.com/articles/10.1186/s40317-021-00245-z'
+doi = ''
+foci = ['']
+
+[[papers]]
+authors = 'Williams, H.J., Shipley, J.R., Rutz, C., Wikelski, M., Wilkes, M., & Hawkes, L.A.'
+year = 2021
+title = 'Future trends in measuring physiology in free-living animals.'
+publication = 'Phil. Trans. of the Roy. Soc. B'
+issue = '376(1831)'
+url = 'https://royalsocietypublishing.org/doi/10.1098/rstb.2020.0230'
+doi = ''
+foci = ['']
+
+[[papers]]
+authors = 'Williams, H.J. & Safi, K.'
+year = 2021
+title = 'Certainty and integration of options in animal movement.'
+publication = 'Trends in Ecol. and Evol'
+issue = '36(11)'
+url = 'https://www.sciencedirect.com/science/article/pii/S0169534721001865'
+doi = ''
+foci = ['']
+
+[[papers]]
+authors = 'Wild, T.A., Wikelski, M., Tyndel, S., Alarcón-Nieto, G., Klump, B.C., Aplin, L.M., Meboldt, M. & Williams, H.J.'
+year = 2021
+title = 'Internet on Animals: WiFi-enabled devices provide a solution for big data transmission in bio-logging.'
+publication = 'Methods in Ecol. and Evol'
+issue = 'Early view'
+url = 'https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13798'
+doi = ''
+foci = ['']
+
+[[papers]]
+authors = 'Jetz, W., Tertitski, G., Kays, R., Mueller, U., & Wikelski, M. et al.'
+year = 2022
+title = 'Biological Earth observation with animal sensors.'
+publication = 'Trends in Ecology and Evolution'
+issue = '37(4)'
+url = 'https://www.sciencedirect.com/science/article/pii/S0169534721003165'
+doi = ''
+foci = ['']
+
+[[papers]]
+authors = 'Menz, M.H.M., Scacco, M., Bürki-Spycher, H-M., Williams, H.J., Reynolds, D.R., Chapman, J.W., & Wikelski, M.'
+year = 2022
+title = 'Individual tracking reveals long-distance flight-path control in a nocturnally migrating moth.'
+publication = 'Science'
+issue = '377(6607)'
+url = 'https://www.science.org/doi/full/10.1126/science.abn1663'
+doi = ''
+foci = ['']
+
+[[papers]]
+authors = 'Flack, A., Aikens, E.O., Kölzsch, A., Nourani, E., Snell, K.R.S., Fiedler, W., Linek, N., Bauer, H-G., Thorup, K., Partecke, J., Wikelski, M. & Williams, H.J.'
+year = 2022
+title = 'New Frontiers in bird migration research.'
+publication = 'Current Biology'
+issue = '32(20)'
+url = 'https://www.sciencedirect.com/science/article/abs/pii/S0960982222013057'
+doi = ''
+foci = ['']
+
+[[papers]]
+authors = 'Williams, H.J., Sridhar, V.H., Hurme, E. & Gall, G.E. et al & Amanda D Melin'
+year = 2023
+title = 'Sensory collectives in natural systems.'
+publication = 'eLife'
+issue = '12(e88028)'
+url = 'https://elifesciences.org/articles/88028'
+doi = ''
+foci = ['']
+
+[[papers]]
+authors = 'Zhang, Z., Williams, H.J., Schreiber, F. & Klein, K'
+year = 2024
+title = 'Visualising the Invisible: Exploring Approaches for Visual Analysis of Dynamic Airflow in Geographic Environments Using Sensor Data.'
+publication = 'Proceedings of the EuroVis Workshop on Visual Analytics'
+issue = 'The Eurographics Association'
+url = 'https://kops.uni-konstanz.de/entities/publication/f7aba55b-8597-4572-a619-146c38b48c6f'
+doi = ''
+foci = ['']
