@@ -14,11 +14,22 @@
 
 
 
-      <script src="/js/main.js"></script>
 
 
+  
 </head>
 <body>
+  
+ <div class="stage">
+<div class="video-block">
+    <video playsinline playbackrate="16" autoplay muted loop id="banner">
+            <source src="/video/header.webm" type="video/webm">
+            <source src="/video/header.mp4" type="video/mp4">
+    </video>
+</div>
+</div>
+
+  <div class="container">
   <header>
     
 <nav id="site-navigation" class="main-navigation">
@@ -37,7 +48,7 @@
       <a href="/people/">Team</a>
     </li>
     <li>
-      <a href="/publications/">Publications</a>
+      <a aria-current="page" class="active" href="/publications/">Publications</a>
     </li>
     <li>
       <a href="/work-with-us/">Data and Open Positions</a>
@@ -45,12 +56,13 @@
     <li>
       <a href="/teaching/">Teaching and Communications</a>
     </li>
+  <li id="controls" class="on">Stop Animation</li>
     </ul>
   </nav>
 
 
   </header>
-  <div class="container">
+  <div class="content">
   <main>
     
   <h1>Publications</h1>
@@ -106,14 +118,14 @@
   </ol>
 
   </main>
-  <aside>
     
-  </aside>
   </div>
   <footer>
     <p>Copyright 2026. All rights reserved.</p>
 
   </footer>
+  </div>
   <script type="text/javascript" src="/js/navigation.js"></script>
+    <script type="text/javascript" src="/js/video.js"></script>
 </body>
 </html>

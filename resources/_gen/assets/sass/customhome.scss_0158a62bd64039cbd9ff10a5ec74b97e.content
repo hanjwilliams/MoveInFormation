@@ -1,0 +1,7 @@
+.stage {
+  min-height: auto;
+  height: 50rem;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 38%, 0% 100%);
+}
+
+/*# sourceMappingURL={{ string .customCss }}.map */

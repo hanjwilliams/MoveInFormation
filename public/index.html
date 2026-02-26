@@ -15,11 +15,35 @@
 
 
 
-      <script src="/js/main.js"></script>
+
+
+  
+
+
+
+
+  
+  
+    
+      <link rel="stylesheet" href="/css/customHome.css">
+    
+  
 
 
 </head>
 <body>
+  
+<div class="stage">
+<div class="video-block">
+    <video playsinline playbackrate="16" autoplay muted loop id="banner">
+            <source src="/video/header.webm" type="video/webm">
+            <source src="/video/header.mp4" type="video/mp4">
+    </video>
+</div>
+<img class="svg-banner" src="img/terrain.svg">
+</div>
+
+  <div class="container">
   <header>
     
 <nav id="site-navigation" class="main-navigation">
@@ -46,12 +70,13 @@
     <li>
       <a href="/teaching/">Teaching and Communications</a>
     </li>
+  <li id="controls" class="on">Stop Animation</li>
     </ul>
   </nav>
 
 
   </header>
-  <div class="container">
+  <div class="content">
   <main>
     
   <p>Home</p>
@@ -59,14 +84,14 @@
   
 
   </main>
-  <aside>
     
-  </aside>
   </div>
   <footer>
     <p>Copyright 2026. All rights reserved.</p>
 
   </footer>
+  </div>
   <script type="text/javascript" src="/js/navigation.js"></script>
+    <script type="text/javascript" src="/js/video.js"></script>
 </body>
 </html>

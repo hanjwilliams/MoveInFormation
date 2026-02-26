@@ -1,0 +1,16 @@
+{
+  "name": "williams",
+  "version": "1.0.0",
+  "description": "[![Netlify Status](https://api.netlify.com/api/v1/badges/5991c036-3aec-4ce0-802a-3fd072e402da/deploy-status)](https://app.netlify.com/projects/soft-croquembouche-96d8af/deploys)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "animejs": "^4.3.6",
+    "jquery": "^4.0.0",
+    "three": "^0.182.0"
+  }
+}

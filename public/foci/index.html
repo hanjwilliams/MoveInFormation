@@ -14,11 +14,22 @@
 
 
 
-      <script src="/js/main.js"></script>
 
 
+  
 </head>
 <body>
+  
+<div class="stage">
+<div class="video-block">
+    <video playsinline playbackrate="16" autoplay muted loop id="banner">
+            <source src="/video/header2.webm" type="video/webm">
+            <source src="/video/header2.mp4" type="video/mp4">
+    </video>
+</div>
+</div>
+
+  <div class="container">
   <header>
     
 <nav id="site-navigation" class="main-navigation">
@@ -45,12 +56,13 @@
     <li>
       <a href="/teaching/">Teaching and Communications</a>
     </li>
+  <li id="controls" class="on">Stop Animation</li>
     </ul>
   </nav>
 
 
   </header>
-  <div class="container">
+  <div class="content">
   <main>
     
   <h1>Areas of Focus</h1>
@@ -76,14 +88,14 @@
   
 
   </main>
-  <aside>
     
-  </aside>
   </div>
   <footer>
     <p>Copyright 2026. All rights reserved.</p>
 
   </footer>
+  </div>
   <script type="text/javascript" src="/js/navigation.js"></script>
+    <script type="text/javascript" src="/js/video.js"></script>
 </body>
 </html>

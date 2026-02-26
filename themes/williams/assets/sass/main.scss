@@ -1,59 +1,81 @@
 //Sass styles
 //nav
+@use "variables" as v;
 @use "nav";
-
-$standardWidth: 80rem;
-$narrowWidth: 50rem;
-$mobileWidth: 35rem;
+@use "media";
 
 body {
     color: #222;
     font-size: 1rem;
     font-family: sans-serif;
     line-height: 1.5;
-    margin: 1rem;
+    padding: 0;
+    margin: 0;
+    //margin: 1rem;
+    background-color: white;
     //max-width: 768px;
 }
 
-header {
-    max-width: $standardWidth;
-    margin: 4rem auto 0;
-    border-bottom: 1px solid #222;
-    margin-bottom: 1rem;
+.stage {
+    display: block;
+    position: absolute;
+    top: 0;
+    z-index: -10;
+    min-height: 40rem;
+    width: 100%;
 }
 
 .container {
-    max-width: $standardWidth;
+    max-width: v.$standardWidth;
+    display: block;
     margin: 0 auto;
+}
+
+header {
+    display: block;
+    position: relative;
+    padding: 2rem;
+    margin: 30rem 0 0;
+    background-color: white;
+    clip-path: polygon(0% 30%, 100% 0%, 100% 100%, 0% 100%);
+    line-height:normal;
+}
+
+.content {
+    width: 100%;
     display: flex;
+    background-color: white;
 }
 
 main {
+    max-width: 100%;
     flex: 1 1 auto;
+    padding: 2rem;
 }
 
 aside {
     flex: 1 1 0px;
+    background-color: lightgrey;
 }
 
 .sidebar {
     width: 20rem;
+    padding: 2rem;
 }
 
-@media screen and (max-width: $narrowWidth) {
-    .container {
+@media screen and (max-width: v.$narrowWidth) {
+    .content {
     display: block
 }
 .sidebar {
     width: 100%;
-}
-}
+}}
 
 footer {
-    max-width: $standardWidth;
+    max-width: 100%;
     margin: 0 auto;
-    border-top: 1px solid #222;
-    margin: 1rem auto 6rem;
+    height: 10rem;
+    background-color: white;
 }
 
 a {
@@ -62,6 +84,10 @@ a {
 }
 
 //typography
+p {
+    font-size: 1.2rem;
+    margin: 0 0 2rem 0;
+}
 .intro-text {
     font-size: 1.6rem;
 }
@@ -91,19 +117,19 @@ ul, ol {
     width: 100%;
 	display: grid;
     grid-template-columns: repeat(4, 1fr);
-		grid-gap: 2px;
+		grid-gap: 3px;
 }
 @media screen and (max-width: 1200px) {
 	.people-wrapper {
 		grid-template-columns: repeat(3, 1fr);
 	}
 }
-@media screen and (max-width: $narrowWidth) {
+@media screen and (max-width: v.$narrowWidth) {
 	.people-wrapper {
 		grid-template-columns: repeat(2, 1fr);
 	}
 }
-@media screen and (max-width: $mobileWidth) {
+@media screen and (max-width: v.$mobileWidth) {
 	.people-wrapper {
 		grid-template-columns: repeat(1, 1fr);
 	}
@@ -113,7 +139,7 @@ ul, ol {
 }
 .people-info {
     margin: 0;
-    padding: 2rem;
+    padding: 1rem 2rem;
 }
 .person-box {
     float: left;
@@ -123,18 +149,21 @@ ul, ol {
 .person-links {
     padding: 1rem;
 }
-.group-leader { background-color: pink;}
-.phd-candidate { background-color: teal;}
-.research-assistant { background-color: seagreen;}
-.student-hiwi { background-color: darkorchid;}
-.collaborator { background-color: goldenrod;}
-.alumnus { background-color: cornflowerblue;}
+.group-leader { color: darkmagenta;}
+.phd-candidate { color: teal;}
+.research-assistant { color: seagreen;}
+.student-hiwi { color: darkorchid;}
+.collaborator { color: goldenrod;}
+.alumnus { color: cornflowerblue;}
 
 //media
 .people-headshot {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    corner-shape: bevel;
+    //border-bottom-right-radius: 3rem;
+    border-top-left-radius: 3rem;
     img {
         padding: 0;
         margin: 0;
@@ -142,6 +171,12 @@ ul, ol {
         height: 300px;
         object-fit: cover;
     }
+}
+.greyshot {
+    filter: grayscale(100%)
+}
+.greyshot:hover {
+    filter: none;
 }
 .person-headshot {
     margin: 0;

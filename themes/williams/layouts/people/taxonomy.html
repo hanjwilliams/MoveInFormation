@@ -1,3 +1,16 @@
+{{define "custom"}}
+{{ $args := dict
+"page" .
+"scss" "sass/custom1.scss"
+"css" "css/custom1.css"
+}}
+{{ partial "head/custom.html" $args}}
+{{ end }}
+
+{{ define "banner"}}
+{{ partial "threebanner2.html" . }}
+{{ end }}
+
 {{ define "main" }}
   <h1>Team</h1>
   {{ .Content }}
@@ -9,7 +22,7 @@
           <div class="people-item {{ $group }}" >
             {{- $page := .RelPermalink }}
              {{- with .Params.image -}}
-                <a href="{{ $page }}"><figure class="people-headshot">
+                <a href="{{ $page }}"><figure class="people-headshot greyshot">
                   <img src="{{ $page }}{{ . }}" alt="{{ $.Page.Title }}">
                 </figure></a>
             {{- end -}}

@@ -2,22 +2,27 @@
 <html lang="{{ site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
 <head>
   {{ partial "head.html" . }}
+  {{ block "custom" . }}{{end}}
 </head>
 <body>
+  {{ block "banner" . }}
+  {{ partial "threebanner.html" . }}
+  {{ end }}
+  <div class="container">
   <header>
     {{ partial "header.html" . }}
   </header>
-  <div class="container">
+  <div class="content">
   <main>
     {{ block "main" . }}{{ end }}
   </main>
-  <aside>
     {{ block "sidebar" . }}{{ end }}
-  </aside>
   </div>
   <footer>
     {{ partial "footer.html" . }}
   </footer>
+  </div>
   <script type="text/javascript" src="{{ "/js/navigation.js" | relURL }}"></script>
+    <script type="text/javascript" src="{{ "/js/video.js" | relURL }}"></script>
 </body>
 </html>
