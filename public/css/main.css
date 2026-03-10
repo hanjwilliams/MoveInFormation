@@ -199,10 +199,9 @@ body {
 header {
   display: block;
   position: relative;
-  padding: 2rem;
+  padding: 3rem;
   margin: 30rem 0 0;
   background-color: white;
-  clip-path: polygon(0% 30%, 100% 0%, 100% 100%, 0% 100%);
   line-height: normal;
 }
 
@@ -215,7 +214,7 @@ header {
 main {
   max-width: 100%;
   flex: 1 1 auto;
-  padding: 2rem;
+  padding: 3rem;
 }
 
 aside {
@@ -239,6 +238,7 @@ aside {
 footer {
   max-width: 100%;
   margin: 0 auto;
+  padding: 3rem;
   height: 10rem;
   background-color: white;
 }
@@ -270,6 +270,30 @@ ul, ol {
 }
 ul li, ol li {
   margin-bottom: 1rem;
+}
+
+.home-blocks {
+  display: flex;
+  gap: 5px;
+}
+
+.home-block {
+  height: 300px;
+  flex: 1 1 auto;
+  background-color: grey;
+}
+
+.focus-item {
+  display: flex;
+}
+
+.focus-image {
+  width: 30%;
+  margin: 0 1rem 2rem 0;
+  flex: 0 0 auto;
+}
+.focus-image img {
+  width: 100%;
 }
 
 .people-wrapper {

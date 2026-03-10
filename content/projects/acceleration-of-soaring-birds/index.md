@@ -4,7 +4,7 @@ draft = false
 title = 'What can Acceleration tell us about the flight of Soaring Birds?'
 foci = ['biologging']
 funding = ['']
-image = ''
+image = 'placeholder.png'
 people = ['gatti-e','bowie-d','costelloe-m']
 weight = 130
 +++

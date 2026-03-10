@@ -1,5 +1,14 @@
+{{define "custom"}}
+{{ $args := dict
+"page" .
+"scss" "sass/parallax.scss"
+"css" "css/parallax.css"
+}}
+{{ partial "head/custom.html" $args}}
+{{ end }}
+
 {{ define "banner"}}
-{{partial "vidbanner2.html" . }}
+{{partial "parallaxbanner.html" . }}
 {{ end }}
 
 {{ define "main" }}
@@ -8,10 +17,22 @@
   {{ .Content }}
   </div>
   {{ range .Pages }}
+  <div class="focus-item">
+  {{- $page := .RelPermalink }}
+        {{- with .Params.image -}}
+      <figure class="focus-image greyshot">
+            <a href="{{ $page }}"></a>
+      <img src="{{ $page }}{{ . }}" alt="{{ $.Page.Title }}">
+      </a>
+    </figure>
+    {{- end -}}
+    <div class="focus-content">
     <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
     {{ .Content }}
       {{/*  {{ range (where .Pages "Section" "projects") }}
     <h4><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
   {{ end }}  */}}
+   </div>
+   </div>
   {{ end }}
 {{ end }}
