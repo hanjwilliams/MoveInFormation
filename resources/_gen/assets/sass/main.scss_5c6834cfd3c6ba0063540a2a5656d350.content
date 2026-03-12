@@ -1,7 +1,6 @@
 .main-navigation {
   display: block;
   font-size: 1rem;
-  width: 100%;
 }
 .main-navigation ul {
   display: none;
@@ -86,6 +85,7 @@
   }
   .main-navigation ul {
     display: flex;
+    justify-content: center;
     align-items: baseline;
   }
   .main-navigation ul ul {

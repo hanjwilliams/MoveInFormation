@@ -15,14 +15,47 @@ body {
   perspective-origin: center;
 }
 
-.parallax-header {
-  position: fixed;
-  z-index: 1000;
+.parallax-menu {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  z-index: 100;
   top: 0;
   width: 100%;
-  height: 198px;
+}
+
+.parallax-header {
+  display: block;
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  width: 100%;
+  height: 140px;
+  filter: drop-shadow(0px 3px 2px rgba(50, 50, 0, 0.3));
+}
+.parallax-header:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
   background-color: rgb(181, 249, 223);
-  clip-path: polygon(0% 0%, 100% 0%, 100% 13%, 97% 16%, 91% 13%, 84% 16%, 75% 14%, 63% 23%, 54% 19%, 46% 22%, 46% 22%, 40% 17%, 30% 10%, 17% 16%, 6% 22%, 0% 15%);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 87%, 97% 84%, 91% 87%, 84% 84%, 75% 86%, 63% 77%, 54% 81%, 46% 78%, 40% 83%, 30% 90%, 17% 84%, 6% 100%, 0% 80%);
+}
+
+.site-logo {
+  display: block;
+  width: 180px;
+  filter: drop-shadow(0px 3px 2px rgba(50, 50, 0, 0.3));
+}
+.site-logo img {
+  width: 100%;
+}
+
+header {
+  margin: 0;
+  height: 140px;
+  background-color: rgb(181, 249, 223);
+  clip-path: polygon(0% 10%, 6% 22%, 17% 14%, 30% 17%, 40% 13%, 46% 10%, 54% 12%, 63% 11%, 75% 15%, 84% 14%, 91% 16%, 97% 15%, 100% 16%, 100% 100%, 0% 100%);
 }
 
 .parallax-group {
@@ -33,54 +66,73 @@ body {
   transform-style: preserve-3d;
 }
 
+.parallax-slider-wrap {
+  filter: drop-shadow(0px -10px 5px rgba(50, 50, 0, 0.5));
+}
+
 .parallax-slider {
   display: block;
   margin: 0;
   position: relative;
   transform-style: preserve-3d;
-  filter: drop-shadow(rgba(77, 77, 102, 0.8) 0px -2px 10px);
+  filter: drop-shadow(0px -3px 2px rgba(50, 50, 0, 0.3));
 }
 
 .parallax-slider-4 {
-  height: 200px;
+  height: 150px;
+  transform: translateY(0px) translateZ(-8px) scale(6);
+}
+.parallax-slider-4:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
   background-color: rgb(228, 209, 87);
-  transform: translateY(-50px) translateZ(-8px) scale(6);
   clip-path: polygon(100% 9%, 100% 100%, 0% 100%, 0% 1%, 8% 4%, 17% 6%, 27% 7%, 38% 18%, 47% 15%, 56% 10%, 65% 7%, 73% 20%, 78% 15%, 85% 3%, 94% 2%);
 }
 
 .parallax-slider-3 {
   height: 200px;
+  transform: translateY(100px) translateZ(-6px) scale(5);
+}
+.parallax-slider-3:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
   background-color: rgba(164, 202, 123, 0.8);
-  transform: translateY(50px) translateZ(-6px) scale(5);
   clip-path: polygon(100% 9%, 100% 100%, 0% 100%, 0% 11%, 8% 8%, 17% 26%, 27% 17%, 38% 18%, 47% 25%, 56% 30%, 65% 20%, 73% 20%, 78% 15%, 85% 3%, 94% 2%);
 }
 
 .parallax-slider-2 {
   height: 300px;
-  background-color: teal;
   transform: translateY(100px) translateZ(-4px) scale(4);
-  clip-path: polygon(100% 9%, 100% 100%, 0% 100%, 0% 20%, 8% 22%, 17% 40%, 27% 27%, 38% 38%, 47% 24%, 56% 6%, 65% 30%, 73% 6%, 78% 17%, 85% 19%, 94% 16%);
+}
+.parallax-slider-2:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: teal;
+  clip-path: polygon(100% 9%, 100% 100%, 0% 100%, 0% 20%, 8% 22%, 17% 40%, 27% 27%, 38% 48%, 47% 34%, 56% 6%, 65% 30%, 73% 6%, 78% 17%, 85% 19%, 94% 16%);
 }
 
 .parallax-slider-1 {
   height: 300px;
-  background-color: purple;
-  transform: translateY(-200px) translateZ(-1px) scale(2);
-  clip-path: polygon(100% 9%, 100% 100%, 0% 100%, 0% 6%, 8% 12%, 17% 43%, 27% 7%, 38% 18%, 47% 14%, 56% 36%, 65% 30%, 73% 26%, 78% 3%, 85% 19%, 94% 16%);
+  transform: translateY(-100px) translateZ(-1px) scale(2);
 }
-
-header {
-  margin: 0;
+.parallax-slider-1:before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: purple;
+  clip-path: polygon(100% 9%, 100% 100%, 0% 100%, 0% 6%, 8% 12%, 17% 23%, 27% 17%, 38% 4%, 47% 14%, 56% 36%, 65% 30%, 73% 26%, 78% 3%, 85% 19%, 94% 16%);
+  content: "";
 }
 
 .container {
   max-width: 100%;
   transform: translateZ(0) scale(1);
-}
-
-header {
-  background-color: rgb(181, 249, 223);
-  clip-path: polygon(0% 15%, 6% 22%, 17% 16%, 30% 10%, 40% 17%, 46% 22%, 54% 19%, 63% 23%, 75% 14%, 84% 16%, 91% 13%, 97% 16%, 100% 13%, 100% 100%, 0% 100%);
 }
 
 .content {

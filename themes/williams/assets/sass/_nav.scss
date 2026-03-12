@@ -1,7 +1,6 @@
 .main-navigation {
 	display: block;
 	font-size: 1rem;
-	width: 100%;
 
 	ul {
 		display: none;
@@ -110,7 +109,8 @@
 		padding-top: 2rem;
 
 		ul {
-			display: flex; 
+			display: flex;
+			justify-content: center; 
 			align-items: baseline; 
 
 			ul {
