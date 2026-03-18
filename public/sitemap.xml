@@ -17,6 +17,9 @@
     <loc>http://localhost:1313/positions/collaborator/</loc>
     <lastmod>2026-01-30T11:06:22+01:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/positions/intern/</loc>
+    <lastmod>2026-03-13T12:27:31+01:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/positions/alumnus/</loc>
     <lastmod>2026-01-30T11:07:19+01:00</lastmod>
   </url><url>
@@ -40,6 +43,21 @@
   </url><url>
     <loc>http://localhost:1313/projects/acceleration-of-soaring-birds/</loc>
     <lastmod>2026-01-26T11:24:56+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/people/paulin-i/</loc>
+    <lastmod>2026-03-13T12:29:06+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/people/berring-l/</loc>
+    <lastmod>2026-03-13T12:28:12+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/people/raabe-f/</loc>
+    <lastmod>2026-03-13T12:26:29+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/people/wild-t/</loc>
+    <lastmod>2026-03-13T12:24:07+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/people/kedia-p/</loc>
+    <lastmod>2026-03-13T12:23:05+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/people/bowie-d/</loc>
     <lastmod>2026-01-30T11:09:19+01:00</lastmod>

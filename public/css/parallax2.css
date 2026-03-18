@@ -1,0 +1,136 @@
+body {
+  padding: 0;
+  display: block;
+}
+
+.parallax {
+  display: block;
+  padding: 0;
+  background-color: skyblue;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 2px; /* <-- This line */
+  transform-style: preserve-3d;
+  perspective-origin: center;
+}
+
+.parallax-menu {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  z-index: 100;
+  top: 0;
+  width: 100%;
+}
+
+.parallax-header {
+  display: block;
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  width: 100%;
+  height: 140px;
+  filter: drop-shadow(0px 3px 2px rgba(50, 50, 0, 0.3));
+}
+.parallax-header:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+
+.site-logo {
+  display: block;
+  width: 180px;
+  filter: drop-shadow(0px 3px 2px rgba(50, 50, 0, 0.3));
+}
+.site-logo img {
+  width: 100%;
+}
+
+header {
+  margin: 0;
+  height: 10px;
+  background-color: white;
+}
+
+.parallax-group {
+  display: block;
+  padding: 0;
+  position: relative;
+  height: 700px;
+  transform-style: preserve-3d;
+}
+
+.parallax-slider-wrap {
+  filter: drop-shadow(0px -10px 5px rgba(50, 50, 0, 0.5));
+}
+
+.parallax-slider {
+  display: block;
+  margin: 0;
+  position: relative;
+  transform-style: preserve-3d;
+  filter: drop-shadow(0px -3px 2px rgba(50, 50, 0, 0.3));
+}
+
+.parallax-slider-4 {
+  height: 1000px;
+  transform: rotate(-5deg) translateX(200px) translateY(3200px) translateZ(-9px) scale(5);
+}
+.parallax-slider-4:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(238, 238, 238);
+}
+
+.parallax-slider-3 {
+  height: 1000px;
+  transform: rotate(3deg) translateX(200px) translateY(1800px) translateZ(-7px) scale(4);
+}
+.parallax-slider-3:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(240, 240, 240);
+}
+
+.parallax-slider-2 {
+  height: 600px;
+  transform: rotate(-3deg) translateX(-500px) translateY(50px) translateZ(-5px) scale(3);
+}
+.parallax-slider-2:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(245, 245, 245);
+}
+
+.parallax-slider-1 {
+  height: 1000px;
+  transform: rotate(-3deg) translateX(-700px) translateY(-1400px) translateZ(-1px) scale(1);
+}
+.parallax-slider-1:before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  content: "";
+}
+
+.container {
+  transform: translateZ(0) scale(1);
+}
+
+.content {
+  background-color: white;
+  filter: drop-shadow(2px -5px 5px rgba(50, 50, 0, 0.2));
+}
+
+/*# sourceMappingURL=parallax2.css.map */

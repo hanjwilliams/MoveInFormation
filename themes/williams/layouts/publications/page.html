@@ -1,8 +1,37 @@
-{{ define "banner" }}
- {{partial "vidbanner.html" . }}
-{{ end }}
-
-{{ define "main" }}
+<!DOCTYPE html>
+<html lang="{{ site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
+<head>
+  {{ partial "head.html" . }}
+  {{ $args := dict
+    "page" .
+    "scss" "sass/parallax2.scss"
+    "css" "css/parallax2.css"
+    }}
+  {{ partial "head/custom.html" $args}}
+</head>
+<body>
+  <div class="parallax-menu">
+        <div class="site-logo"><img src="../img/mif-logo.png" alt="MoveinFormation logo"></div>
+    {{ partial "header.html" . }}
+  </div>
+  <div class="parallax-header">
+  </div>
+  <div class="parallax">
+    <div class="stage">
+<div class="video-block">
+    <video playsinline playbackrate="16" autoplay muted loop id="banner">
+            <source src="/video/header.webm" type="video/webm">
+            <source src="/video/header.mp4" type="video/mp4">
+    </video>
+</div>
+</div>
+    {{partial "parallaxbanner.html" . }}
+  <div class="container">
+  <header>
+    
+  </header>
+  <div class="content">
+      <main>
   <h1>{{ .Title }}</h1>
 {{ .Content }}
 <ol class="pub-list" reversed>
@@ -12,4 +41,16 @@
     <li>{{ index $papers . "authors" }} {{ index $papers . "year" }}. <a href ='{{ index $papers . "url" }}' target="_blank" rel="noreferrer" rel="noopener" ><cite>{{ index $papers . "title" }}</cite></a> <strong>{{ index $papers . "publication" }}.</strong> {{ index $papers . "issue" }}.</li>
     {{ end }}
   </ol>
-{{ end }}
+  </main>
+  </div>
+  <footer>
+    {{ partial "footer.html" . }}
+  </footer>
+  </div>
+  </div>
+  <script type="text/javascript" src="{{ "/js/navigation.js" | relURL }}"></script>
+    <script type="text/javascript" src="{{ "/js/video.js" | relURL }}"></script>
+</body>
+</html>
+
+
