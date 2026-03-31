@@ -17,6 +17,7 @@ body {
 
 .parallax-menu {
     display: flex;
+    padding: 0 2rem;
     justify-content: center;
     position: absolute;
     z-index: 100;
@@ -30,20 +31,21 @@ body {
     z-index: 10;
     top: 0;
     width: 100%;
-    height: 140px;
+    height: 100px;
     filter: drop-shadow(0px 3px 2px rgba(50, 50, 0, 0.3));
     &:before {
         content: '';
         position: absolute;
         width: 100%;
         height: 100%;
-        background-color: rgba(181, 249, 223, 1);
-        clip-path: polygon(0% 0%, 100% 0%, 100% 87%, 97% 84%, 91% 87%, 84% 84%, 75% 86%, 63% 77%, 54% 81%, 46% 78%, 40% 83%, 30% 90%, 17% 84%, 6% 100%, 0% 80%);
+        background-color:rgba(48, 59, 71, 1);
+        //clip-path: polygon(0% 0%, 100% 0%, 100% 87%, 97% 84%, 91% 87%, 84% 84%, 75% 86%, 63% 77%, 54% 81%, 46% 78%, 40% 83%, 30% 90%, 17% 84%, 6% 100%, 0% 80%);
       }
 }
 
 .site-logo {
     display: block;
+    margin-right: 1rem;
     width: 180px;
     img {
         width: 100%;
@@ -53,16 +55,17 @@ body {
 
 header {
     margin: 0;
-    height: 140px;
-    background-color: rgba(181, 249, 223, 1);
-    clip-path: polygon(0% 10%, 6% 22%, 17% 14%, 30% 17%, 40% 13%, 46% 10%, 54% 12%, 63% 11%, 75% 15%, 84% 14%, 91% 16%, 97% 15%, 100% 16%, 100% 100%, 0% 100%);
+    height: 100px;
+    background-color: rgba(48, 59, 71, 1);
+    clip-path: polygon(0% 12%, 5% 19%, 13% 26%, 19% 32%, 24% 37%, 31% 36%, 37% 37%, 41% 39%, 44% 33%, 47% 29%, 50% 35%, 54% 36%, 58% 36%, 63% 35%, 68% 37%, 75% 33%, 81% 28%, 91% 24%, 100% 19%, 100% 100%, 0% 100%);
+
 }
 
 .parallax-group {
 display: block;
 padding: 0;
   position: relative;
-  height: 700px;
+  height: 500px;
   transform-style: preserve-3d;
       // debug
     //transform: translate3d(700px, 0, -800px) rotateY(30deg);
@@ -95,40 +98,40 @@ padding: 0;
 }
 
 .parallax-slider-3 {
-    height: 200px;
-    transform: translateY(100px) translateZ(-6px) scale(5);
+    height: 800px;
+    transform: translateY(500px) translateZ(-6px) scale(5);
     &:before {
         content: '';
         position: absolute;
         width: 100%;
         height: 100%;
-        background-color: rgba(164, 202, 123, 0.8);
-        clip-path: polygon(100% 9%, 100% 100%, 0% 100%, 0% 11%, 8% 8%, 17% 26%, 27% 17%, 38% 18%, 47% 25%, 56% 30%, 65% 20%, 73% 20%, 78% 15%, 85% 3%, 94% 2%);
+        background-color: rgb(170, 219, 119);
+        clip-path: polygon(0% 31%, 9% 18%, 11% 22%, 13% 23%, 15% 19%, 16% 14%, 18% 13%, 19% 19%, 21% 21%, 23% 21%, 25% 17%, 26% 23%, 28% 23%, 29% 14%, 30% 11%, 31% 6%, 33% 7%, 34% 11%, 37% 13%, 39% 16%, 41% 13%, 43% 5%, 47% 3%, 49% 9%, 51% 10%, 53% 22%, 55% 17%, 57% 19%, 60% 16%, 63% 21%, 66% 19%, 71% 23%, 79% 26%, 88% 31%, 100% 37%, 100% 100%, 0% 100%);
     }
 }
 
 .parallax-slider-2 {
     height: 300px;
-    transform: translateY(100px) translateZ(-4px) scale(4);
+    transform: translateY(-600px) translateZ(-4px) scale(4);
     &:before {
         content: '';
         position: absolute;
         width: 100%;
         height: 100%;
         background-color: teal;
-        clip-path: polygon(100% 9%, 100% 100%, 0% 100%, 0% 20%, 8% 22%, 17% 40%, 27% 27%, 38% 48%, 47% 34%, 56% 6%, 65% 30%, 73% 6%, 78% 17%, 85% 19%, 94% 16%);
+        clip-path: polygon(0% 33%, 17% 30%, 21% 28%, 27% 28%, 34% 33%, 42% 38%, 53% 31%, 58% 26%, 62% 24%, 67% 30%, 70% 27%, 75% 22%, 80% 19%, 86% 22%, 91% 24%, 100% 27%, 100% 100%, 0% 100%);
     }
 }
 
 .parallax-slider-1 {
     height: 300px;
-    transform: translateY(-100px) translateZ(-1px) scale(2);
+    transform: translateY(-900px) translateZ(-1px) scale(2);
     &:before {
         position: absolute;
         width: 100%;
         height: 100%;
         background-color: purple;
-        clip-path: polygon(100% 9%, 100% 100%, 0% 100%, 0% 6%, 8% 12%, 17% 23%, 27% 17%, 38% 4%, 47% 14%, 56% 36%, 65% 30%, 73% 26%, 78% 3%, 85% 19%, 94% 16%);
+        clip-path: polygon(0% 12%, 5% 19%, 13% 26%, 19% 32%, 24% 37%, 31% 36%, 37% 37%, 41% 39%, 44% 33%, 47% 29%, 50% 35%, 54% 36%, 58% 36%, 63% 35%, 68% 37%, 75% 33%, 81% 28%, 91% 24%, 100% 19%, 100% 100%, 0% 100%);
         content: ''
     }
 }
@@ -140,5 +143,9 @@ padding: 0;
 }
 
 .content {
-    background-color: rgba(181, 249, 223, 1);
+    background-color: rgba(48, 59, 71, 1);
+}
+
+footer {
+    background-color: rgba(48, 59, 71, 1);
 }

@@ -43,12 +43,13 @@ header {
 .content {
     width: 100%;
     display: flex;
+    justify-content: center;
     background-color: white;
 }
 
 main {
-    max-width: 100%;
-    flex: 1 1 auto;
+    max-width: 70rem;
+    flex: 0 1 auto;
     padding: 3rem;
 }
 
@@ -87,6 +88,11 @@ a {
 p {
     font-size: 1.2rem;
     margin: 0 0 2rem 0;
+    color: #ddd;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: rgb(170, 219, 119);
 }
 .intro-text {
     font-size: 1.6rem;

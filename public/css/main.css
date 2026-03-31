@@ -1,3 +1,11 @@
+a {
+  color: rgb(205, 74, 202);
+}
+
+a:visited {
+  color: rgb(245, 134, 36);
+}
+
 .main-navigation {
   display: block;
   font-size: 1rem;
@@ -39,12 +47,12 @@
   width: 100%;
   text-align: center;
 }
-.main-navigation ul li a {
+.main-navigation ul li a, .main-navigation ul li a:visited {
   display: block;
   width: 100%;
   height: 100%;
   text-decoration: none;
-  color: black;
+  color: rgb(228, 209, 87);
 }
 .main-navigation ul li a:hover {
   color: tomato;
@@ -208,12 +216,13 @@ header {
 .content {
   width: 100%;
   display: flex;
+  justify-content: center;
   background-color: white;
 }
 
 main {
-  max-width: 100%;
-  flex: 1 1 auto;
+  max-width: 70rem;
+  flex: 0 1 auto;
   padding: 3rem;
 }
 
@@ -251,6 +260,11 @@ a {
 p {
   font-size: 1.2rem;
   margin: 0 0 2rem 0;
+  color: #ddd;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: rgb(170, 219, 119);
 }
 
 .intro-text {
