@@ -1,29 +1,22 @@
-<!DOCTYPE html>
-<html lang="{{ site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
-<head>
-  {{ partial "head.html" . }}
+  {{ define "custom"}}
   {{ $args := dict
     "page" .
     "scss" "sass/parallax.scss"
     "css" "css/parallax.css"
     }}
   {{ partial "head/custom.html" $args}}
-</head>
-<body>
-  <div class="parallax-menu">
-        <div class="site-logo"><img src="../img/mif-logo.png" alt="MoveinFormation logo"></div>
-    {{ partial "header.html" . }}
-  </div>
-  <div class="parallax-header">
-  </div>
-  <div class="parallax">
-    {{partial "parallaxbanner.html" . }}
-  <div class="container">
-  <header>
-    
-  </header>
-  <div class="content">
-      <main>
+  {{ end }}
+
+
+  {{ define "header"}}
+  {{partial "parallaxheader.html" . }}
+  {{end}}
+
+  {{define "banner"}}
+  {{partial "parallaxbanner.html" . }}
+  {{end}}
+
+  {{define "main"}}
           <h1>{{ .Title }}</h1>
       <div class="intro-text">
       {{ .Content }}
@@ -44,26 +37,8 @@
           {{/*  {{ range (where .Pages "Section" "projects") }}
         <h4><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
       {{ end }}  */}}
-      </div>
-      </div>
-  {{ end }}
-  </main>
-  </div>
-  <footer>
-    {{ partial "footer.html" . }}
-  </footer>
-  </div>
-  </div>
-  <script type="text/javascript" src="{{ "/js/navigation.js" | relURL }}"></script>
-    <script type="text/javascript" src="{{ "/js/video.js" | relURL }}"></script>
-</body>
-</html>
+          </div>
+          </div>
+      {{ end }}
+{{end }}
 
-{{/*  {{define "custom"}}
-{{ end }}
-
-{{ define "banner"}}
-{{ end }}
-
-{{ define "main" }}
-{{ end }}  */}}

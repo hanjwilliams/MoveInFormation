@@ -1,10 +1,25 @@
 @use "variables" as v;
-
+.hero-image {
+	display: block;
+	min-height: 300px;
+	 margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 100vw;
+  margin-left: 50%;
+  transform: translateX(-50%);
+		img {
+			width: 100%;
+  }
+}
 .svg-banner {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
 
+}
+
+.video-block {
+	width: 100%;
 }
 
 video#banner {
@@ -19,6 +34,9 @@ video#banner {
 	 transform: translateX(-50%) translateY(-25%);
 	 background: url(poster.jpg) no-repeat;
 	 background-size: cover;
+	 video {
+		width: 100%;
+	 }
 }
 
 video#landing {

@@ -1,0 +1,37 @@
+@use "variables" as v;
+
+body {
+    color: #ddd;
+}
+p {
+    font-size: 1.2rem;
+    margin: 0 0 2rem 0;
+    color: #ddd;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: rgb(170, 219, 119);
+}
+.intro-text {
+    font-size: 1.6rem;
+}
+
+cite {
+
+}
+
+strong {
+    font-weight: 600;
+}
+
+i {
+    font-style: italic;
+}
+
+ul, ol {
+    color: #ddd;
+    margin-left: 1rem;
+    li {
+        margin-bottom: 1rem;
+    }
+}

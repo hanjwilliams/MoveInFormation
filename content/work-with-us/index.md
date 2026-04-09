@@ -3,6 +3,8 @@ date = '2026-01-30T09:01:48+01:00'
 draft = false
 title = 'Work with Us'
 +++
+We are always interested in hearing from motivated researchers and students who want to work at the interface of behavioural/movement ecology, environmental physics, predictive modelling. Please reach out if interested in a PhD position, postdoctoral fellowship, internship, or research collaboration.
+
 Student HiWi positions within the new Move.inFormation research group within he Biology Dept. and CASCB University Konstanz. Tasks would include:
 
 1. work with the Move.inFormation team and bio-logger suppliers to build a field kit of bio-logging devices for Andean Condors
@@ -12,6 +14,8 @@ Student HiWi positions within the new Move.inFormation research group within he 
 Available to undergraduate and masters students. 
 
 Please contact hannah.williams@uni-konstanz.de
+
+{{<hero-img src="bird.jpg">}}
 
 <hr/> 
 

@@ -1,0 +1,8 @@
+{{- $src := .Get "src" -}}
+{{ with .Page.Resources.GetMatch $src }}
+
+<div
+      class='hero-image'
+  style="background:url('{{ .RelPermalink }}') center / cover;">
+</div>
+{{end}}

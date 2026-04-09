@@ -4,14 +4,4 @@
   clip-path: polygon(0% 0%, 100% 0%, 100% 38%, 0% 100%);
 }
 
-header {
-  display: block;
-  position: relative;
-  padding: 3rem;
-  margin: 30rem 0 0;
-  background-color: white;
-  clip-path: polygon(0% 30%, 100% 0%, 100% 100%, 0% 100%);
-  line-height: normal;
-}
-
 /*# sourceMappingURL=customHome.css.map */

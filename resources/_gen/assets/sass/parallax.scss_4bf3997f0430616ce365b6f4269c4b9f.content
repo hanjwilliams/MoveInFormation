@@ -6,7 +6,7 @@ body {
 .parallax {
   display: block;
   padding: 0;
-  background-color: skyblue;
+  background: url("/img/bird.jpg") center/cover;
   height: 100vh;
   overflow-x: hidden;
   overflow-y: auto;
@@ -20,7 +20,7 @@ body {
   padding: 0 2rem;
   justify-content: center;
   position: absolute;
-  z-index: 100;
+  z-index: 1000;
   top: 0;
   width: 100%;
 }
@@ -28,11 +28,10 @@ body {
 .parallax-header {
   display: block;
   position: absolute;
-  z-index: 10;
+  z-index: 100;
   top: 0;
   width: 100%;
-  height: 100px;
-  filter: drop-shadow(0px 3px 2px rgba(50, 50, 0, 0.3));
+  height: 150px;
 }
 .parallax-header:before {
   content: "";
@@ -40,35 +39,30 @@ body {
   width: 100%;
   height: 100%;
   background-color: rgb(48, 59, 71);
-}
-
-.site-logo {
-  display: block;
-  margin-right: 1rem;
-  width: 180px;
-  filter: drop-shadow(0px 3px 2px rgba(50, 50, 0, 0.3));
-}
-.site-logo img {
-  width: 100%;
+  clip-path: polygon(0% 88%, 5% 81%, 13% 74%, 19% 68%, 24% 63%, 31% 64%, 37% 63%, 41% 61%, 44% 67%, 47% 71%, 50% 65%, 54% 64%, 58% 64%, 63% 65%, 68% 63%, 75% 67%, 81% 72%, 91% 76%, 100% 81%, 100% 100%, 100% 0%, 0% 0%);
 }
 
 header {
+  position: fixed;
+  z-index: 9999;
+  top: 0;
   margin: 0;
-  height: 100px;
-  background-color: rgb(48, 59, 71);
-  clip-path: polygon(0% 12%, 5% 19%, 13% 26%, 19% 32%, 24% 37%, 31% 36%, 37% 37%, 41% 39%, 44% 33%, 47% 29%, 50% 35%, 54% 36%, 58% 36%, 63% 35%, 68% 37%, 75% 33%, 81% 28%, 91% 24%, 100% 19%, 100% 100%, 0% 100%);
+  width: 100%;
+  height: auto;
+  padding: 0;
+  max-width: 100%;
 }
 
 .parallax-group {
   display: block;
   padding: 0;
   position: relative;
-  height: 500px;
+  height: 800px;
   transform-style: preserve-3d;
 }
 
 .parallax-slider-wrap {
-  filter: drop-shadow(0px -10px 5px rgba(50, 50, 0, 0.5));
+  filter: drop-shadow(0px -10px 5px rgba(49, 52, 80, 0.5));
 }
 
 .parallax-slider {
@@ -76,7 +70,7 @@ header {
   margin: 0;
   position: relative;
   transform-style: preserve-3d;
-  filter: drop-shadow(0px -3px 2px rgba(50, 50, 0, 0.3));
+  filter: drop-shadow(0px -2px 2px rgba(44, 51, 78, 0.3));
 }
 
 .parallax-slider-4 {
@@ -93,40 +87,40 @@ header {
 }
 
 .parallax-slider-3 {
-  height: 800px;
-  transform: translateY(500px) translateZ(-6px) scale(5);
+  height: 700px;
+  transform: translateY(1700px) translateZ(-6px) scale(5);
 }
 .parallax-slider-3:before {
   content: "";
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgb(170, 219, 119);
+  background-color: rgb(121, 141, 164);
   clip-path: polygon(0% 31%, 9% 18%, 11% 22%, 13% 23%, 15% 19%, 16% 14%, 18% 13%, 19% 19%, 21% 21%, 23% 21%, 25% 17%, 26% 23%, 28% 23%, 29% 14%, 30% 11%, 31% 6%, 33% 7%, 34% 11%, 37% 13%, 39% 16%, 41% 13%, 43% 5%, 47% 3%, 49% 9%, 51% 10%, 53% 22%, 55% 17%, 57% 19%, 60% 16%, 63% 21%, 66% 19%, 71% 23%, 79% 26%, 88% 31%, 100% 37%, 100% 100%, 0% 100%);
 }
 
 .parallax-slider-2 {
   height: 300px;
-  transform: translateY(-600px) translateZ(-4px) scale(4);
+  transform: translateY(-900px) translateZ(-4px) scale(4);
 }
 .parallax-slider-2:before {
   content: "";
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: teal;
+  background-color: rgb(76, 96, 119);
   clip-path: polygon(0% 33%, 17% 30%, 21% 28%, 27% 28%, 34% 33%, 42% 38%, 53% 31%, 58% 26%, 62% 24%, 67% 30%, 70% 27%, 75% 22%, 80% 19%, 86% 22%, 91% 24%, 100% 27%, 100% 100%, 0% 100%);
 }
 
 .parallax-slider-1 {
   height: 300px;
-  transform: translateY(-900px) translateZ(-1px) scale(2);
+  transform: translateY(0px) translateZ(-1px) scale(2);
 }
 .parallax-slider-1:before {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: purple;
+  background-color: rgb(76, 96, 119);
   clip-path: polygon(0% 12%, 5% 19%, 13% 26%, 19% 32%, 24% 37%, 31% 36%, 37% 37%, 41% 39%, 44% 33%, 47% 29%, 50% 35%, 54% 36%, 58% 36%, 63% 35%, 68% 37%, 75% 33%, 81% 28%, 91% 24%, 100% 19%, 100% 100%, 0% 100%);
   content: "";
 }

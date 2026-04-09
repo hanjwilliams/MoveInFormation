@@ -8,12 +8,9 @@
 }
 
 header {
-    display: block;
-    position: relative;
-    padding: 2rem;
-    margin: 25rem 0 0;
-    background-color: white;
-    clip-path: polygon(0% 30%, 100% 0%, 100% 100%, 0% 100%);
+    padding: 2rem 0;
+    margin: 25rem auto 0;
+    clip-path: polygon(0% 0%, 100% 30%, 100% 100%, 0% 100%);
 }
 
 h1 {
