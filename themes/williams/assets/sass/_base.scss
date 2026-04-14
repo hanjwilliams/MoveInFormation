@@ -37,7 +37,7 @@ body {
 }
 
 .container {
-    max-width: v.$standardWidth;
+    width: 100%;
     display: block;
     margin: 0 auto;
 }
@@ -63,21 +63,21 @@ header {
 }
 
 .content {
-    width: 100%;
+    max-width: 80rem;
     display: flex;
+    margin: 0 auto;
     justify-content: center;
     background-color: v.$mif_grey;
 }
 
 main {
-    max-width: 70rem;
+    max-width: 100%;
     flex: 0 1 auto;
     padding: 3rem;
 }
 
 aside {
     flex: 1 1 0px;
-    background-color: lightgrey;
 }
 
 .sidebar {

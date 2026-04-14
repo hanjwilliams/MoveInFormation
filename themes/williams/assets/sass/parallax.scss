@@ -27,6 +27,16 @@ body {
     width: 100%;
 }
 
+.svg-menu {
+    display: flex;
+    padding: 0 2rem;
+    justify-content: center;
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+}
+
 .parallax-header {
     display: block;
     position: absolute;
@@ -46,11 +56,19 @@ body {
       }
 }
 
+.svg-header {
+    display: block;
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    width: 100%;
+    height: 350px;
+}
+
 header {
     position: fixed;
     z-index: 9999;
     top: 0;
-    //left: 0;
     margin: 0;
     width: 100%;
     height: auto;
@@ -84,6 +102,13 @@ padding: 0;
     
 }
 
+.svg-slider {
+    display: block;
+    margin: 0;
+    position: relative;
+    transform-style: preserve-3d;
+}
+
 .parallax-slider-4 {
     height: 150px;
     transform: translateY(0px) translateZ(-8px) scale(6);
@@ -108,6 +133,25 @@ padding: 0;
         background-color: rgb(121, 141, 164);
         clip-path: polygon(0% 31%, 9% 18%, 11% 22%, 13% 23%, 15% 19%, 16% 14%, 18% 13%, 19% 19%, 21% 21%, 23% 21%, 25% 17%, 26% 23%, 28% 23%, 29% 14%, 30% 11%, 31% 6%, 33% 7%, 34% 11%, 37% 13%, 39% 16%, 41% 13%, 43% 5%, 47% 3%, 49% 9%, 51% 10%, 53% 22%, 55% 17%, 57% 19%, 60% 16%, 63% 21%, 66% 19%, 71% 23%, 79% 26%, 88% 31%, 100% 37%, 100% 100%, 0% 100%);
     }
+}
+
+.svg-slider-4 {
+    height: 200px;
+    transform:translateY(800px) translateZ(-4px) scale(6);
+}
+
+.svg-slider-3 {
+    height: 200px;
+    transform:translateY(400px) translateZ(-3px) scale(5);
+}
+
+.svg-slider-2 {
+    height: 200px;
+    transform: translateY(600px) translateZ(-2px) scale(3);
+}
+.svg-slider-1 {
+    height: 350px;
+    transform:translateY(-50px) translateZ(0) scale(1);
 }
 
 .parallax-slider-2 {
@@ -137,7 +181,7 @@ padding: 0;
 }
 
 .container {
-    //background-color: rgba(181, 249, 223, 1);
+    background-color: v.$mif_grey;
     max-width: 100%;
     transform: translateZ(0) scale(1);
 }

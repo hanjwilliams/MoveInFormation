@@ -1,4 +1,17 @@
 @use "variables" as v;
+
+.hang-left {
+	float: left;
+	width: 600px;
+	margin: 0;
+	margin-right: 2rem;
+	margin-bottom: 2rem;
+  	margin-left: -10%;
+		img {
+			width: 100%;
+  }
+}
+
 .hero-image {
 	display: block;
 	min-height: 300px;

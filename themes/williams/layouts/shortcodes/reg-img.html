@@ -1,0 +1,29 @@
+{{- $src := .Get "src" -}}
+{{- $full := .Page.Resources.GetMatch $src -}}
+{{ $small := $full.Resize "350x webp" }}
+{{ $regular := $full.Resize "700x webp" }}
+{{ $oversize := $full.Resize "1600x webp"}}
+
+<figure
+  {{ if .Get "class" }}
+      class='{{.Get "class"}}'
+    {{ else }}
+      class='regular-image'
+  {{ end }}>
+  <img
+  {{ with .Get "class" }}
+    {{ if eq "class" "hang-left" }}
+      src="{{ $regular.Permalink }}"
+    {{ else }}
+      src="{{ $oversize.Permalink }}"
+    {{ end }}
+  {{ end }}
+  src="{{ $regular.Permalink }}"
+  {{ with .Get "alt" }}alt='{{.}}'{{ else }}alt=""{{ end }}
+  loading="lazy">
+  {{ with .Get "caption" }}
+  <figcaption>
+    <span>{{. | markdownify }}</span>
+  </figcaption>
+  {{ end }}
+</figure>

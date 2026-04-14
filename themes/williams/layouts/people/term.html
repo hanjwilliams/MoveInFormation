@@ -1,3 +1,21 @@
+  {{ define "custom"}}
+  {{ $args := dict
+    "page" .
+    "scss" "sass/parallax.scss"
+    "css" "css/parallax.css"
+    }}
+  {{ partial "head/custom.html" $args}}
+  {{ end }}
+
+
+  {{ define "header"}}
+  {{partial "parallaxSVGheader.html" . }}
+  {{end}}
+
+  {{define "banner"}}
+  {{partial "parallaxSVGbanner.html" . }}
+  {{end}}
+
 {{ define "main" }}
   <h1>{{ .Title }}</h1>
     <div class="person-box">
@@ -15,9 +33,11 @@
 {{ end }}
 
 {{ define "sidebar" }}
+
 {{ if eq .RelPermalink "/people/williams-h/" }}
-<aside>
+
 {{ else }}
+<aside>
 <section class="sidebar">
 {{ range .Pages.GroupBy "Section" "desc" }}
     <h3>{{ .Key }}</h3>

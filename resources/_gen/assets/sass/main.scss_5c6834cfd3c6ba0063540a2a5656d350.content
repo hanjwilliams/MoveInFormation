@@ -27,7 +27,7 @@ body {
 }
 
 .container {
-  max-width: 90rem;
+  width: 100%;
   display: block;
   margin: 0 auto;
 }
@@ -53,21 +53,21 @@ header {
 }
 
 .content {
-  width: 100%;
+  max-width: 80rem;
   display: flex;
+  margin: 0 auto;
   justify-content: center;
   background-color: rgb(48, 59, 71);
 }
 
 main {
-  max-width: 70rem;
+  max-width: 100%;
   flex: 0 1 auto;
   padding: 3rem;
 }
 
 aside {
   flex: 1 1 0px;
-  background-color: lightgrey;
 }
 
 .sidebar {
@@ -258,6 +258,18 @@ a:visited {
     width: auto;
   }
 }
+.hang-left {
+  float: left;
+  width: 600px;
+  margin: 0;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  margin-left: -10%;
+}
+.hang-left img {
+  width: 100%;
+}
+
 .hero-image {
   display: block;
   min-height: 300px;
@@ -327,8 +339,14 @@ video#landing {
 }
 
 .home-blocks {
+  width: 100vw;
+  margin-left: 50%;
+  transform: translateX(-50%);
   display: flex;
   gap: 5px;
+}
+.home-blocks img {
+  width: 100%;
 }
 
 .home-block {
@@ -389,7 +407,7 @@ video#landing {
 }
 
 .person-links {
-  padding: 1rem;
+  padding: 1rem 0;
 }
 
 .group-leader {

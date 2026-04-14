@@ -9,6 +9,12 @@
 
 //home
 .home-blocks {
+  width: 100vw;
+  margin-left: 50%;
+  transform: translateX(-50%);
+		img {
+			width: 100%;
+  }
     display: flex;
     gap: 5px;
 }
@@ -68,7 +74,7 @@
     margin: 0 1rem 1rem 0;
 }
 .person-links {
-    padding: 1rem;
+    padding: 1rem 0;
 }
 .group-leader { color: darkmagenta;}
 .phd-candidate { color: teal;}
