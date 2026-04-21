@@ -1,15 +1,19 @@
 {{define "custom"}}
 {{ $args := dict
 "page" .
-"scss" "sass/customHome.scss"
-"css" "css/customHome.css"
+"scss" "sass/parallax.scss"
+"css" "css/parallax.css"
 }}
 {{ partial "head/custom.html" $args}}
 {{ end }}
 
-{{ define "banner"}}
-{{ partial "vidbannerHome.html" . }}
-{{ end }}
+  {{ define "header"}}
+  {{partial "parallaxSVGheader.html" . }}
+  {{end}}
+
+  {{define "banner"}}
+  {{partial "parallaxvidbanner.html" . }}
+  {{end}}
 
 {{ define "main" }}
   {{ .Content }}

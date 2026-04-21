@@ -1,3 +1,11 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
   color: #222;
   font-size: 1rem;
@@ -53,7 +61,7 @@ header {
 }
 
 .content {
-  max-width: 80rem;
+  max-width: 90rem;
   display: flex;
   margin: 0 auto;
   justify-content: center;
@@ -62,7 +70,7 @@ header {
 
 main {
   max-width: 100%;
-  flex: 0 1 auto;
+  flex: 1 1 auto;
   padding: 3rem;
 }
 
@@ -268,6 +276,9 @@ a:visited {
 }
 .hang-left img {
   width: 100%;
+}
+.hang-left figcaption {
+  color: rgb(205, 74, 202);
 }
 
 .hero-image {
