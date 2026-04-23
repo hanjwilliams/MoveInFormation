@@ -8,6 +8,12 @@ image = ''
 people = ['albrecht-c']
 weight = 90
 +++
-Decisions of when and where to move to can have energetic consequences. Get the decision wrong and it can have energetic consequences. This is especially true for soaring birds that must glide between updrafts, where every second of gliding brings them closer to the ground? So how do they locate these invisible updrafts? In we tagged Gyps vultures (at Le Rocher des Aigles, France) flying in the same airspace to investigate whether they monitor the movements of others to gain information on updraft location; reducing uncertainty in movement and providing a mechanism by which large-scale networks may form in the sky. 
+Our work asks how animals use the movements of others to make better decisions about when and where to move. These decisions can have major energetic consequences, especially in systems where conditions change rapidly and key resources are difficult to detect directly. This is particularly true for soaring birds, which must glide between rising air currents and risk losing valuable altitude with every poor decision. A central question in this research is therefore how do individuals reduce uncertainty when moving through environments where the most important resources, such as uplift, are invisible, dynamic and short-lived.
 
-Williams et al. (2018) Interface;     The Conversation;        
+This line of work began with our study of Gyps vultures flying in shared airspace at Le Rocher des Aigles in France. By tagging multiple birds flying in the same airspace, we tested whether individuals monitor the movements of others to gain information about updraft location and flight conditions. Our findings supported the idea that social information can allow birds to adopt riskier, but potentially more efficient, gliding strategies. This provided one of the first mechanistic demonstrations that animals may eavesdrop on the locomotion of others to improve movement decisions, and suggested a route by which large-scale aerial associations and movement networks can emerge.
+
+Since then, this question has expanded into a broader research programme on sensory collectives: how information is distributed across groups, how it is perceived through the behaviour of others, and how local information use shapes collective structure. In our current condor work, we are extending these ideas into a natural long-term system to test how social information influences cohesion, following behaviour and flight efficiency in one of the world’s most obligate soaring birds. Together, this research aims to understand when social cues reduce uncertainty, how they improve movement outcomes, and how information exchange helps organise collective behaviour in dynamic environments.
+
+Gatti et al. (2025) In review
+Williams et al. (2023) eLife
+Williams et al. (2018) Journal of the Royal Society Interface;     The Conversation;        
