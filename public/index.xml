@@ -13,14 +13,14 @@
       <link>http://localhost:1313/projects/perception-of-energies/</link>
       <pubDate>Mon, 26 Jan 2026 11:15:39 +0100</pubDate>
       <guid>http://localhost:1313/projects/perception-of-energies/</guid>
-      <description>&lt;p&gt;Here, I will enter into the eyes of the obligate soaring bird through those of human paraglider pilots limited to move with a similar motion capacity, and consider how some of the animals most reliant on dynamic airflows may perceive energy availability in social information to inform their movement decisions. By recognising that social information likely plays a role in navigating all resource landscapes this work will develop a new unifying concept, Optimal Movement Theory (OMT). This will combine resource landscapes by their shared currency of energy and the certainty therein to predict the outcome of movement decisions for optimal movement strategies. We will explore how this phenomenon determines the ability of animal groups to respond to dynamic environments, and may reveal the social mechanism behind optimal movement.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Our work on the perception of energies asks how moving individuals detect and interpret forms of environmental energy that cannot be seen directly. We are especially interested in human pilots because, like soaring animals, they must negotiate dynamic airflows, locate usable uplift, and make rapid decisions under uncertainty. The difference is that humans can also share their knowledge with us directly. This gives us a rare opportunity to combine high-precision movement data with first-hand accounts of what individuals saw, sensed, expected and decided in flight.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Optimal Movement</title>
+      <title>Optimal Movement Theory</title>
       <link>http://localhost:1313/projects/optimal-movement/</link>
       <pubDate>Tue, 13 Jan 2026 13:31:38 +0100</pubDate>
       <guid>http://localhost:1313/projects/optimal-movement/</guid>
-      <description></description>
+      <description>&lt;p&gt;Our work on Optimal Movement Theory aims to build a general framework for understanding how animals make movement decisions when multiple forms of energy and uncertainty must be considered together. Rather than treating movement only through food search, habitat choice, or locomotion costs in isolation, this work asks how animals decide where and when to move when chemical, mechanical and environmental energies all shape the outcome. At its core is the idea that movement is a decision problem: individuals must act on incomplete information, weigh expected gains against costs, and update their behaviour as new information becomes available.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Trade-offs in optimal currency through thermal climb: bank angle, turning radius and sink rate</title>
@@ -44,18 +44,18 @@
       <description>&lt;p&gt;How do moving beings increase certainty in their movement decisions for cost-efficient movement? In this new project I’ll be working with paraglider M. Wilkes, ecologists K. Safi &amp;amp; M. Wikelski, and psychologist B. Renner and informatics F. Schreiber, to gain insight into how obligate soaring birds may be locating good conditions for soaring to up-the-odds in their probabilistic movement decisions. Work funded by MPI-AB and CASCB.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Using Tri-axial Magnetometry to resolve animal movement patterns</title>
+      <title>Bio-logging development</title>
       <link>http://localhost:1313/projects/tri-axial-magnetometry/</link>
       <pubDate>Mon, 26 Jan 2026 11:23:56 +0100</pubDate>
       <guid>http://localhost:1313/projects/tri-axial-magnetometry/</guid>
-      <description>&lt;p&gt;Many bio-loggers are now equipped with magnetometer sensors, most commonly used for dead-reckoning movement tracks. But since tri-axial magnetometers resolve orientation of an animal relative to magnetic north, movement ecologists can use this information to quantify patterns of rotation and therefore identify and interpret behaviours; much in the same way as accelerometry, but there are instances when magnetometers can resolve behaviours that are not easily perceived using accelerometers…&lt;/p&gt;&#xA;&lt;p&gt;Williams et al. (2017) Movement Ecology&lt;/p&gt;</description>
+      <description>&lt;p&gt;Our work in bio-logger development is driven by a simple idea: if we want to understand behaviour in the wild, we need devices and analytical systems that are built around the biology of the question, not only the engineering of the sensor. We have worked across the full pipeline, from Daily Diary methods and behaviour annotation to logger optimisation, data transmission, and multi-sensor system design. This includes work on how to deploy tags more effectively for movement ecology, how to recover richer behavioural information from onboard sensors, and how to move large quantities of data reliably from free-ranging animals. Together, these projects have helped build the methodological foundation for extracting behaviour, performance and ecology from increasingly complex biologging systems.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>What can Acceleration tell us about the flight of Soaring Birds?</title>
+      <title>Biophysics of soaring birds</title>
       <link>http://localhost:1313/projects/acceleration-of-soaring-birds/</link>
       <pubDate>Mon, 26 Jan 2026 11:24:56 +0100</pubDate>
       <guid>http://localhost:1313/projects/acceleration-of-soaring-birds/</guid>
-      <description>&lt;p&gt;Accelerometers have proved to be extremely valuable movement sensors for the bio-logging world. But! the data they collect can be complex to interpret! This study was the first of my PhD, and used high-resolution movement data collected from soaring birds (condors and vultures) to examine the influence of gravitational, dynamic and centripetal acceleration on the output signal of an accelerometer in different flight types. Our work concludes that In the aerial environment movement may be influenced by phenomena such as pulling-g, making it difficult to interpret the output signal.&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;title-here&#34;&gt;Title here&lt;/h1&gt;&#xA;&lt;h2 id=&#34;title-here-1&#34;&gt;title here&lt;/h2&gt;&#xA;&lt;p&gt;Our work on soaring birds focuses on the physical limits of flight, the aerodynamic challenges birds face when negotiating complex airflows, and the use of onboard sensors to quantify individual flight performance in free-ranging animals. Using high-resolution bio-logging, particularly inertial measurement units, GPS, magnetometers and related movement sensors, we investigate how birds climb, glide, turn and adjust their behaviour under changing atmospheric conditions. This allows us to recover fine-scale measures of performance from flight itself and to link body motion to flight strategy, space-use and proxies of energetic expenditure.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Science Outreach</title>
