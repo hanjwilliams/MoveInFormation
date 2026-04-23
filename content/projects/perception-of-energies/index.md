@@ -4,8 +4,14 @@ draft = false
 title = 'Perception of Energies to "up-the-odds" for efficent movement'
 foci = ['sensing']
 funding = ['']
-people = ['fish-l']
+people = ['williams-a','albrecht-d']
 image = ''
 weight = 90
 +++
-Here, I will enter into the eyes of the obligate soaring bird through those of human paraglider pilots limited to move with a similar motion capacity, and consider how some of the animals most reliant on dynamic airflows may perceive energy availability in social information to inform their movement decisions. By recognising that social information likely plays a role in navigating all resource landscapes this work will develop a new unifying concept, Optimal Movement Theory (OMT). This will combine resource landscapes by their shared currency of energy and the certainty therein to predict the outcome of movement decisions for optimal movement strategies. We will explore how this phenomenon determines the ability of animal groups to respond to dynamic environments, and may reveal the social mechanism behind optimal movement.
+Our work on the perception of energies asks how moving individuals detect and interpret forms of environmental energy that cannot be seen directly. We are especially interested in human pilots because, like soaring animals, they must negotiate dynamic airflows, locate usable uplift, and make rapid decisions under uncertainty. The difference is that humans can also share their knowledge with us directly. This gives us a rare opportunity to combine high-precision movement data with first-hand accounts of what individuals saw, sensed, expected and decided in flight. 
+
+Using paragliders as a model system, we combine high-tech, high-precision tracking with inertial sensors, video-based reconstruction, and measures of head and body orientation to examine how pilots move through shared airspace, what cues they attend to, and how they interpret the movements of others. By linking these reconstructions to subsequent movement decisions and flight performance, we can begin to quantify how social attention operates in real time and how information flows through groups moving in three-dimensional space.
+
+Because paragliders face many of the same aerodynamic challenges as soaring birds, this system offers a fascinating route into questions that are otherwise very difficult to access directly in wild animals, and provides rare insight into how a bird may experience the energetic structure of the sky.
+
+Zhang et al. (2024) EuroVA 2024 Conference Proceedings
