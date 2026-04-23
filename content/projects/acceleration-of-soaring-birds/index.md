@@ -1,13 +1,31 @@
 +++
 date = '2026-01-26T11:24:56+01:00'
 draft = false
-title = 'What can Acceleration tell us about the flight of Soaring Birds?'
+title = 'Biophysics of soaring birds'
 foci = ['biologging']
 funding = ['']
 image = 'placeholder.png'
-people = ['gatti-e','bowie-d','costelloe-m']
+people = ['hannah-a']
 weight = 130
 +++
-Accelerometers have proved to be extremely valuable movement sensors for the bio-logging world. But! the data they collect can be complex to interpret! This study was the first of my PhD, and used high-resolution movement data collected from soaring birds (condors and vultures) to examine the influence of gravitational, dynamic and centripetal acceleration on the output signal of an accelerometer in different flight types. Our work concludes that In the aerial environment movement may be influenced by phenomena such as pulling-g, making it difficult to interpret the output signal.
+Our work on soaring birds focuses on the physical limits of flight, the aerodynamic challenges birds face when negotiating complex airflows, and the use of onboard sensors to quantify individual flight performance in free-ranging animals. Using high-resolution bio-logging, particularly inertial measurement units, GPS, magnetometers and related movement sensors, we investigate how birds climb, glide, turn and adjust their behaviour under changing atmospheric conditions. This allows us to recover fine-scale measures of performance from flight itself and to link body motion to flight strategy, space-use and proxies of energetic expenditure.
 
+Published studies have examined how vultures vary bank angle when thermalling close to the ground, how social information can support riskier gliding strategies, and how accelerometry and magnetometry can be used to classify and interpret flight behaviour in the wild. Together, these studies help turn free-flight behaviour into something measurable, allowing us to study how biomechanics, behaviour and environment interact at fine scales.
+
+Current work builds on this foundation in large soaring scavengers, especially Andean condors, by combining IMU-derived behaviour, flight performance metrics and space-use analyses across real landscapes. We are expanding from describing flight behaviour to quantifying how individuals perform under different atmospheric and social conditions, and how these patterns scale up across time and space. Looking ahead, this research aims to make free-flight performance measurable at scale and to use it to understand how birds cope with the energetic and physical challenges of moving through dynamic airspace.
+
+Biophysics and onboard recordings
+Williams et al. (2021) Philosophical Transactions of the Royal Society B
+Williams & Shepard (2020) Proceedings of the National Academy of Sciences
+Wilson et al. (2020) Journal of Animal Ecology
+Williams et al. (2018) Journal of Experimental Biology
+Williams et al. (2018) Journal of the Royal Society Interface
+Williams et al. (2017) Movement Ecology
 Williams et al. (2015) Animal Biotelemetry
+
+
+Challenges of flight across systems
+Ellis-Soto et al. (2025) Proceedings of the National Academy of Sciences of the United States of America
+Flack et al. (2022) Current Biology
+Grecian et al. (2019) Frontiers in Ecology and Evolution
+Menz et al. (2022) Science
