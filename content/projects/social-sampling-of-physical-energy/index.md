@@ -1,6 +1,6 @@
 +++
 date = '2026-01-13T13:24:54+01:00'
-draft = false
+draft = true
 title = 'Social Sampling of Physical Energy'
 foci = ['biologging']
 funding = ['MPIAB','CASCB']

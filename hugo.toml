@@ -5,6 +5,7 @@ theme = 'williams'
 
 [taxonomies]
   focus = 'foci'
+  project = 'projects'
   position = 'positions'
   person = 'people'
   fund = 'funding'

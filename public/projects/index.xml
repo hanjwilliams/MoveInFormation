@@ -6,56 +6,7 @@
     <description>Recent content in Projects on Williams Lab</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Jan 2026 11:24:56 +0100</lastBuildDate>
+    <lastBuildDate></lastBuildDate>
     <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Perception of Energies to &#34;up-the-odds&#34; for efficent movement</title>
-      <link>http://localhost:1313/projects/perception-of-energies/</link>
-      <pubDate>Mon, 26 Jan 2026 11:15:39 +0100</pubDate>
-      <guid>http://localhost:1313/projects/perception-of-energies/</guid>
-      <description>&lt;p&gt;Here, I will enter into the eyes of the obligate soaring bird through those of human paraglider pilots limited to move with a similar motion capacity, and consider how some of the animals most reliant on dynamic airflows may perceive energy availability in social information to inform their movement decisions. By recognising that social information likely plays a role in navigating all resource landscapes this work will develop a new unifying concept, Optimal Movement Theory (OMT). This will combine resource landscapes by their shared currency of energy and the certainty therein to predict the outcome of movement decisions for optimal movement strategies. We will explore how this phenomenon determines the ability of animal groups to respond to dynamic environments, and may reveal the social mechanism behind optimal movement.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Optimal Movement</title>
-      <link>http://localhost:1313/projects/optimal-movement/</link>
-      <pubDate>Tue, 13 Jan 2026 13:31:38 +0100</pubDate>
-      <guid>http://localhost:1313/projects/optimal-movement/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Trade-offs in optimal currency through thermal climb: bank angle, turning radius and sink rate</title>
-      <link>http://localhost:1313/projects/thermal-climb/</link>
-      <pubDate>Mon, 26 Jan 2026 11:22:55 +0100</pubDate>
-      <guid>http://localhost:1313/projects/thermal-climb/</guid>
-      <description>&lt;p&gt;Without flapping their wings a bird in flight will sink, so for birds that are too heavy to sustain flapping flight, how do they use exploit the lift available in updrafts to gain height without flapping? In this work we used high frequency loggers (Daily Diaries) to measure the bank angle (from magnetometry), turning radii (from airspeed sensors) and vertical velocity (from barametric pressure sensors) to parameterise concepts of aeronautical theory and investigate the soaring performance of Gyps vultures. We find that birds modify these parameters as they climb in thermal updrafts but with different trade-offs.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Flight Energetics and the Aeroecology of a Soaring Scavenger</title>
-      <link>http://localhost:1313/projects/soaring-strategy/</link>
-      <pubDate>Mon, 26 Jan 2026 11:20:13 +0100</pubDate>
-      <guid>http://localhost:1313/projects/soaring-strategy/</guid>
-      <description>&lt;p&gt;How do the largest birds move across the landscape in search of food while minimising their energy expenditure? Together, with Emily Shepard’s Flight team at SLAM (Swansea Laboratory for Animal Movement) and Sergio Lambertucci’s team, we are currently investigating the soaring strategy of the the Andean condor (Vultur gryphus) using high frequency bio-logging technology. Read more on the amazing feats of soaring birds in Audubon and how Emily, Mark Holton, Sergio and Orlando Mastrantuoni figured out how to collect movement data from the Andean Condor at The Conversation.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Social Sampling of Physical Energy</title>
-      <link>http://localhost:1313/projects/social-sampling-of-physical-energy/</link>
-      <pubDate>Tue, 13 Jan 2026 13:24:54 +0100</pubDate>
-      <guid>http://localhost:1313/projects/social-sampling-of-physical-energy/</guid>
-      <description>&lt;p&gt;How do moving beings increase certainty in their movement decisions for cost-efficient movement? In this new project I’ll be working with paraglider M. Wilkes, ecologists K. Safi &amp;amp; M. Wikelski, and psychologist B. Renner and informatics F. Schreiber, to gain insight into how obligate soaring birds may be locating good conditions for soaring to up-the-odds in their probabilistic movement decisions. Work funded by MPI-AB and CASCB.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Using Tri-axial Magnetometry to resolve animal movement patterns</title>
-      <link>http://localhost:1313/projects/tri-axial-magnetometry/</link>
-      <pubDate>Mon, 26 Jan 2026 11:23:56 +0100</pubDate>
-      <guid>http://localhost:1313/projects/tri-axial-magnetometry/</guid>
-      <description>&lt;p&gt;Many bio-loggers are now equipped with magnetometer sensors, most commonly used for dead-reckoning movement tracks. But since tri-axial magnetometers resolve orientation of an animal relative to magnetic north, movement ecologists can use this information to quantify patterns of rotation and therefore identify and interpret behaviours; much in the same way as accelerometry, but there are instances when magnetometers can resolve behaviours that are not easily perceived using accelerometers…&lt;/p&gt;&#xA;&lt;p&gt;Williams et al. (2017) Movement Ecology&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>What can Acceleration tell us about the flight of Soaring Birds?</title>
-      <link>http://localhost:1313/projects/acceleration-of-soaring-birds/</link>
-      <pubDate>Mon, 26 Jan 2026 11:24:56 +0100</pubDate>
-      <guid>http://localhost:1313/projects/acceleration-of-soaring-birds/</guid>
-      <description>&lt;p&gt;Accelerometers have proved to be extremely valuable movement sensors for the bio-logging world. But! the data they collect can be complex to interpret! This study was the first of my PhD, and used high-resolution movement data collected from soaring birds (condors and vultures) to examine the influence of gravitational, dynamic and centripetal acceleration on the output signal of an accelerometer in different flight types. Our work concludes that In the aerial environment movement may be influenced by phenomena such as pulling-g, making it difficult to interpret the output signal.&lt;/p&gt;</description>
-    </item>
   </channel>
 </rss>

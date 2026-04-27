@@ -9,11 +9,11 @@
     <lastBuildDate>Mon, 26 Jan 2026 11:23:56 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/people/schneider-a/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Using Tri-axial Magnetometry to resolve animal movement patterns</title>
-      <link>http://localhost:1313/projects/tri-axial-magnetometry/</link>
+      <title>Bio-logging development</title>
+      <link>http://localhost:1313/projects/biologdev/</link>
       <pubDate>Mon, 26 Jan 2026 11:23:56 +0100</pubDate>
-      <guid>http://localhost:1313/projects/tri-axial-magnetometry/</guid>
-      <description>&lt;p&gt;Many bio-loggers are now equipped with magnetometer sensors, most commonly used for dead-reckoning movement tracks. But since tri-axial magnetometers resolve orientation of an animal relative to magnetic north, movement ecologists can use this information to quantify patterns of rotation and therefore identify and interpret behaviours; much in the same way as accelerometry, but there are instances when magnetometers can resolve behaviours that are not easily perceived using accelerometers…&lt;/p&gt;&#xA;&lt;p&gt;Williams et al. (2017) Movement Ecology&lt;/p&gt;</description>
+      <guid>http://localhost:1313/projects/biologdev/</guid>
+      <description>&lt;p&gt;Our work in bio-logger development is driven by a simple idea: if we want to understand behaviour in the wild, we need devices and analytical systems that are built around the biology of the question, not only the engineering of the sensor. We have worked across the full pipeline, from Daily Diary methods and behaviour annotation to logger optimisation, data transmission, and multi-sensor system design. This includes work on how to deploy tags more effectively for movement ecology, how to recover richer behavioural information from onboard sensors, and how to move large quantities of data reliably from free-ranging animals. Together, these projects have helped build the methodological foundation for extracting behaviour, performance and ecology from increasingly complex biologging systems.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
