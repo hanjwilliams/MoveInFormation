@@ -7,6 +7,7 @@ issue = '1-5'
 url = 'https://link.springer.com/article/10.1007/s00371-015-1112-0'
 doi = ''
 foci = ['biologging']
+projects = ['biologdev']
 
 [[papers]]
 authors = 'Walker, J.S., Jones, M.W., Laramee, R.S., Holton, M., Shepard, E.L.C., Williams, H.J., et al.'
@@ -17,6 +18,7 @@ issue = '3(29)'
 url = 'https://movementecologyjournal.biomedcentral.com/articles/10.1186/s40462-015-0056-3'
 doi = ''
 foci = ['movement', 'biologging']
+projects = ['biologdev']
 
 [[papers]]
 authors = 'Wilson, G.I., Norman, B., Walker, J., Williams, H.J., Holton, M.D., Clarke, D. and Wilson, R.P.'
@@ -37,6 +39,7 @@ issue = '3(45)'
 url = 'https://animalbiotelemetry.biomedcentral.com/articles/10.1186/s40317-015-0077-0'
 doi = ''
 foci = ['biologging']
+projects = ['biophysics']
 
 [[papers]]
 authors = 'Williams, H.J., Holton, M.D., Shepard, E.L.C., Largey, N., Norman, B., Ryan, P.G., Duriez, O., Scantlebury, M., Quintana, F., Magowan, E.A., Marks,N.J., Alagaili,A.N., Bennett, N.C. & Wilson,R.P.'
@@ -47,6 +50,7 @@ issue = '5(6)'
 url = 'https://movementecologyjournal.biomedcentral.com/articles/10.1186/s40462-017-0097-x'
 doi = ''
 foci = ['movement', 'biologging']
+projects = ['biophysics']
 
 [[papers]]
 authors = 'Wilson, R.P., Holton, M.D., di Vigilio, A., Williams, H.J., et al.'
@@ -57,6 +61,7 @@ issue = '9(11)'
 url = 'https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13069'
 doi = ''
 foci = ['movement', 'biologging']
+projects = ['biologdev']
 
 [[papers]]
 authors = 'Williams, H.J., King, A.J., Duriez, O., Börger, L. and Shepard, E.L.C'
@@ -67,6 +72,7 @@ issue = '15(148)'
 url = 'https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13069'
 doi = ''
 foci = ['movement', 'biologging']
+projects = ['biophysics','eavesdropping']
 
 [[papers]]
 authors = 'Williams, H.J., Duriez, O., Holton, M.D., Dell’Omo, G., Wilson, R.P. and Shepard, E.L.C.'
@@ -77,6 +83,7 @@ issue = '221(23)'
 url = 'http://jeb.biologists.org/content/early/2018/10/17/jeb.174995'
 doi = ''
 foci = ['']
+projects = ['biophysics']
 
 [[papers]]
 authors = 'Wilson, R.P., Börger, L., Holton, M.D., Scantlebury, D.M., Gómez‐Laich, A., Quintana, F., Rosell, F., Graf, P.M., Williams, H.J. et al.'
@@ -107,6 +114,7 @@ issue = '89(1)'
 url = 'https://besjournals.onlinelibrary.wiley.com/doi/10.1111/1365-2656.13094'
 doi = ''
 foci = ['']
+projects = ['biologdev','biophysics']
 
 [[papers]]
 authors = 'Williams, H.J. & Shepard, E.L.C., Holton, M.D., Alarcón, P.A.E., Wilson, R.P., Lambertucci, S.A.'
@@ -117,6 +125,7 @@ issue = '117(30)'
 url = 'https://www.pnas.org/content/early/2020/07/09/1907360117'
 doi = ''
 foci = ['']
+projects = ['biophysics']
 
 [[papers]]
 authors = 'Gunner, R. M., Holton, M.D. et al. & Wilson, R.P.'
@@ -147,6 +156,7 @@ issue = '376(1831)'
 url = 'https://royalsocietypublishing.org/doi/10.1098/rstb.2020.0230'
 doi = ''
 foci = ['']
+projects = ['biologdev','biophysics']
 
 [[papers]]
 authors = 'Williams, H.J. & Safi, K.'
@@ -157,6 +167,7 @@ issue = '36(11)'
 url = 'https://www.sciencedirect.com/science/article/pii/S0169534721001865'
 doi = ''
 foci = ['']
+projects = ['optimove']
 
 [[papers]]
 authors = 'Wild, T.A., Wikelski, M., Tyndel, S., Alarcón-Nieto, G., Klump, B.C., Aplin, L.M., Meboldt, M. & Williams, H.J.'
@@ -167,6 +178,7 @@ issue = 'Early view'
 url = 'https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13798'
 doi = ''
 foci = ['']
+projects = ['biologdev']
 
 [[papers]]
 authors = 'Jetz, W., Tertitski, G., Kays, R., Mueller, U., & Wikelski, M. et al.'
@@ -177,6 +189,7 @@ issue = '37(4)'
 url = 'https://www.sciencedirect.com/science/article/pii/S0169534721003165'
 doi = ''
 foci = ['']
+projects = ['biologdev']
 
 [[papers]]
 authors = 'Menz, M.H.M., Scacco, M., Bürki-Spycher, H-M., Williams, H.J., Reynolds, D.R., Chapman, J.W., & Wikelski, M.'
@@ -207,6 +220,7 @@ issue = '12(e88028)'
 url = 'https://elifesciences.org/articles/88028'
 doi = ''
 foci = ['']
+projects = ['eavesdropping','optimove']
 
 [[papers]]
 authors = 'Zhang, Z., Williams, H.J., Schreiber, F. & Klein, K'
@@ -217,3 +231,37 @@ issue = 'The Eurographics Association'
 url = 'https://kops.uni-konstanz.de/entities/publication/f7aba55b-8597-4572-a619-146c38b48c6f'
 doi = ''
 foci = ['']
+projects = ['energies']
+
+[[papers]]
+authors = 'Ellis-Soto D., Flack A., Strandburg-Peshkin, A., Wild, T. A., Williams, H. J., O’Mara, M.T.'
+year = 2025
+title = 'VisualisiFrom bio-logging to conservation: tracking individual performance in changing environmentsng the Invisible: Exploring Approaches for Visual Analysis of Dynamic Airflow in Geographic Environments Using Sensor Data.'
+publication = 'Proceedings of the National Academy of Sciences'
+issue = '122(31)'
+url = 'https://www.pnas.org/doi/abs/10.1073/pnas.2410947122'
+doi = ''
+foci = ['biologging']
+projects = ['biologdev','biophysics','optimove']
+
+[[papers]]
+authors = 'Rogers W., Mattingly S.J., Kohles J.E., Linek N., Williams H.J., Lenzi I., Wilbs G., Escher M., Richter N., van Schalkwyk L., Ezenwa V.O., Wikelski M., Dechmann D.KN., Wild T.A.'
+year = 2025
+title = 'Fine-scale animal proximity detection and localization via multi-sensor biologgers.'
+publication = 'bioRxiv'
+issue = ''
+url = 'https://www.biorxiv.org/content/10.1101/2025.09.09.674951.abstract'
+doi = ''
+foci = ['biologging']
+projects = ['biologdev']
+
+[[papers]]
+authors = 'Gatti E., Reina A., Williams H. J.'
+year = 2025
+title = 'Energetic benefits of social information for movement in patchy landscapes.'
+publication = 'bioRxiv'
+issue = ''
+url = 'https://www.biorxiv.org/content/10.64898/2025.12.18.695131.abstract'
+doi = ''
+foci = ['biologging']
+projects = ['biologdev','eavesdropping','optimove']

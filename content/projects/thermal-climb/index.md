@@ -1,6 +1,6 @@
 +++
 date = '2026-01-26T11:22:55+01:00'
-draft = false
+draft = true
 title = 'Trade-offs in optimal currency through thermal climb: bank angle, turning radius and sink rate'
 foci = ['biologging', 'movement']
 funding = ['']

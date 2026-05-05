@@ -23,25 +23,19 @@
     <loc>http://localhost:1313/positions/alumnus/</loc>
     <lastmod>2026-01-30T11:07:19+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/perception-of-energies/</loc>
+    <loc>http://localhost:1313/projects/eavesdropping/</loc>
+    <lastmod>2026-01-26T11:21:17+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/energies/</loc>
     <lastmod>2026-01-26T11:15:39+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/optimal-movement/</loc>
+    <loc>http://localhost:1313/projects/optimove/</loc>
     <lastmod>2026-01-13T13:31:38+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/thermal-climb/</loc>
-    <lastmod>2026-01-26T11:22:55+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/projects/soaring-strategy/</loc>
-    <lastmod>2026-01-26T11:20:13+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/projects/social-sampling-of-physical-energy/</loc>
-    <lastmod>2026-01-13T13:24:54+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/projects/tri-axial-magnetometry/</loc>
+    <loc>http://localhost:1313/projects/biologdev/</loc>
     <lastmod>2026-01-26T11:23:56+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/acceleration-of-soaring-birds/</loc>
+    <loc>http://localhost:1313/projects/biophysics/</loc>
     <lastmod>2026-01-26T11:24:56+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/people/paulin-i/</loc>
@@ -74,11 +68,8 @@
     <loc>http://localhost:1313/publications/</loc>
     <lastmod>2026-01-28T09:41:01+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/people/albrecht-d/</loc>
-    <lastmod>2026-01-26T11:15:39+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/people/williams-a/</loc>
-    <lastmod>2026-01-26T11:15:39+01:00</lastmod>
+    <loc>http://localhost:1313/people/steinfeld-k/</loc>
+    <lastmod>2026-01-26T11:24:56+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/funding/cascb/</loc>
     <lastmod>2026-01-22T12:02:19+01:00</lastmod>

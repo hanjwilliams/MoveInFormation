@@ -6,21 +6,21 @@
     <description>Recent content in Optimal Movement Theory on Williams Lab</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Jan 2026 11:22:55 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 26 Jan 2026 11:21:17 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/foci/movement/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Optimal Movement Theory</title>
-      <link>http://localhost:1313/projects/optimal-movement/</link>
-      <pubDate>Tue, 13 Jan 2026 13:31:38 +0100</pubDate>
-      <guid>http://localhost:1313/projects/optimal-movement/</guid>
-      <description>&lt;p&gt;Our work on Optimal Movement Theory aims to build a general framework for understanding how animals make movement decisions when multiple forms of energy and uncertainty must be considered together. Rather than treating movement only through food search, habitat choice, or locomotion costs in isolation, this work asks how animals decide where and when to move when chemical, mechanical and environmental energies all shape the outcome. At its core is the idea that movement is a decision problem: individuals must act on incomplete information, weigh expected gains against costs, and update their behaviour as new information becomes available.&lt;/p&gt;</description>
+      <title>Eavesdropping on Social Information in Soaring-Gliding Flight</title>
+      <link>http://localhost:1313/projects/eavesdropping/</link>
+      <pubDate>Mon, 26 Jan 2026 11:21:17 +0100</pubDate>
+      <guid>http://localhost:1313/projects/eavesdropping/</guid>
+      <description>&lt;p&gt;Our work asks how animals use the movements of others to make better decisions about when and where to move. These decisions can have major energetic consequences, especially in systems where conditions change rapidly and key resources are difficult to detect directly. This is particularly true for soaring birds, which must glide between rising air currents and risk losing valuable altitude with every poor decision. A central question in this research is therefore how do individuals reduce uncertainty when moving through environments where the most important resources, such as uplift, are invisible, dynamic and short-lived.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Trade-offs in optimal currency through thermal climb: bank angle, turning radius and sink rate</title>
-      <link>http://localhost:1313/projects/thermal-climb/</link>
-      <pubDate>Mon, 26 Jan 2026 11:22:55 +0100</pubDate>
-      <guid>http://localhost:1313/projects/thermal-climb/</guid>
-      <description>&lt;p&gt;Without flapping their wings a bird in flight will sink, so for birds that are too heavy to sustain flapping flight, how do they use exploit the lift available in updrafts to gain height without flapping? In this work we used high frequency loggers (Daily Diaries) to measure the bank angle (from magnetometry), turning radii (from airspeed sensors) and vertical velocity (from barametric pressure sensors) to parameterise concepts of aeronautical theory and investigate the soaring performance of Gyps vultures. We find that birds modify these parameters as they climb in thermal updrafts but with different trade-offs.&lt;/p&gt;</description>
+      <title>Optimal Movement Theory</title>
+      <link>http://localhost:1313/projects/optimove/</link>
+      <pubDate>Tue, 13 Jan 2026 13:31:38 +0100</pubDate>
+      <guid>http://localhost:1313/projects/optimove/</guid>
+      <description>&lt;p&gt;Our work on Optimal Movement Theory aims to build a general framework for understanding how animals make movement decisions when multiple forms of energy and uncertainty must be considered together. Rather than treating movement only through food search, habitat choice, or locomotion costs in isolation, this work asks how animals decide where and when to move when chemical, mechanical and environmental energies all shape the outcome. At its core is the idea that movement is a decision problem: individuals must act on incomplete information, weigh expected gains against costs, and update their behaviour as new information becomes available.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Laura Fish</title>

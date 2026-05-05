@@ -5,7 +5,7 @@ title = 'Optimal Movement Theory'
 foci = ['movement']
 funding = ['']
 image = ''
-people = ['williams-a','gatti-e']
+people = ['gatti-e','kedia-p']
 weight = 90
 +++
 Our work on Optimal Movement Theory aims to build a general framework for understanding how animals make movement decisions when multiple forms of energy and uncertainty must be considered together. Rather than treating movement only through food search, habitat choice, or locomotion costs in isolation, this work asks how animals decide where and when to move when chemical, mechanical and environmental energies all shape the outcome. At its core is the idea that movement is a decision problem: individuals must act on incomplete information, weigh expected gains against costs, and update their behaviour as new information becomes available.

@@ -1,6 +1,6 @@
 +++
 date = '2026-01-26T11:20:13+01:00'
-draft = false
+draft = true
 title = 'Flight Energetics and the Aeroecology of a Soaring Scavenger'
 foci = ['biologging']
 funding = ['']

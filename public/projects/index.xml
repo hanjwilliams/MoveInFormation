@@ -9,53 +9,39 @@
     <lastBuildDate>Mon, 26 Jan 2026 11:24:56 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Eavesdropping on Social Information in Soaring-Gliding Flight</title>
+      <link>http://localhost:1313/projects/eavesdropping/</link>
+      <pubDate>Mon, 26 Jan 2026 11:21:17 +0100</pubDate>
+      <guid>http://localhost:1313/projects/eavesdropping/</guid>
+      <description>&lt;p&gt;Our work asks how animals use the movements of others to make better decisions about when and where to move. These decisions can have major energetic consequences, especially in systems where conditions change rapidly and key resources are difficult to detect directly. This is particularly true for soaring birds, which must glide between rising air currents and risk losing valuable altitude with every poor decision. A central question in this research is therefore how do individuals reduce uncertainty when moving through environments where the most important resources, such as uplift, are invisible, dynamic and short-lived.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Perception of Energies to &#34;up-the-odds&#34; for efficent movement</title>
-      <link>http://localhost:1313/projects/perception-of-energies/</link>
+      <link>http://localhost:1313/projects/energies/</link>
       <pubDate>Mon, 26 Jan 2026 11:15:39 +0100</pubDate>
-      <guid>http://localhost:1313/projects/perception-of-energies/</guid>
+      <guid>http://localhost:1313/projects/energies/</guid>
       <description>&lt;p&gt;Our work on the perception of energies asks how moving individuals detect and interpret forms of environmental energy that cannot be seen directly. We are especially interested in human pilots because, like soaring animals, they must negotiate dynamic airflows, locate usable uplift, and make rapid decisions under uncertainty. The difference is that humans can also share their knowledge with us directly. This gives us a rare opportunity to combine high-precision movement data with first-hand accounts of what individuals saw, sensed, expected and decided in flight.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Optimal Movement Theory</title>
-      <link>http://localhost:1313/projects/optimal-movement/</link>
+      <link>http://localhost:1313/projects/optimove/</link>
       <pubDate>Tue, 13 Jan 2026 13:31:38 +0100</pubDate>
-      <guid>http://localhost:1313/projects/optimal-movement/</guid>
+      <guid>http://localhost:1313/projects/optimove/</guid>
       <description>&lt;p&gt;Our work on Optimal Movement Theory aims to build a general framework for understanding how animals make movement decisions when multiple forms of energy and uncertainty must be considered together. Rather than treating movement only through food search, habitat choice, or locomotion costs in isolation, this work asks how animals decide where and when to move when chemical, mechanical and environmental energies all shape the outcome. At its core is the idea that movement is a decision problem: individuals must act on incomplete information, weigh expected gains against costs, and update their behaviour as new information becomes available.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Trade-offs in optimal currency through thermal climb: bank angle, turning radius and sink rate</title>
-      <link>http://localhost:1313/projects/thermal-climb/</link>
-      <pubDate>Mon, 26 Jan 2026 11:22:55 +0100</pubDate>
-      <guid>http://localhost:1313/projects/thermal-climb/</guid>
-      <description>&lt;p&gt;Without flapping their wings a bird in flight will sink, so for birds that are too heavy to sustain flapping flight, how do they use exploit the lift available in updrafts to gain height without flapping? In this work we used high frequency loggers (Daily Diaries) to measure the bank angle (from magnetometry), turning radii (from airspeed sensors) and vertical velocity (from barametric pressure sensors) to parameterise concepts of aeronautical theory and investigate the soaring performance of Gyps vultures. We find that birds modify these parameters as they climb in thermal updrafts but with different trade-offs.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Flight Energetics and the Aeroecology of a Soaring Scavenger</title>
-      <link>http://localhost:1313/projects/soaring-strategy/</link>
-      <pubDate>Mon, 26 Jan 2026 11:20:13 +0100</pubDate>
-      <guid>http://localhost:1313/projects/soaring-strategy/</guid>
-      <description>&lt;p&gt;How do the largest birds move across the landscape in search of food while minimising their energy expenditure? Together, with Emily Shepard’s Flight team at SLAM (Swansea Laboratory for Animal Movement) and Sergio Lambertucci’s team, we are currently investigating the soaring strategy of the the Andean condor (Vultur gryphus) using high frequency bio-logging technology. Read more on the amazing feats of soaring birds in Audubon and how Emily, Mark Holton, Sergio and Orlando Mastrantuoni figured out how to collect movement data from the Andean Condor at The Conversation.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Social Sampling of Physical Energy</title>
-      <link>http://localhost:1313/projects/social-sampling-of-physical-energy/</link>
-      <pubDate>Tue, 13 Jan 2026 13:24:54 +0100</pubDate>
-      <guid>http://localhost:1313/projects/social-sampling-of-physical-energy/</guid>
-      <description>&lt;p&gt;How do moving beings increase certainty in their movement decisions for cost-efficient movement? In this new project I’ll be working with paraglider M. Wilkes, ecologists K. Safi &amp;amp; M. Wikelski, and psychologist B. Renner and informatics F. Schreiber, to gain insight into how obligate soaring birds may be locating good conditions for soaring to up-the-odds in their probabilistic movement decisions. Work funded by MPI-AB and CASCB.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Bio-logging development</title>
-      <link>http://localhost:1313/projects/tri-axial-magnetometry/</link>
+      <link>http://localhost:1313/projects/biologdev/</link>
       <pubDate>Mon, 26 Jan 2026 11:23:56 +0100</pubDate>
-      <guid>http://localhost:1313/projects/tri-axial-magnetometry/</guid>
+      <guid>http://localhost:1313/projects/biologdev/</guid>
       <description>&lt;p&gt;Our work in bio-logger development is driven by a simple idea: if we want to understand behaviour in the wild, we need devices and analytical systems that are built around the biology of the question, not only the engineering of the sensor. We have worked across the full pipeline, from Daily Diary methods and behaviour annotation to logger optimisation, data transmission, and multi-sensor system design. This includes work on how to deploy tags more effectively for movement ecology, how to recover richer behavioural information from onboard sensors, and how to move large quantities of data reliably from free-ranging animals. Together, these projects have helped build the methodological foundation for extracting behaviour, performance and ecology from increasingly complex biologging systems.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Biophysics of soaring birds</title>
-      <link>http://localhost:1313/projects/acceleration-of-soaring-birds/</link>
+      <link>http://localhost:1313/projects/biophysics/</link>
       <pubDate>Mon, 26 Jan 2026 11:24:56 +0100</pubDate>
-      <guid>http://localhost:1313/projects/acceleration-of-soaring-birds/</guid>
-      <description>&lt;h1 id=&#34;title-here&#34;&gt;Title here&lt;/h1&gt;&#xA;&lt;h2 id=&#34;title-here-1&#34;&gt;title here&lt;/h2&gt;&#xA;&lt;p&gt;Our work on soaring birds focuses on the physical limits of flight, the aerodynamic challenges birds face when negotiating complex airflows, and the use of onboard sensors to quantify individual flight performance in free-ranging animals. Using high-resolution bio-logging, particularly inertial measurement units, GPS, magnetometers and related movement sensors, we investigate how birds climb, glide, turn and adjust their behaviour under changing atmospheric conditions. This allows us to recover fine-scale measures of performance from flight itself and to link body motion to flight strategy, space-use and proxies of energetic expenditure.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/projects/biophysics/</guid>
+      <description>&lt;p&gt;Our work on soaring birds focuses on the physical limits of flight, the aerodynamic challenges birds face when negotiating complex airflows, and the use of onboard sensors to quantify individual flight performance in free-ranging animals. Using high-resolution bio-logging, particularly inertial measurement units, GPS, magnetometers and related movement sensors, we investigate how birds climb, glide, turn and adjust their behaviour under changing atmospheric conditions. This allows us to recover fine-scale measures of performance from flight itself and to link body motion to flight strategy, space-use and proxies of energetic expenditure.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

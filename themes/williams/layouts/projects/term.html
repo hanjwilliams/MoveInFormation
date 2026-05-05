@@ -1,0 +1,27 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+  {{ partial "icons.html" (dict "taxonomy" "funding" "page" .) }}
+  {{ partial "terms.html" (dict "taxonomy" "foci" "page" .) }}
+
+{{ end }}
+
+
+{{ define "sidebar" }}
+<aside>
+  {{ $project := slice .Data.Term }}
+<section class="sidebar">
+{{ partial "icons.html" (dict "taxonomy" "people" "page" .) }}
+  </section>
+  <hr/>
+<section class="sidebar">
+  <h3>Relevant papers</h3>
+  <ul>
+  {{ $relevant := where .Site.Data.papers.papers "projects" "intersect" $project }}
+  {{ range sort $relevant "year" "desc"}}
+  <li>{{ .authors }} {{ .year }}. {{ .title }} {{ .publication }}. {{ .issue }}</li>
+  {{ end }}
+  </ul>
+  </section>
+  </aside>
+  {{ end }}
