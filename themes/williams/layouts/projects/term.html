@@ -3,7 +3,6 @@
   {{ .Content }}
   {{ partial "icons.html" (dict "taxonomy" "funding" "page" .) }}
   {{ partial "terms.html" (dict "taxonomy" "foci" "page" .) }}
-  {{ partial "icons.html" (dict "taxonomy" "people" "page" .) }}
 
 {{ end }}
 
@@ -12,19 +11,7 @@
 <aside>
   {{ $project := slice .Data.Term }}
 <section class="sidebar">
-  <h3>People</h3>
-  <ul>
-  {{ range (where .Pages "Section" "people") }}
-    {{ $page := .RelPermalink }}
-          <li class="icon-item">
-             {{ with .Params.image }}
-                <figure class="icon-image">
-                    <img src="{{ $page }}{{ . }}" alt="{{ $.Page.Title }}">
-                </figure>
-            {{ end }}
-            <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
-  {{ end }}
-  </ul>
+{{ partial "icons.html" (dict "taxonomy" "people" "page" .) }}
   </section>
   <hr/>
 <section class="sidebar">

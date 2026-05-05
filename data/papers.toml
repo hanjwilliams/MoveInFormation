@@ -245,7 +245,7 @@ foci = ['biologging']
 projects = ['biologdev','biophysics','optimove']
 
 [[papers]]
-authors = 'Will Rogers, Sierra J Mattingly, Jenna E Kohles, Nils Linek, Hannah J Williams, Ivan Lenzi, Georg Wilbs, Marcel Escher, Nina Richter, Louis van Schalkwyk, Vanessa O Ezenwa, Martin Wikelski, Dina KN Dechmann, Timm A Wild'
+authors = 'Rogers W., Mattingly S.J., Kohles J.E., Linek N., Williams H.J., Lenzi I., Wilbs G., Escher M., Richter N., van Schalkwyk L., Ezenwa V.O., Wikelski M., Dechmann D.KN., Wild T.A.'
 year = 2025
 title = 'Fine-scale animal proximity detection and localization via multi-sensor biologgers.'
 publication = 'bioRxiv'
@@ -256,7 +256,7 @@ foci = ['biologging']
 projects = ['biologdev']
 
 [[papers]]
-authors = 'Eleonora Gatti, Andreagiovanni Reina, Hannah Jane Williams'
+authors = 'Gatti E., Reina A., Williams H. J.'
 year = 2025
 title = 'Energetic benefits of social information for movement in patchy landscapes.'
 publication = 'bioRxiv'
