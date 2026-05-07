@@ -13,7 +13,11 @@
   {{ end }}
 
   {{define "banner"}}
-  {{partial "parallaxUSVG.html" . }}
+  {{ $args := dict
+"context" .
+"img" "/images/clouds.jpg"
+}}
+  {{partial "parallaxUSVG.html" $args }}
   {{end}}
 
 {{define "main"}}

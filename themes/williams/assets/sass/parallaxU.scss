@@ -100,7 +100,6 @@ padding: 0;
 }
 
 .image-slider {
-    background: center / cover no-repeat url('/img/bird2.jpg');
     height: calc($groupHeight - 100px);
     transform:translateZ(-5px) scale(6);
 }

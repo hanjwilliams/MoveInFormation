@@ -1,18 +1,22 @@
 {{define "custom"}}
 {{ $args := dict
 "page" .
-"scss" "sass/parallax.scss"
-"css" "css/parallax.css"
+"scss" "sass/parallaxU.scss"
+"css" "css/parallaxU.css"
 }}
 {{ partial "head/custom.html" $args}}
 {{ end }}
 
   {{ define "header"}}
-  {{partial "parallaxSVGheader.html" . }}
-  {{end}}
+   <div></div>
+  {{ end }}
 
   {{define "banner"}}
-  {{partial "parallaxvidbanner.html" . }}
+  {{ $args := dict
+"context" .
+"img" "/images/antenna.jpg"
+}}
+  {{partial "parallaxUSVG.html" $args }}
   {{end}}
 
 {{ define "main" }}

@@ -90,7 +90,6 @@ header {
 }
 
 .image-slider {
-  background: center/cover no-repeat url("/img/bird2.jpg");
   height: 600px;
   transform: translateZ(-5px) scale(6);
 }

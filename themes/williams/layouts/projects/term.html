@@ -1,3 +1,26 @@
+  {{ define "custom"}}
+  {{ $args := dict
+    "page" .
+    "scss" "sass/parallaxU.scss"
+    "css" "css/parallaxU.css"
+    }}
+  {{ partial "head/custom.html" $args}}
+  {{ end }}
+
+
+  {{ define "header"}}
+   <div></div>
+  {{ end }}
+
+  {{define "banner"}}
+  {{ $args := dict
+"context" .
+"img" "/images/fisheye1.jpg"
+}}
+  {{partial "parallaxUSVG.html" $args }}
+  {{end}}
+
+
 {{ define "main" }}
   <h1>{{ .Title }}</h1>
   {{ .Content }}
