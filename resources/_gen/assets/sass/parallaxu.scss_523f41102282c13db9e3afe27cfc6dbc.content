@@ -1,5 +1,6 @@
 body {
   padding: 0;
+  margin: 0;
   display: block;
 }
 
@@ -77,6 +78,7 @@ header {
 .parallax-group {
   display: block;
   padding: 0;
+  margin: 0;
   position: relative;
   height: 700px;
   transform-style: preserve-3d;
@@ -85,38 +87,38 @@ header {
 .svg-slider {
   display: block;
   margin: 0;
+  padding: 0;
+  width: 105%;
+  height: 600px;
   position: relative;
   transform-style: preserve-3d;
 }
 
 .image-slider {
-  height: 600px;
-  transform: translateZ(-5px) scale(6);
+  height: 700px;
+  transform: translateY(-300px) translateZ(-5px) scale(3.5);
 }
 
 .svg-slider-4 {
-  height: 200px;
-  transform: translateY(-200px) translateZ(-4px) scale(6);
+  transform: translateY(-200px) translateZ(-4px) scale(3);
 }
 
 .svg-slider-3 {
-  height: 200px;
-  transform: translateY(-500px) translateZ(-3px) scale(5);
+  transform: translateY(-800px) translateZ(-3px) scale(2.5);
 }
 
 .svg-slider-2 {
-  height: 200px;
-  transform: translateY(-300px) translateZ(-2px) scale(3);
+  transform: translateY(-1700px) translateZ(-2px) scale(2);
 }
 
 .svg-slider-1 {
-  height: 350px;
-  transform: translateY(-800px) translateZ(0) scale(1);
+  transform: translateY(-2300px) translateZ(0) scale(1);
 }
 
 .container {
   background-color: rgb(48, 59, 71);
   max-width: 100%;
+  margin-top: -2px;
   transform: translateZ(0) scale(1);
 }
 

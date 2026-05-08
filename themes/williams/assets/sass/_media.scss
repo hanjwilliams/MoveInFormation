@@ -58,6 +58,13 @@ float: left;
   }
 }
 
+@media screen and (max-width: 1500px) {
+	.hang-left {
+		margin-left: 0;
+	}
+	
+}
+
 .hero-image {
 	display: block;
 	min-height: 300px;

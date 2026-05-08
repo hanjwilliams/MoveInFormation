@@ -1,19 +1,23 @@
   {{ define "custom"}}
   {{ $args := dict
     "page" .
-    "scss" "sass/parallax.scss"
-    "css" "css/parallax.css"
+    "scss" "sass/parallaxU.scss"
+    "css" "css/parallaxU.css"
     }}
   {{ partial "head/custom.html" $args}}
   {{ end }}
 
 
   {{ define "header"}}
-  {{partial "parallaxheader.html" . }}
-  {{end}}
+   <div></div>
+  {{ end }}
 
   {{define "banner"}}
-  {{partial "parallaxbanner.html" . }}
+  {{ $args := dict
+"context" .
+"img" "/images/bird3.jpg"
+}}
+  {{partial "pyr.html" $args }}
   {{end}}
 
   {{define "main"}}

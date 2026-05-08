@@ -11,13 +11,13 @@
    <div></div>
   {{ end }}
 
-  {{define "banner"}}
+{{define "banner"}}
   {{ $args := dict
-"context" .
-"img" "/images/antenna.jpg"
-}}
-  {{partial "parallaxUSVG.html" $args }}
-  {{end}}
+  "context" .
+  "img" "/images/antenna.jpg"
+  }}
+  {{partial "blanc.html" $args }}
+{{end}}
 
 {{ define "main" }}
   {{ .Content }}
