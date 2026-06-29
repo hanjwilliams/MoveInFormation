@@ -4,4 +4,4 @@ draft = false
 title = 'Collective Biologging'
 image = "placeholder.png"
 +++
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer est enim, efficitur non tellus ut, convallis tristique dui. Duis placerat diam et lorem lacinia faucibus. Nullam purus lectus, dignissim eu iaculis non, sollicitudin vitae ex. Maecenas eu nisi id sem vehicula blandit. Suspendisse eget efficitur tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris gravida lectus eu ligula placerat egestas. Nam nec pellentesque elit. Nunc tristique, tortor at venenatis euismod.
+Understanding social movement decisions means measuring not just where an animal goes, but what it is attending to as it decides. Collective biologging is our approach to capturing many individuals at once with on-body sensors — recording movement, body orientation, and, increasingly, gaze — so that the behaviour of an individual can be read alongside the social context that shaped it. By instrumenting whole groups, from soaring birds to pilots in a gaggle, we reconstruct the flow of information through a moving collective in fine detail.
