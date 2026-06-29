@@ -4,4 +4,4 @@ draft = false
 title = 'Optimal Movement Theory'
 image = ""
 +++
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer est enim, efficitur non tellus ut, convallis tristique dui. Duis placerat diam et lorem lacinia faucibus. Nullam purus lectus, dignissim eu iaculis non, sollicitudin vitae ex. Maecenas eu nisi id sem vehicula blandit. Suspendisse eget efficitur tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris gravida lectus eu ligula placerat egestas. Nam nec pellentesque elit. Nunc tristique, tortor at venenatis euismod.
+Movement is rarely about distance alone — it is about energy. We are developing Optimal Movement Theory as a predictive framework in which the probability of any movement decision emerges from the expected energetic gain in the environment, weighed against the mechanical cost of locomotion and the animal's internal state. By treating these as common, convertible currencies, OMT aims to explain not just how animals move, but why they choose one option over another — and to make those choices predictable across very different species and landscapes.
