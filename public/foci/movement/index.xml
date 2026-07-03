@@ -1,40 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Optimal Movement Theory on Williams Lab</title>
-    <link>http://localhost:1313/foci/movement/</link>
-    <description>Recent content in Optimal Movement Theory on Williams Lab</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 26 Jan 2026 11:21:17 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/foci/movement/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Eavesdropping on Social Information in Soaring-Gliding Flight</title>
-      <link>http://localhost:1313/projects/eavesdropping/</link>
-      <pubDate>Mon, 26 Jan 2026 11:21:17 +0100</pubDate>
-      <guid>http://localhost:1313/projects/eavesdropping/</guid>
-      <description>&lt;p&gt;Our work asks how animals use the movements of others to make better decisions about when and where to move. These decisions can have major energetic consequences, especially in systems where conditions change rapidly and key resources are difficult to detect directly. This is particularly true for soaring birds, which must glide between rising air currents and risk losing valuable altitude with every poor decision. A central question in this research is therefore how do individuals reduce uncertainty when moving through environments where the most important resources, such as uplift, are invisible, dynamic and short-lived.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Optimal Movement Theory</title>
-      <link>http://localhost:1313/projects/optimove/</link>
-      <pubDate>Tue, 13 Jan 2026 13:31:38 +0100</pubDate>
-      <guid>http://localhost:1313/projects/optimove/</guid>
-      <description>&lt;p&gt;Our work on Optimal Movement Theory aims to build a general framework for understanding how animals make movement decisions when multiple forms of energy and uncertainty must be considered together. Rather than treating movement only through food search, habitat choice, or locomotion costs in isolation, this work asks how animals decide where and when to move when chemical, mechanical and environmental energies all shape the outcome. At its core is the idea that movement is a decision problem: individuals must act on incomplete information, weigh expected gains against costs, and update their behaviour as new information becomes available.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Laura Fish</title>
-      <link>http://localhost:1313/people/fish-l/</link>
-      <pubDate>Fri, 16 Jan 2026 09:28:31 +0100</pubDate>
-      <guid>http://localhost:1313/people/fish-l/</guid>
-      <description>&lt;p&gt;Laura supported research activities within the group, contributing to data processing and analysis related to movement ecology projects.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Dr. Hannah Williams</title>
-      <link>http://localhost:1313/people/williams-h/</link>
-      <pubDate>Fri, 16 Jan 2026 08:45:19 +0100</pubDate>
-      <guid>http://localhost:1313/people/williams-h/</guid>
-      <description>&lt;p&gt;Hannah J. Williams is a behavioural ecologist whose research focuses on the fundamental processes that shape movement decisions in animals. Leader of the Move.inFormation research group at the University of Konstanz as a VolkswagenStiftung Freigeist Fellow.&lt;/p&gt;&#xA;&lt;p&gt;Her work explores how organisms navigate complex environments in which the energetic consequences of movement are uncertain and constantly changing. By integrating behavioural ecology with physics and information theory, she investigates how animals perceive environmental energy, how they use social cues to reduce uncertainty, and how these processes shape movement patterns across scales.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Optimal Movement Theory on Williams Lab</title>
+		<link>http://localhost:1313/foci/movement/</link>
+		<description>Recent content in Optimal Movement Theory on Williams Lab</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 26 Jan 2026 11:21:17 +0100</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/foci/movement/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Eavesdropping on Social Information in Soaring-Gliding Flight</title>
+				<link>http://localhost:1313/projects/eavesdropping/</link>
+				<pubDate>Mon, 26 Jan 2026 11:21:17 +0100</pubDate>
+				<guid>http://localhost:1313/projects/eavesdropping/</guid>
+				<description>&lt;p&gt;Our work asks how animals use the movements of others to make better decisions about when and where to move. These decisions can have major energetic consequences, especially in systems where conditions change rapidly and key resources are difficult to detect directly. This is particularly true for soaring birds, which must glide between rising air currents and risk losing valuable altitude with every poor decision. A central question in this research is therefore how do individuals reduce uncertainty when moving through environments where the most important resources, such as uplift, are invisible, dynamic and short-lived.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Optimal Movement Theory</title>
+				<link>http://localhost:1313/projects/optimove/</link>
+				<pubDate>Tue, 13 Jan 2026 13:31:38 +0100</pubDate>
+				<guid>http://localhost:1313/projects/optimove/</guid>
+				<description>&lt;p&gt;Our work on Optimal Movement Theory aims to build a general framework for understanding how animals make movement decisions when multiple forms of energy and uncertainty must be considered together. Rather than treating movement only through food search, habitat choice, or locomotion costs in isolation, this work asks how animals decide where and when to move when chemical, mechanical and environmental energies all shape the outcome. At its core is the idea that movement is a decision problem: individuals must act on incomplete information, weigh expected gains against costs, and update their behaviour as new information becomes available.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Laura Fish</title>
+				<link>http://localhost:1313/people/fish-l/</link>
+				<pubDate>Fri, 16 Jan 2026 09:28:31 +0100</pubDate>
+				<guid>http://localhost:1313/people/fish-l/</guid>
+				<description>&lt;p&gt;Laura supported research activities within the group, contributing to data processing and analysis related to movement ecology projects.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Dr. Hannah Williams</title>
+				<link>http://localhost:1313/people/williams-h/</link>
+				<pubDate>Fri, 16 Jan 2026 08:45:19 +0100</pubDate>
+				<guid>http://localhost:1313/people/williams-h/</guid>
+				<description>&lt;p&gt;Hannah J. Williams is a behavioural ecologist whose research focuses on the fundamental processes that shape movement decisions in animals. Leader of the Move.inFormation research group at the University of Konstanz as a VolkswagenStiftung Freigeist Fellow.&lt;/p&gt;&#xA;&lt;p&gt;Her work explores how organisms navigate complex environments in which the energetic consequences of movement are uncertain and constantly changing. By integrating behavioural ecology with physics and information theory, she investigates how animals perceive environmental energy, how they use social cues to reduce uncertainty, and how these processes shape movement patterns across scales.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>
