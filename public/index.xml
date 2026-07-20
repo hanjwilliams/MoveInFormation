@@ -1,33 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Williams Lab</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Williams Lab</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 30 Jan 2026 09:06:59 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Science Outreach</title>
-      <link>http://localhost:1313/creative/</link>
-      <pubDate>Fri, 30 Jan 2026 09:06:59 +0100</pubDate>
-      <guid>http://localhost:1313/creative/</guid>
-      <description>&lt;p&gt;I believe it incredibly important to present the findings of our research to different audiences via various formats, and the more creative the better! By actively being involved in science outreach I aim to present my research through various media and create some excitement around science.&lt;/p&gt;&#xA;&lt;p&gt;Move.inFormation Research group FILM COMING SOON! But in the meantime here are some links to some of the projects I’ve been involved in recently.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Work with Us</title>
-      <link>http://localhost:1313/work-with-us/</link>
-      <pubDate>Fri, 30 Jan 2026 09:01:48 +0100</pubDate>
-      <guid>http://localhost:1313/work-with-us/</guid>
-      <description>&lt;p&gt;We are always interested in hearing from motivated researchers and students who want to work at the interface of behavioural/movement ecology, environmental physics, predictive modelling. Please reach out if interested in a PhD position, postdoctoral fellowship, internship, or research collaboration.&lt;/p&gt;&#xA;&lt;p&gt;Student HiWi positions within the new Move.inFormation research group within he Biology Dept. and CASCB University Konstanz. Tasks would include:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;work with the Move.inFormation team and bio-logger suppliers to build a field kit of bio-logging devices for Andean Condors&lt;/li&gt;&#xA;&lt;li&gt;run tests on devices for functionality under different natural scenarios and calibration of device sensors&lt;/li&gt;&#xA;&lt;li&gt;build a data organisation protocol for the multiple bio-logging data types collected in the field&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Available to undergraduate and masters students.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Publications</title>
-      <link>http://localhost:1313/publications/</link>
-      <pubDate>Wed, 28 Jan 2026 09:41:01 +0100</pubDate>
-      <guid>http://localhost:1313/publications/</guid>
-      <description></description>
-    </item>
-  </channel>
+	<channel>
+		<title>Home on Williams Lab</title>
+		<link>http://localhost:1313/</link>
+		<description>Recent content in Home on Williams Lab</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 30 Jan 2026 09:06:59 +0100</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Science Outreach</title>
+				<link>http://localhost:1313/creative/</link>
+				<pubDate>Fri, 30 Jan 2026 09:06:59 +0100</pubDate>
+				<guid>http://localhost:1313/creative/</guid>
+				<description>&lt;p&gt;I believe it incredibly important to present the findings of our research to different audiences via various formats, and the more creative the better! By actively being involved in science outreach I aim to present my research through various media and create some excitement around science.&lt;/p&gt;&#xA;&lt;p&gt;Move.inFormation Research group FILM COMING SOON! But in the meantime here are some links to some of the projects I’ve been involved in recently.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Work with Us</title>
+				<link>http://localhost:1313/work-with-us/</link>
+				<pubDate>Fri, 30 Jan 2026 09:01:48 +0100</pubDate>
+				<guid>http://localhost:1313/work-with-us/</guid>
+				<description>&lt;p&gt;We are always interested in hearing from motivated researchers and students who want to work at the interface of behavioural/movement ecology, environmental physics, predictive modelling. Please reach out if interested in a PhD position, postdoctoral fellowship, internship, or research collaboration.&lt;/p&gt;&#xA;&lt;p&gt;Student HiWi positions within the new Move.inFormation research group within he Biology Dept. and CASCB University Konstanz. Tasks would include:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;work with the Move.inFormation team and bio-logger suppliers to build a field kit of bio-logging devices for Andean Condors&lt;/li&gt;&#xA;&lt;li&gt;run tests on devices for functionality under different natural scenarios and calibration of device sensors&lt;/li&gt;&#xA;&lt;li&gt;build a data organisation protocol for the multiple bio-logging data types collected in the field&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Available to undergraduate and masters students.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Publications</title>
+				<link>http://localhost:1313/publications/</link>
+				<pubDate>Wed, 28 Jan 2026 09:41:01 +0100</pubDate>
+				<guid>http://localhost:1313/publications/</guid>
+				<description></description>
+			</item>
+	</channel>
 </rss>

@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Laura Fish on Williams Lab</title>
-    <link>http://localhost:1313/people/fish-l/</link>
-    <description>Recent content in Laura Fish on Williams Lab</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 26 Jan 2026 11:23:56 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/people/fish-l/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Bio-logging development</title>
-      <link>http://localhost:1313/projects/biologdev/</link>
-      <pubDate>Mon, 26 Jan 2026 11:23:56 +0100</pubDate>
-      <guid>http://localhost:1313/projects/biologdev/</guid>
-      <description>&lt;p&gt;Our work in bio-logger development is driven by a simple idea: if we want to understand behaviour in the wild, we need devices and analytical systems that are built around the biology of the question, not only the engineering of the sensor. We have worked across the full pipeline, from Daily Diary methods and behaviour annotation to logger optimisation, data transmission, and multi-sensor system design. This includes work on how to deploy tags more effectively for movement ecology, how to recover richer behavioural information from onboard sensors, and how to move large quantities of data reliably from free-ranging animals. Together, these projects have helped build the methodological foundation for extracting behaviour, performance and ecology from increasingly complex biologging systems.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Laura Fish on Williams Lab</title>
+		<link>http://localhost:1313/people/fish-l/</link>
+		<description>Recent content in Laura Fish on Williams Lab</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 26 Jan 2026 11:23:56 +0100</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/people/fish-l/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Bio-logging development</title>
+				<link>http://localhost:1313/projects/biologdev/</link>
+				<pubDate>Mon, 26 Jan 2026 11:23:56 +0100</pubDate>
+				<guid>http://localhost:1313/projects/biologdev/</guid>
+				<description>&lt;p&gt;Our work in bio-logger development is driven by a simple idea: if we want to understand behaviour in the wild, we need devices and analytical systems that are built around the biology of the question, not only the engineering of the sensor. We have worked across the full pipeline, from Daily Diary methods and behaviour annotation to logger optimisation, data transmission, and multi-sensor system design. This includes work on how to deploy tags more effectively for movement ecology, how to recover richer behavioural information from onboard sensors, and how to move large quantities of data reliably from free-ranging animals. Together, these projects have helped build the methodological foundation for extracting behaviour, performance and ecology from increasingly complex biologging systems.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

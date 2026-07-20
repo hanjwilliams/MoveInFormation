@@ -5,6 +5,22 @@
  * navigation support for dropdown menus.
  */
 ( function() {
+	//scroll logo
+	let lastKnownScrollPosition = 0;
+	let logo = document.getElementById("mif-menu");
+	let view = document.getElementsByClassName("parallax")[0];
+	console.log(logo);
+	
+	view.addEventListener('scroll', (event) => { 
+		console.log(view.scrollTop);
+
+		if (view.scrollTop > 700 ) {
+			logo.classList.add("logo-shrink");
+		} else {
+			logo.classList.remove("logo-shrink");
+		}
+	});
+
 	const siteNavigation = document.getElementById( 'services-navigation' );
 
 	// Return early if the navigation doesn't exist.

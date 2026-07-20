@@ -5,7 +5,11 @@
   {{ block "custom" . }}
   {{ end }}
 </head>
-<body>
+{{ with .Slug }}
+<body class='{{ . }}'>
+  {{else}}
+  <body>
+    {{end}}
   {{ block "header" . }}
   {{ partial "header.html" . }}
   {{ end }}

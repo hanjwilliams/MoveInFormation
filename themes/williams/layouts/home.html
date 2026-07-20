@@ -1,23 +1,24 @@
-{{define "custom"}}
-{{ $args := dict
-"page" .
-"scss" "sass/parallaxU.scss"
-"css" "css/parallaxU.css"
-}}
-{{ partial "head/custom.html" $args}}
-{{ end }}
+  {{ define "custom"}}
+  {{ $args := dict
+    "page" .
+    "scss" "sass/parallaxU.scss"
+    "css" "css/parallaxU.css"
+    }}
+  {{ partial "head/custom.html" $args}}
+  {{ end }}
+
 
   {{ define "header"}}
    <div></div>
   {{ end }}
 
-{{define "banner"}}
+  {{define "banner"}}
   {{ $args := dict
-  "context" .
-  "img" "/images/antenna.jpg"
-  }}
-  {{partial "blanc.html" $args }}
-{{end}}
+"context" .
+"img" "/images/clouds.jpg"
+}}
+  {{partial "andesVid.html" $args }}
+  {{end}}
 
 {{ define "main" }}
   {{ .Content }}

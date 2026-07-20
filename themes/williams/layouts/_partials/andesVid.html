@@ -2,7 +2,14 @@
 {{ with resources.Get $img }}
 <div class="parallax">
 <div class="parallax-group">
-<div class="svg-slider image-slider" style="background:bottom/cover no-repeat url('{{ .RelPermalink }}');"></div>
+<div class="svg-slider image-slider" style="background:bottom/cover no-repeat url('{{ .RelPermalink }}');">
+    <div class="video-block">
+    <video playsinline playbackrate="16" autoplay muted loop id="banner">
+            <source src="/video/header.webm" type="video/webm">
+            <source src="/video/header.mp4" type="video/mp4">
+    </video>
+</div>
+</div>
 <div class="svg-slider svg-slider-4" style="background:center/cover no-repeat url('/img/andes4.svg');"></div>
 <div class="svg-slider svg-slider-3" style="background:center/cover no-repeat url('/img/andes3.svg');"></div>
 <div class="svg-slider svg-slider-2" style="background:center/cover no-repeat url('/img/andes2.svg');"></div>

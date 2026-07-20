@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Collaborators on Williams Lab</title>
-    <link>http://localhost:1313/positions/collaborator/</link>
-    <description>Recent content in Collaborators on Williams Lab</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 30 Jan 2026 11:09:09 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/positions/collaborator/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Mike Costelloe</title>
-      <link>http://localhost:1313/people/costelloe-m/</link>
-      <pubDate>Fri, 30 Jan 2026 11:09:09 +0100</pubDate>
-      <guid>http://localhost:1313/people/costelloe-m/</guid>
-      <description>&lt;p&gt;Mike bio github test wheeeeeeeee&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Collaborators on Williams Lab</title>
+		<link>http://localhost:1313/positions/collaborator/</link>
+		<description>Recent content in Collaborators on Williams Lab</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 30 Jan 2026 11:09:09 +0100</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/positions/collaborator/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Mike Costelloe</title>
+				<link>http://localhost:1313/people/costelloe-m/</link>
+				<pubDate>Fri, 30 Jan 2026 11:09:09 +0100</pubDate>
+				<guid>http://localhost:1313/people/costelloe-m/</guid>
+				<description>&lt;p&gt;Mike bio github test wheeeeeeeee&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

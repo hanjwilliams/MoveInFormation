@@ -1,47 +1,52 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Collective Sensing of Flows on Williams Lab</title>
-    <link>http://localhost:1313/foci/sensing/</link>
-    <description>Recent content in Collective Sensing of Flows on Williams Lab</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 26 Jan 2026 11:21:17 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/foci/sensing/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Eavesdropping on Social Information in Soaring-Gliding Flight</title>
-      <link>http://localhost:1313/projects/eavesdropping/</link>
-      <pubDate>Mon, 26 Jan 2026 11:21:17 +0100</pubDate>
-      <guid>http://localhost:1313/projects/eavesdropping/</guid>
-      <description>&lt;p&gt;Our work asks how animals use the movements of others to make better decisions about when and where to move. These decisions can have major energetic consequences, especially in systems where conditions change rapidly and key resources are difficult to detect directly. This is particularly true for soaring birds, which must glide between rising air currents and risk losing valuable altitude with every poor decision. A central question in this research is therefore how do individuals reduce uncertainty when moving through environments where the most important resources, such as uplift, are invisible, dynamic and short-lived.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Perception of Energies to &#34;up-the-odds&#34; for efficent movement</title>
-      <link>http://localhost:1313/projects/energies/</link>
-      <pubDate>Mon, 26 Jan 2026 11:15:39 +0100</pubDate>
-      <guid>http://localhost:1313/projects/energies/</guid>
-      <description>&lt;p&gt;Our work on the perception of energies asks how moving individuals detect and interpret forms of environmental energy that cannot be seen directly. We are especially interested in human pilots because, like soaring animals, they must negotiate dynamic airflows, locate usable uplift, and make rapid decisions under uncertainty. The difference is that humans can also share their knowledge with us directly. This gives us a rare opportunity to combine high-precision movement data with first-hand accounts of what individuals saw, sensed, expected and decided in flight.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Laura Fish</title>
-      <link>http://localhost:1313/people/fish-l/</link>
-      <pubDate>Fri, 16 Jan 2026 09:28:31 +0100</pubDate>
-      <guid>http://localhost:1313/people/fish-l/</guid>
-      <description>&lt;p&gt;Laura supported research activities within the group, contributing to data processing and analysis related to movement ecology projects.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Eleonora Gatti</title>
-      <link>http://localhost:1313/people/gatti-e/</link>
-      <pubDate>Fri, 16 Jan 2026 09:27:55 +0100</pubDate>
-      <guid>http://localhost:1313/people/gatti-e/</guid>
-      <description>&lt;h2 id=&#34;the-economy-of-decision-making-in-animal-movement&#34;&gt;The Economy of Decision Making in Animal Movement&lt;/h2&gt;&#xA;&lt;p&gt;Eleonora is a statistical physicist whose research investigates the energetic foundations of movement decisions. Her work contributes to the development of Optimal Movement Theory, examining how animals balance the energetic rewards of environmental subsidies with the mechanical costs and uncertainty associated with reaching them. By combining theoretical modelling with empirical movement data from soaring systems, she studies how social information can reduce uncertainty and alter the expected payoffs of movement decisions in dynamic energy landscapes.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Dr. Hannah Williams</title>
-      <link>http://localhost:1313/people/williams-h/</link>
-      <pubDate>Fri, 16 Jan 2026 08:45:19 +0100</pubDate>
-      <guid>http://localhost:1313/people/williams-h/</guid>
-      <description>&lt;p&gt;Hannah J. Williams is a behavioural ecologist whose research focuses on the fundamental processes that shape movement decisions in animals. Leader of the Move.inFormation research group at the University of Konstanz as a VolkswagenStiftung Freigeist Fellow.&lt;/p&gt;&#xA;&lt;p&gt;Her work explores how organisms navigate complex environments in which the energetic consequences of movement are uncertain and constantly changing. By integrating behavioural ecology with physics and information theory, she investigates how animals perceive environmental energy, how they use social cues to reduce uncertainty, and how these processes shape movement patterns across scales.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Collective Sensing of Flows on Williams Lab</title>
+		<link>http://localhost:1313/foci/sensing/</link>
+		<description>Recent content in Collective Sensing of Flows on Williams Lab</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 26 Jan 2026 11:21:17 +0100</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/foci/sensing/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Eavesdropping on Social Information in Soaring-Gliding Flight</title>
+				<link>http://localhost:1313/projects/eavesdropping/</link>
+				<pubDate>Mon, 26 Jan 2026 11:21:17 +0100</pubDate>
+				<guid>http://localhost:1313/projects/eavesdropping/</guid>
+				<description>&lt;p&gt;Our work asks how animals use the movements of others to make better decisions about when and where to move. These decisions can have major energetic consequences, especially in systems where conditions change rapidly and key resources are difficult to detect directly. This is particularly true for soaring birds, which must glide between rising air currents and risk losing valuable altitude with every poor decision. A central question in this research is therefore how do individuals reduce uncertainty when moving through environments where the most important resources, such as uplift, are invisible, dynamic and short-lived.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Perception of Energies to &#34;up-the-odds&#34; for efficent movement</title>
+				<link>http://localhost:1313/projects/energies/</link>
+				<pubDate>Mon, 26 Jan 2026 11:15:39 +0100</pubDate>
+				<guid>http://localhost:1313/projects/energies/</guid>
+				<description>&lt;p&gt;Our work on the perception of energies asks how moving individuals detect and interpret forms of environmental energy that cannot be seen directly. We are especially interested in human pilots because, like soaring animals, they must negotiate dynamic airflows, locate usable uplift, and make rapid decisions under uncertainty. The difference is that humans can also share their knowledge with us directly. This gives us a rare opportunity to combine high-precision movement data with first-hand accounts of what individuals saw, sensed, expected and decided in flight.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Laura Fish</title>
+				<link>http://localhost:1313/people/fish-l/</link>
+				<pubDate>Fri, 16 Jan 2026 09:28:31 +0100</pubDate>
+				<guid>http://localhost:1313/people/fish-l/</guid>
+				<description>&lt;p&gt;Laura supported research activities within the group, contributing to data processing and analysis related to movement ecology projects.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Eleonora Gatti</title>
+				<link>http://localhost:1313/people/gatti-e/</link>
+				<pubDate>Fri, 16 Jan 2026 09:27:55 +0100</pubDate>
+				<guid>http://localhost:1313/people/gatti-e/</guid>
+				<description>&lt;h2 id=&#34;the-economy-of-decision-making-in-animal-movement&#34;&gt;The Economy of Decision Making in Animal Movement&lt;/h2&gt;&#xA;&lt;p&gt;Eleonora is a statistical physicist whose research investigates the energetic foundations of movement decisions. Her work contributes to the development of Optimal Movement Theory, examining how animals balance the energetic rewards of environmental subsidies with the mechanical costs and uncertainty associated with reaching them. By combining theoretical modelling with empirical movement data from soaring systems, she studies how social information can reduce uncertainty and alter the expected payoffs of movement decisions in dynamic energy landscapes.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Dr. Hannah Williams</title>
+				<link>http://localhost:1313/people/williams-h/</link>
+				<pubDate>Fri, 16 Jan 2026 08:45:19 +0100</pubDate>
+				<guid>http://localhost:1313/people/williams-h/</guid>
+				<description>&lt;p&gt;Hannah J. Williams is a behavioural ecologist whose research focuses on the fundamental processes that shape movement decisions in animals. Leader of the Move.inFormation research group at the University of Konstanz as a VolkswagenStiftung Freigeist Fellow.&lt;/p&gt;&#xA;&lt;p&gt;Her work explores how organisms navigate complex environments in which the energetic consequences of movement are uncertain and constantly changing. By integrating behavioural ecology with physics and information theory, she investigates how animals perceive environmental energy, how they use social cues to reduce uncertainty, and how these processes shape movement patterns across scales.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

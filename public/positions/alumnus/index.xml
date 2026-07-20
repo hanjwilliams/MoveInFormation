@@ -1,33 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Alumni on Williams Lab</title>
-    <link>http://localhost:1313/positions/alumnus/</link>
-    <description>Recent content in Alumni on Williams Lab</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 13 Mar 2026 12:26:29 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/positions/alumnus/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Fabienne Raabe</title>
-      <link>http://localhost:1313/people/raabe-f/</link>
-      <pubDate>Fri, 13 Mar 2026 12:26:29 +0100</pubDate>
-      <guid>http://localhost:1313/people/raabe-f/</guid>
-      <description>&lt;p&gt;Fabienne worked on data processing and behavioural analyses in movement ecology projects within the Move.inFormation group.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>David Bowie</title>
-      <link>http://localhost:1313/people/bowie-d/</link>
-      <pubDate>Fri, 30 Jan 2026 11:09:19 +0100</pubDate>
-      <guid>http://localhost:1313/people/bowie-d/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Anna Schneider</title>
-      <link>http://localhost:1313/people/schneider-a/</link>
-      <pubDate>Fri, 16 Jan 2026 09:28:43 +0100</pubDate>
-      <guid>http://localhost:1313/people/schneider-a/</guid>
-      <description>&lt;p&gt;Anna contributed to research on movement ecology and biologging analyses within the group. Her work helped develop analytical approaches for interpreting high-resolution sensor data and understanding behavioural patterns in tracked animals.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Alumni on Williams Lab</title>
+		<link>http://localhost:1313/positions/alumnus/</link>
+		<description>Recent content in Alumni on Williams Lab</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 13 Mar 2026 12:26:29 +0100</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/positions/alumnus/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Fabienne Raabe</title>
+				<link>http://localhost:1313/people/raabe-f/</link>
+				<pubDate>Fri, 13 Mar 2026 12:26:29 +0100</pubDate>
+				<guid>http://localhost:1313/people/raabe-f/</guid>
+				<description>&lt;p&gt;Fabienne worked on data processing and behavioural analyses in movement ecology projects within the Move.inFormation group.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>David Bowie</title>
+				<link>http://localhost:1313/people/bowie-d/</link>
+				<pubDate>Fri, 30 Jan 2026 11:09:19 +0100</pubDate>
+				<guid>http://localhost:1313/people/bowie-d/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Anna Schneider</title>
+				<link>http://localhost:1313/people/schneider-a/</link>
+				<pubDate>Fri, 16 Jan 2026 09:28:43 +0100</pubDate>
+				<guid>http://localhost:1313/people/schneider-a/</guid>
+				<description>&lt;p&gt;Anna contributed to research on movement ecology and biologging analyses within the group. Her work helped develop analytical approaches for interpreting high-resolution sensor data and understanding behavioural patterns in tracked animals.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

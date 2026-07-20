@@ -1,7 +1,8 @@
 +++
 date = '2026-01-13T12:28:42+01:00'
 draft = false
-title = ''
+title = 'Home'
+slug = 'home'
 +++
 We study how animals move together. From a flock of birds wheeling on a thermal to a gaggle of paraglider pilots reading the same invisible air, collective movement is everywhere — and it is never free. Every turn, climb, and glide has an energetic cost, and every individual is making decisions about when to follow the group and when to strike out alone. The MoveinFormation lab asks how those decisions are made, and what they reveal about the rules of life on the move.
 
