@@ -19,17 +19,22 @@
     {{ range .Pages.ByWeight }}
       {{- $group := .File.ContentBaseName }}
           {{ range .Pages.ByTitle }}
-          <div class="people-item {{ $group }}" >
+          <div class="people-item" >
             {{- $page := .RelPermalink }}
+            <div class="people-image {{ $group }}">
              {{- with .Params.image -}}
                 <a href="{{ $page }}"><figure class="people-headshot greyshot">
                   <img src="{{ $page }}{{ . }}" alt="{{ $.Page.Title }}">
                 </figure></a>
             {{- end -}}
+              </div>
             <div class="people-info">
-              <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a><br/>
+              <a href="{{ .RelPermalink }}"><h2>{{ .LinkTitle }}</h2></a><br/>
               {{- with .Params.positions -}}{{ index . 0 }}{{- end }}
-            </div></div>
+              <p>{{ .Summary }}</p>
+              <a href="{{ .RelPermalink }}"><h4>Read More >></h4></a>
+            </div>
+          </div>
           {{ end }}
     {{ end }}
     </div>

@@ -35,3 +35,9 @@ ul, ol {
         margin-bottom: 1rem;
     }
 }
+
+@media screen and (max-width: 899px) {
+    ul, ol {
+        margin-left: 0;
+    }
+}

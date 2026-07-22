@@ -1,34 +1,5 @@
 @use "variables" as v;
 
-.people-headshot {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    corner-shape: bevel;
-    //border-bottom-right-radius: 3rem;
-    border-top-left-radius: 3rem;
-    img {
-        padding: 0;
-        margin: 0;
-        width: 100%;
-        height: 300px;
-        object-fit: cover;
-    }
-}
-.greyshot {
-    filter: grayscale(100%)
-}
-.greyshot:hover {
-    filter: none;
-}
-.person-headshot {
-    margin: 0;
-    img {
-        width: 100%;
-        margin: 0;
-    }
-}
-
 .icon-item {
         clear: both;
     min-height: 70px;
@@ -45,7 +16,7 @@ float: left;
 }
 .hang-left {
 	float: left;
-	width: 600px;
+	max-width: 600px;
 	margin: 0;
 	margin-right: 2rem;
 	margin-bottom: 2rem;
@@ -61,6 +32,13 @@ float: left;
 @media screen and (max-width: 1500px) {
 	.hang-left {
 		margin-left: 0;
+	}
+	
+}
+@media screen and (max-width: 899px) {
+	.hang-left {
+		max-width: 100%;
+		margin-right:0;
 	}
 	
 }
