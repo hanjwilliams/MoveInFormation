@@ -2,7 +2,7 @@
 date = '2026-01-16T09:28:16+01:00'
 draft = false
 title = 'Katherine Steinfield'
-positions = ['phd candidate']
+positions = ['PhD Candidate']
 foci = ['biologging']
 image = 'kate.jpeg'
 +++

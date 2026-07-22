@@ -3,6 +3,12 @@
 <head>
   {{ partial "head.html" . }}
   {{ block "custom" . }}
+    {{ $args := dict
+    "page" .
+    "scss" "sass/parallaxU.scss"
+    "css" "css/parallaxU.css"
+    }}
+  {{ partial "head/custom.html" $args}}
   {{ end }}
 </head>
 {{ with .Slug }}
@@ -11,11 +17,15 @@
   <body>
     {{end}}
   {{ block "header" . }}
-  {{ partial "header.html" . }}
+     <div></div>
   {{ end }}
   
   {{ block "banner" . }}
-  {{ partial "threebanner.html" . }}
+    {{ $args := dict
+"context" .
+"img" "/images/clouds.jpg"
+}}
+  {{partial "andes.html" $args }}
   {{ end }}
   <div class="container">
   <div class="content">
