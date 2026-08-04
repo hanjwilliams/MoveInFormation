@@ -43,6 +43,10 @@ float: left;
 	
 }
 
+.pub-fig {
+	width: 100px;
+}
+
 .hero-image {
 	display: block;
 	min-height: 300px;
@@ -109,4 +113,34 @@ video#landing {
 
 #controls {
     color: skyblue;
+}
+
+.img-across {
+	margin-top: 2rem;
+  margin-bottom: 3rem;
+	width: 100%;
+	display: grid;
+	//justify-content: space-between;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+  video {
+    width: 100%;
+  }
+}
+.three-across {
+  grid-template-columns: repeat(3, 1fr); 
+}
+.img-item {
+  margin: .5rem;
+  max-height: 300px;
+  overflow: hidden;
+  	img {
+      width: 100%;
+  	}
+  }
+@media screen and (max-width: 799px) {
+	.img-across {
+    //max-height: auto;
+		display: block;
+	}
 }

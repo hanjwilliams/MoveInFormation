@@ -1,0 +1,10 @@
+{{ with .Page.Resources.ByType "image" }}
+<div id="selector1" class="img-across">
+{{ range . }}
+  {{ $scaled := .Resize "400x" }}
+    <div class="img-item" data-src="{{ .RelPermalink }}">
+      <img src="{{ $scaled.RelPermalink }}">
+    </div>
+  {{ end }}
+</div>
+{{end}}

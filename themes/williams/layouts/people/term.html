@@ -31,9 +31,23 @@
   <div class="person-links">
     {{ with .Params.email }}<a href='{{ . }}'>{{.}}</a>{{ end }}
     {{ with .Params.website }}<a href='{{ . }}'>{{.}}</a>{{ end }}
+    {{ with .Params.scholar }}<a href='{{ . }}'>{{.}}</a>{{ end }}
+    {{ with .Params.movebank }}<a href='{{ . }}'>{{.}}</a>{{ end }}
+    {{ with .Params.orcid }}<a href='{{ . }}'>{{.}}</a>{{ end }}
   </div>
   </div>
   {{ .Content }}
+
+  {{ $person := slice .Data.Term }}
+  {{ $relevant := where .Site.Data.papers.papers "people" "intersect" $person }}
+  {{with $relevant}}
+  <h3>Relevant papers</h3>
+  <ul>
+  {{ range sort $relevant "year" "desc"}}
+  <li>{{ .authors }} {{ .year }}. {{ .title }} {{ .publication }}. {{ .issue }}</li>
+  {{ end }}
+  </ul>
+  {{end}}
 {{ end }}
 
 {{ define "sidebar" }}

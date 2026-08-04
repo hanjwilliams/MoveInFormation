@@ -1,0 +1,10 @@
+<div id="selector1" class="img-across">
+{{ $images := .Page.Resources.Match (printf "*%s*" "gallery" ) }}
+{{ range $images }}
+  {{ $image := . }}
+  {{ $scaled := .Resize "400x" }}
+    <div class="img-item" data-src="{{ $image.RelPermalink }}">
+      <img src="{{ $scaled.RelPermalink }}" alt="shenanigans are presented without comment" >
+    </div>
+{{ end }}
+</div>

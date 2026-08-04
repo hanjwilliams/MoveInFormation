@@ -20,15 +20,112 @@
   {{partial "andesVid.html" $args }}
   {{end}}
 
+  {{ define "upper" }}
+
+  {{end}}
+
 {{ define "main" }}
   {{ .Content }}
   {{/*  {{ range site.RegularPages }}
     <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
     {{ .Summary }}
   {{ end }}  */}}
-   <div class="home-blocks">
+   {{/*  <div class="home-blocks">
     <div class="home-block"></div>
     <div class="home-block"></div>
     <div class="home-block"></div>
+   </div>  */}}
+   {{ end }}
+
+  {{ define "lower" }}
+    <div class="home-papers-section">
+      <div class="home-section-span">Selected Publications</div>
+    <div class="home-papers-flex">
+  {{ $papers := hugo.Data.papers.papers }}
+  {{ $selected := where $papers ".selected" true}}
+  {{ range first 5 $selected }}
+  <div class="home-papers-item">
+    <a href='{{ index . "url" }}'><img class="home-papers-fig" src='publications/{{ index . "fig" }}'></a>
+  <a href ='{{ index . "url" }}' target="_blank" rel="noreferrer" rel="noopener" ><cite>{{ index . "title" }}</cite></a> 
+  </div>
+  {{ end }}
+  <a href="/publications">All publications></a>
+  </div>
+  
+</div>
+  <div class="home-foci-section">
+    <div class="home-section-span">Research Themes</div>
+    <div class="home-foci-flex">
+    {{ with ($.Site.GetPage "foci") }}
+    {{ range .Pages.ByWeight }}
+      <div class="home-foci-item">
+      {{- $page := .RelPermalink }}
+            {{- with .Params.image -}}
+                <a href="{{ $page }}">
+          <img class="home-foci-fig" src="{{ $page }}{{ . }}" alt="{{ $.Page.Title }}">
+          </a>
+        {{- end -}}
+        <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+        {{ .Content }}
+          {{/*  {{ range (where .Pages "Section" "projects") }}
+        <h4><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+      {{ end }}  */}}
+       <a href="{{ $page }}">
+          Read more >
+          </a>
+          </div>
+      {{ end }}
+      {{end}}
+  </div>
+  </div>
+
+    <div class="home-people-section">
+  <div class="home-section-span">
+    {{ $positionsOrder := slice "group leader" "phd candidate" "alumnus" }}
+    {{ $positionsList := dict "group leader" "Group Leader" "phd candidate" "PhD Candidate" "alumnus" "Alumni" }}
+    {{ $positionsObject := .Site.Taxonomies.positions }}
+    {{/*  <pre>{{ debug.Dump $positionsObject }}</pre>  */}}
+    {{ range $positionsOrder }}
+    {{ $counter := index $positionsObject . }}
+    {{ $counter.Count }}
+    {{ index $positionsList . }}
+    {{end}}
+    {{ $collaborators := hugo.Data.collaborators.collaborators }}
+    {{ $collaborators | len }}
+    Collaborators
    </div>
-{{ end }}
+   </div>
+
+  <div class="home-people-section">
+  <div class="home-people-flex">
+    <a href="/people"><div class="home-people-item text-item" >Meet the Team</div></a>
+  {{ with ($.Site.GetPage "positions") }}
+    {{ range .Pages.ByWeight }}
+      {{- $group := .File.ContentBaseName }}
+          {{ range .Pages.ByTitle }}
+                      {{- $page := .RelPermalink }}
+             {{- with .Params.image -}}
+                       <div class="home-people-item" >
+                <a href="{{ $page }}"><figure class="gridshot">
+                  <img src="{{ $page }}{{ . }}" alt="{{ $.Page.Title }}">
+                </figure></a>
+
+          </div>
+                      {{- end -}}
+          {{ end }}
+    {{ end }}
+    {{ $collaborators := hugo.Data.collaborators.collaborators }}
+        {{ range $collaborators}}
+        {{ with .image }}
+        <div class="home-people-item" >
+        <a href="/people"><figure class="gridshot"><img src="/images/collaborators/{{.}}"></figure></a>
+              </div>
+        {{end}}
+        {{end}}
+
+    <a href="/people">
+    <div class="home-people-item text-item" >More of us</div></a>
+    </div>
+    </div>
+    {{end}}
+{{end}}

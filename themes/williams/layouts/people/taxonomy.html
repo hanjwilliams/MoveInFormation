@@ -47,7 +47,46 @@
           {{ end }}
     {{ end }}
     </div>
+<h2>Collaborators</h2>
+    {{ $collaborators := hugo.Data.collaborators.collaborators }}
+      <div class="people-grid">
+        {{ range $collaborators}}
+      <div class="people-grid-item" >
+        {{ with .image }}
+        <img src="/images/collaborators/{{.}}">
+        {{end}}
+            {{ .first }} {{ .last }}
+      </div>
+            {{ end }}
+      </div>
+  {{end}}
+  {{/*  {{ with ($.Site.GetPage "positions") }}
+    {{ range .Pages.ByWeight }}
+      {{- $group := .File.ContentBaseName }}
+          {{ range .Pages.ByTitle }}
+          <div class="people-item" >
+            {{- $page := .RelPermalink }}
+            <div class="people-image {{ $group }}">
+             {{- with .Params.image -}}
+                <a href="{{ $page }}"><figure class="people-headshot greyshot">
+                  <img src="{{ $page }}{{ . }}" alt="{{ $.Page.Title }}">
+                </figure></a>
+            {{- end -}}
+              </div>
+            <div class="people-info">
+              <a href="{{ .RelPermalink }}"><h2>{{ .LinkTitle }}</h2></a><br/>
+              {{- with .Params.positions -}}{{ index . 0 }}{{- end }}
+              <p>{{ .Summary }}</p>
+              <a href="{{ .RelPermalink }}"><h4>Read More >></h4></a>
+            </div>
+          </div>
+          {{ end }}
+    {{ end }}
+    </div>
+
   {{ end }}
+  {{end}}  */}}
+  
   {{/*  <ul>
   {{ with ($.Site.GetPage "positions") }}
     {{ range .Pages.ByWeight }}
@@ -68,6 +107,8 @@
     {{ end }}
   {{ end }}
 </ul>  */}}
+
+
   {{/*  <ul>
     {{- range $term, $taxonomy := .Site.Taxonomies.positions.Weighted }}
       <li class="people-section">{{ $term }}</li>
@@ -85,4 +126,5 @@
       </ul>
     {{- end }}
   </ul>  */}}
+
 {{ end }}

@@ -56,7 +56,9 @@ header {
     width: 100px;
     height: 80px;
     img {
-        position: relative;
+        position: absolute;
+        bottom: 0;
+        right: 0;
         width: 100px;
         transition: width 0.3s ease;
     }
@@ -72,9 +74,7 @@ header {
     .site-logo {
 
     img {
-        position: absolute;
-        bottom: 0;
-        right: 0;
+
         width: 200px;
     }
 
@@ -90,7 +90,8 @@ header {
     .site-logo {
 
     img {
-        position: relative;
+        top: 0;
+        right: 0;
         width: 100px;
     }
     }
@@ -114,6 +115,7 @@ margin: 0;
     padding: 0;
     width: 105%;
     height: 600px;
+    overflow: visible;
     position: relative;
     transform-style: preserve-3d;
 }
@@ -135,9 +137,25 @@ margin: 0;
     transform: translateY(calc(-1000px - $groupHeight)) translateZ(-2px) scale(calc(1 + (-2 * -1) / $persp));
 }
 .svg-slider-1 {
-    transform:translateY(calc(-1600px - $groupHeight)) translateZ(0) scale(1);
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    margin: -.1rem;
+    img {
+        position: absolute;
+        bottom: 0;
+    }
 }
 
+.svg-slider-all {
+    position: absolute;
+    bottom:0;
+    transform:translateZ(-2px) scale(calc(1 + (-2 * -1) / $persp));
+    img {
+        position: absolute;
+        bottom: 0;
+    }
+}
 
 .container {
     background-color: v.$mif_grey;

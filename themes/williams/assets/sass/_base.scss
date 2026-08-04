@@ -108,8 +108,12 @@ aside {
 
 footer {
     max-width: 100%;
+    background-color: v.$mif_grey;
+}
+
+.footer-content {
+    max-width: v.$standardWidth;
     margin: 0 auto;
     padding: 3rem;
     height: 10rem;
-    background-color: v.$mif_grey;
 }

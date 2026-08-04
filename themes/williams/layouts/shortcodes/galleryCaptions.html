@@ -1,0 +1,10 @@
+<div id="selector1" class="img-across">
+{{ $total := (div (len .Params) 2) }}
+{{ range (seq 0 ($total)) }}
+  {{ $image := $.Get (print "image-" .) }}
+  {{ $caption := $.Get (print "caption-" .)}}
+      <div class="img-item" data-src="{{ $image }}" data-sub-html="{{ $caption }}">
+        <img src="{{ $image }}" alt="{{ $caption }}">
+      </div>
+{{end}}
+</div>

@@ -1,4 +1,5 @@
 [[papers]]
+fig = "figures/Fig_Walker_2015_TimeClassifier a visual analytic system for the classification of multi-dimensional time series data.png"
 authors = 'Walker, J.S., Jones, M.W., Laramee, R.S., Bidder, O.R., Williams, H.J., Scott, R., Shepard, E.L.C. and Wilson, R.P'
 year = 2015
 title = 'TimeClassifier: A visual analytic system for the classification of multi-dimensional time-series data.'
@@ -8,8 +9,10 @@ url = 'https://link.springer.com/article/10.1007/s00371-015-1112-0'
 doi = ''
 foci = ['biologging']
 projects = ['biologdev']
+selected = false
 
 [[papers]]
+fig = "figures/Fig_Walker_2015_MoveEcol_Prying into the intimate secrets of animal lives_software beyond hardware for comprehensive annotation in Daily Diary tags.png"
 authors = 'Walker, J.S., Jones, M.W., Laramee, R.S., Holton, M., Shepard, E.L.C., Williams, H.J., et al.'
 year = 2015
 title = 'Prying into the intimate secrete of animal lives; software beyond hardware for comprehensive annotation in ‘Daily Diary’ tags.'
@@ -19,8 +22,10 @@ url = 'https://movementecologyjournal.biomedcentral.com/articles/10.1186/s40462-
 doi = ''
 foci = ['movement', 'biologging']
 projects = ['biologdev']
+selected = false
 
 [[papers]]
+fig = ''
 authors = 'Wilson, G.I., Norman, B., Walker, J., Williams, H.J., Holton, M.D., Clarke, D. and Wilson, R.P.'
 year = 2015
 title = 'In search of rules behind environmental framing; the case of head pitch.'
@@ -29,8 +34,10 @@ issue = '3'
 url = 'https://movementecologyjournal.biomedcentral.com/articles/10.1186/s40462-015-0051-8'
 doi = ''
 foci = ['sensing']
+selected = false
 
 [[papers]]
+fig = ''
 authors = 'Williams, H.J., Shepard, E.L.C., Duriez, O. and Lambertucci, S.A.'
 year = 2015
 title = 'Can Accelerometry be used to distinguish between flight types in soaring birds?'
@@ -40,8 +47,10 @@ url = 'https://animalbiotelemetry.biomedcentral.com/articles/10.1186/s40317-015-
 doi = ''
 foci = ['biologging']
 projects = ['biophysics']
+selected = false
 
 [[papers]]
+fig = 'figures/Fig_Williams_2017_MoveEcol_Identification of animal movement patterns using tri-axial magnetometry.png'
 authors = 'Williams, H.J., Holton, M.D., Shepard, E.L.C., Largey, N., Norman, B., Ryan, P.G., Duriez, O., Scantlebury, M., Quintana, F., Magowan, E.A., Marks,N.J., Alagaili,A.N., Bennett, N.C. & Wilson,R.P.'
 year = 2017
 title = 'Identification of animal movement patterns using tri-axial magnetometry.'
@@ -51,8 +60,10 @@ url = 'https://movementecologyjournal.biomedcentral.com/articles/10.1186/s40462-
 doi = ''
 foci = ['movement', 'biologging']
 projects = ['biophysics']
+selected = false
 
 [[papers]]
+fig = 'figures/Fig_Wilson_2018_MEE_Give the machine a hand - A Boolean time-based decision-tree template for rapidly finding animal behaviours in multisensor data.jpg'
 authors = 'Wilson, R.P., Holton, M.D., di Vigilio, A., Williams, H.J., et al.'
 year = 2018
 title = 'Give the machine a hand: A Boolean time-based decision-tree template for finding animal behaviours rapidly in multi-sensor data.'
@@ -62,8 +73,10 @@ url = 'https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13
 doi = ''
 foci = ['movement', 'biologging']
 projects = ['biologdev']
+selected = false
 
 [[papers]]
+fig = ''
 authors = 'Williams, H.J., King, A.J., Duriez, O., Börger, L. and Shepard, E.L.C'
 year = 2018
 title = 'Social eavesdropping allows for a more risky gliding strategy by thermal-soaring birds.'
@@ -73,8 +86,10 @@ url = 'https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13
 doi = ''
 foci = ['movement', 'biologging']
 projects = ['biophysics','eavesdropping']
+selected = false
 
 [[papers]]
+fig = 'figures/Fig_Williams_2018_JEB_Vultures respond to challenges of near-ground thermal soaring by varying bank angle.jpeg'
 authors = 'Williams, H.J., Duriez, O., Holton, M.D., Dell’Omo, G., Wilson, R.P. and Shepard, E.L.C.'
 year = 2018
 title = 'Vultures respond to challenges of near-ground thermal soaring by varying bank angle.'
@@ -84,8 +99,10 @@ url = 'http://jeb.biologists.org/content/early/2018/10/17/jeb.174995'
 doi = ''
 foci = ['']
 projects = ['biophysics']
+selected = false
 
 [[papers]]
+fig = 'figures/Fig_Wilson_2019_JAE_Estimates for energy expenditure in free‐living animals using acceleration.jpg'
 authors = 'Wilson, R.P., Börger, L., Holton, M.D., Scantlebury, D.M., Gómez‐Laich, A., Quintana, F., Rosell, F., Graf, P.M., Williams, H.J. et al.'
 year = 2019
 title = 'Estimates for energy expenditure in free-living animals using acceleration proxies; a reappraisal.'
@@ -94,8 +111,10 @@ issue = '89(1)'
 url = 'https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/1365-2656.13040'
 doi = ''
 foci = ['']
+selected = false
 
 [[papers]]
+fig = 'figures/Fig_Grecian_2019_FrontiersEE_Individual spatial consistency and dietary flexibility in the migratory behavior of northern gannets wintering in the northeast atlantic.png'
 authors = 'Grecian, W.J. & Williams, H.J., Votier, S.C., Bearhop, S., Cleasby, I.R., Grémillet, D., Hamer, K.C., Le Nuz, M., Lescroël, A., Newton, J., Patrick, S.C., Phillips, R.A., Wakefield, E.D. and Bodey, T.W.'
 year = 2019
 title = 'Individual spatial consistency and dietary flexibility in the migratory behavior of northern gannets wintering in the Northeast Atlantic.'
@@ -104,8 +123,10 @@ issue = '7(214)'
 url = 'https://www.frontiersin.org/articles/10.3389/fevo.2019.00214/full'
 doi = ''
 foci = ['']
+selected = false
 
 [[papers]]
+fig = 'figures/Fig_Williams_2019_JAE_Optimizing the use of biologgers for movement ecology research.jpg'
 authors = 'Williams, H.J. & Taylor, L.A., Benhamou, S., Bijleveld, A.I., Clay T.A., de Grissac, S., Demsar, U., English H.M., Franconi, N., Gomez-Laich, A., Griffiths, R.C., Kay W.P., Morales J.M., Potts, J.R., Rogerson, K.F., Rutz, C., Spelt, A., Trevail, A.M., Wilson, R.P. and Borger, L.'
 year = 2019
 title = 'Optimising the use of bio-loggers for movement ecology research.'
@@ -115,8 +136,10 @@ url = 'https://besjournals.onlinelibrary.wiley.com/doi/10.1111/1365-2656.13094'
 doi = ''
 foci = ['']
 projects = ['biologdev','biophysics']
+selected = true
 
 [[papers]]
+fig = 'figures/Fig_Williams_2020_PNAS_Physical limits of flight performance in the heaviest soaring bird.jpg'
 authors = 'Williams, H.J. & Shepard, E.L.C., Holton, M.D., Alarcón, P.A.E., Wilson, R.P., Lambertucci, S.A.'
 year = 2020
 title = 'Physical limits of flight performance in the heaviest soaring bird.'
@@ -126,8 +149,10 @@ url = 'https://www.pnas.org/content/early/2020/07/09/1907360117'
 doi = ''
 foci = ['']
 projects = ['biophysics']
+selected = true
 
 [[papers]]
+fig = 'figures/Fig_Gunner_2021_AnBiotel_How often should dead-reckoned animal movement paths be corrected for drift.png'
 authors = 'Gunner, R. M., Holton, M.D. et al. & Wilson, R.P.'
 year = 2021
 title = 'How often should dead-reckoned animal movement paths be corrected for drift?'
@@ -136,8 +161,10 @@ issue = '9(43)'
 url = 'https://animalbiotelemetry.biomedcentral.com/articles/10.1186/s40317-021-00265-9'
 doi = ''
 foci = ['']
+selected = false
 
 [[papers]]
+fig = 'figures/Fig_Gunner_2021_AnBiotel_Dead-reckoning animal movements in R - a reappraisal using GundogTracks.png'
 authors = 'Gunner, R. M., Holton, M.D. et al. & Wilson, R.P.'
 year = 2021
 title = 'Dead-reckoning animal movements in R: a reappraisal using Gundog.Tracks.'
@@ -146,8 +173,10 @@ issue = '9(23)'
 url = 'https://animalbiotelemetry.biomedcentral.com/articles/10.1186/s40317-021-00245-z'
 doi = ''
 foci = ['']
+selected = false
 
 [[papers]]
+fig = 'figures/Fig_Williams_2021_PhilTransB_Future trends in measuring physiology in free-living animals.png'
 authors = 'Williams, H.J., Shipley, J.R., Rutz, C., Wikelski, M., Wilkes, M., & Hawkes, L.A.'
 year = 2021
 title = 'Future trends in measuring physiology in free-living animals.'
@@ -157,8 +186,10 @@ url = 'https://royalsocietypublishing.org/doi/10.1098/rstb.2020.0230'
 doi = ''
 foci = ['']
 projects = ['biologdev','biophysics']
+selected = true
 
 [[papers]]
+fig = 'figures/Fig_Williams_2021_TREE_Certainty and integration of options in animal movement.jpg'
 authors = 'Williams, H.J. & Safi, K.'
 year = 2021
 title = 'Certainty and integration of options in animal movement.'
@@ -168,8 +199,10 @@ url = 'https://www.sciencedirect.com/science/article/pii/S0169534721001865'
 doi = ''
 foci = ['']
 projects = ['optimove']
+selected = false
 
 [[papers]]
+fig = 'figures/Fig_Wild_2021_MEE_Internet on animals  Wi‐Fi‐enabled devices provide a solution for big data transmission.png'
 authors = 'Wild, T.A., Wikelski, M., Tyndel, S., Alarcón-Nieto, G., Klump, B.C., Aplin, L.M., Meboldt, M. & Williams, H.J.'
 year = 2021
 title = 'Internet on Animals: WiFi-enabled devices provide a solution for big data transmission in bio-logging.'
@@ -179,8 +212,10 @@ url = 'https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13
 doi = ''
 foci = ['']
 projects = ['biologdev']
+selected = false
 
 [[papers]]
+fig = 'figures/Fig_Jetz_2022_TREE_Biological earth observation with animal sensors.jpg'
 authors = 'Jetz, W., Tertitski, G., Kays, R., Mueller, U., & Wikelski, M. et al.'
 year = 2022
 title = 'Biological Earth observation with animal sensors.'
@@ -190,8 +225,10 @@ url = 'https://www.sciencedirect.com/science/article/pii/S0169534721003165'
 doi = ''
 foci = ['']
 projects = ['biologdev']
+selected = false
 
 [[papers]]
+fig = 'figures/Fig_Menz_2022_Science_Individual tracking reveals long-distance flight-path control in a nocturnally migrating moth.png'
 authors = 'Menz, M.H.M., Scacco, M., Bürki-Spycher, H-M., Williams, H.J., Reynolds, D.R., Chapman, J.W., & Wikelski, M.'
 year = 2022
 title = 'Individual tracking reveals long-distance flight-path control in a nocturnally migrating moth.'
@@ -200,8 +237,10 @@ issue = '377(6607)'
 url = 'https://www.science.org/doi/full/10.1126/science.abn1663'
 doi = ''
 foci = ['']
+selected = false
 
 [[papers]]
+fig = 'figures/Fig_Flack_2022_CurrentBiol_New frontiers in bird migration research.jpg'
 authors = 'Flack, A., Aikens, E.O., Kölzsch, A., Nourani, E., Snell, K.R.S., Fiedler, W., Linek, N., Bauer, H-G., Thorup, K., Partecke, J., Wikelski, M. & Williams, H.J.'
 year = 2022
 title = 'New Frontiers in bird migration research.'
@@ -210,8 +249,10 @@ issue = '32(20)'
 url = 'https://www.sciencedirect.com/science/article/abs/pii/S0960982222013057'
 doi = ''
 foci = ['']
+selected = false
 
 [[papers]]
+fig = 'figures/Fig_Williams_2023_eLife_Sensory collectives in natural systems.jpg'
 authors = 'Williams, H.J., Sridhar, V.H., Hurme, E. & Gall, G.E. et al & Amanda D Melin'
 year = 2023
 title = 'Sensory collectives in natural systems.'
@@ -221,8 +262,10 @@ url = 'https://elifesciences.org/articles/88028'
 doi = ''
 foci = ['']
 projects = ['eavesdropping','optimove']
+selected = true
 
 [[papers]]
+fig = 'figures/Zang_2024_EuroVis_Visualising the invisible - Exploring approaches for visual analysis of dynamic airflow in geographic environments using sensor data.png'
 authors = 'Zhang, Z., Williams, H.J., Schreiber, F. & Klein, K'
 year = 2024
 title = 'Visualising the Invisible: Exploring Approaches for Visual Analysis of Dynamic Airflow in Geographic Environments Using Sensor Data.'
@@ -232,8 +275,10 @@ url = 'https://kops.uni-konstanz.de/entities/publication/f7aba55b-8597-4572-a619
 doi = ''
 foci = ['']
 projects = ['energies']
+selected = false
 
 [[papers]]
+fig = 'figures/Fig_ellis-soto_2025_PNAS_From biologging to conservation tracking individual performance in changing environments.jpg'
 authors = 'Ellis-Soto D., Flack A., Strandburg-Peshkin, A., Wild, T. A., Williams, H. J., O’Mara, M.T.'
 year = 2025
 title = 'VisualisiFrom bio-logging to conservation: tracking individual performance in changing environmentsng the Invisible: Exploring Approaches for Visual Analysis of Dynamic Airflow in Geographic Environments Using Sensor Data.'
@@ -243,8 +288,10 @@ url = 'https://www.pnas.org/doi/abs/10.1073/pnas.2410947122'
 doi = ''
 foci = ['biologging']
 projects = ['biologdev','biophysics','optimove']
+selected = false
 
 [[papers]]
+fig = ''
 authors = 'Rogers W., Mattingly S.J., Kohles J.E., Linek N., Williams H.J., Lenzi I., Wilbs G., Escher M., Richter N., van Schalkwyk L., Ezenwa V.O., Wikelski M., Dechmann D.KN., Wild T.A.'
 year = 2025
 title = 'Fine-scale animal proximity detection and localization via multi-sensor biologgers.'
@@ -254,8 +301,10 @@ url = 'https://www.biorxiv.org/content/10.1101/2025.09.09.674951.abstract'
 doi = ''
 foci = ['biologging']
 projects = ['biologdev']
+selected = false
 
 [[papers]]
+fig = 'figures/Fig_Gatti_2026_Energetic benefits of social information for movement in patchy landscapes.png'
 authors = 'Gatti E., Reina A., Williams H. J.'
 year = 2025
 title = 'Energetic benefits of social information for movement in patchy landscapes.'
@@ -263,5 +312,7 @@ publication = 'bioRxiv'
 issue = ''
 url = 'https://www.biorxiv.org/content/10.64898/2025.12.18.695131.abstract'
 doi = ''
+people = ['gatti-e']
 foci = ['biologging']
 projects = ['biologdev','eavesdropping','optimove']
+selected = true

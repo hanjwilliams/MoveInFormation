@@ -23,12 +23,15 @@
 {{define "main"}}
   <h1>{{ .Title }}</h1>
 {{ .Content }}
-<ol class="pub-list" reversed>
-    {{ $papers := .Site.Data.papers.papers }}
+<div class="publications-flex">
+    {{ $papers := hugo.Data.papers.papers }}
     {{ $reversed := seq (sub (len $papers) 1) -1 0}}
     {{ range $reversed}}
-    <li>{{ index $papers . "authors" }} {{ index $papers . "year" }}. <a href ='{{ index $papers . "url" }}' target="_blank" rel="noreferrer" rel="noopener" ><cite>{{ index $papers . "title" }}</cite></a> <strong>{{ index $papers . "publication" }}.</strong> {{ index $papers . "issue" }}.</li>
-    {{ end }}
+    <div class="publications-item">
+      <a href ='{{ index $papers . "url" }}' target="_blank" rel="noreferrer" rel="noopener" ><img class="pub-fig" src='{{ index $papers . "fig" }}'></a><div class="pub-data">{{ index $papers . "authors" }} {{ index $papers . "year" }}. <a href ='{{ index $papers . "url" }}' target="_blank" rel="noreferrer" rel="noopener" ><cite>{{ index $papers . "title" }}</cite></a> <strong>{{ index $papers . "publication" }}.</strong> {{ index $papers . "issue" }}.</li>
+    </div>
+      </div>
+      {{ end }}
   </ol>
 {{end }}
 

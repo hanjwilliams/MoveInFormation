@@ -24,6 +24,141 @@
     background-color: grey;
 }
 
+.home-section-span {
+    max-width: v.$standardWidth;
+    margin: 2rem auto .5rem;
+    font-size: 1.4rem;
+    color: white;
+    flex: 0 0 auto;
+}
+
+.home-papers-section {
+    background-color: v.$mif_darkPurple;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    a,a:visited {
+        color: white;
+    }
+    a:focus,a:hover {
+        color: v.$mif_yellow;
+    }
+
+    .home-papers-flex {
+    max-width: v.$standardWidth;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+    }
+    .home-papers-item {
+        flex: 0 0 auto;
+        display: block;
+        width: 19%;
+        margin-bottom: 1rem;
+    }
+    .home-papers-fig {
+        height: 200px;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+.home-foci-section {
+    background-color: v.$mif_darkGreen;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .home-foci-flex {
+    max-width: v.$standardWidth;
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem;
+    gap: 1rem;
+    }
+    .home-foci-item {
+        flex: 0 0 auto;
+        display: block;
+        width: 30%;
+        margin-bottom: 2rem;
+    }
+    .home-foci-fig {
+        height: 200px;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+.home-people-section {
+    background-color: v.$mif_darkGrey;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    a,a:visited {
+        color: white;
+    }
+    a:focus,a:hover {
+        color: v.$mif_yellow;
+    }
+    .home-people-flex {
+        max-width: v.$standardWidth;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin: 1rem;
+    }
+        .home-people-item {
+        flex: 0 0 auto;
+        width: 200px;
+        height: 200px;
+        overflow: hidden;
+    }
+    .text-item {
+        display: block;
+        padding: 1rem;
+        background-color: v.$mif_darkPurple;
+        
+    }
+    .gridshot {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+
+        img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 50% 50%;
+        }
+    }
+}
+
+@media screen and (max-width: 1099px) {
+    .home-papers-section {
+    .home-papers-item {
+        width: 44%;
+    }
+}
+
+}
+
+@media screen and (max-width: 799px) {
+    .home-papers-section,
+    .home-foci-section{
+
+    .home-papers-flex,
+    .home-foci-flex {
+    display: block;
+
+    .home-foci-item,
+    .home-papers-item {
+        width: 100%;
+    }
+}
+    }
+}
+
 //foci
 .focus-item {
     display: flex;
@@ -56,26 +191,45 @@
     // grid-template-columns: repeat(4, 1fr);
 	// 	grid-gap: 3px;
 }
-// @media screen and (max-width: 1200px) {
-// 	.people-wrapper {
-// 		grid-template-columns: repeat(3, 1fr);
-// 	}
-// }
-// @media screen and (max-width: v.$narrowWidth) {
-// 	.people-wrapper {
-// 		grid-template-columns: repeat(2, 1fr);
-// 	}
-// }
-// @media screen and (max-width: v.$mobileWidth) {
-// 	.people-wrapper {
-// 		grid-template-columns: repeat(1, 1fr);
-// 	}
-// }
+
+.people-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+	grid-gap: 1rem;
+}
+@media screen and (max-width: 1200px) {
+	.people-grid {
+		grid-template-columns: repeat(5, 1fr);
+	}
+}
+@media screen and (max-width: v.$narrowWidth) {
+	.people-grid {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+@media screen and (max-width: v.$mobileWidth) {
+	.people-grid {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
+.people-grid-item {
+    background-color: v.$mif_darkGrey;
+    padding: .5rem;
+    img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+}
+
 .people-item {
     clear: both;
     display: flex;
     width: 100%;
     min-height: 400px;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    background-color: v.$mif_darkGrey;
 }
 .people-image {
     flex: 0 0 auto;
@@ -156,3 +310,30 @@
 .alumnus { background-color: cornflowerblue;}
 
 //media
+
+//publications
+.publications-flex {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.publications-item {
+    display: flex;
+    margin: 1rem 0;
+    padding: 1rem;
+    flex: 0 0 auto;
+    width: 45%;
+    align-items: center;
+    gap: 1rem;
+    .pub-fig {
+        flex: 0 0 auto;
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+
+    }
+    .pub-data {
+
+    }
+}
