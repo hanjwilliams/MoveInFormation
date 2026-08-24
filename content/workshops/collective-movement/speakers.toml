@@ -1,0 +1,19 @@
+[[speakers]]
+image = "placeholder.webp"
+first = "Max"
+last = "Mustermann"
+institution = "Uni U"
+title = "Talking talking talking"
+description = "This is a description of the talk"
+location = "Building"
+dateTime = "2026-01-30T12:09:19+01:00"
+
+[[speakers]]
+image = "placeholder.webp"
+first = "David"
+last = "Bowie"
+institution = "Mars"
+title = "Life on Mars"
+description = "It was a godawful small affair"
+location = "Building"
+dateTime = "2026-01-30T11:09:19+01:00"

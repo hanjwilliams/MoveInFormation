@@ -1,5 +1,11 @@
 @use "variables" as v;
 
+.workshop-poster {
+	width: 100%;
+	img {
+		width: 100%;
+	}
+}
 .icon-item {
         clear: both;
     min-height: 70px;

@@ -1,0 +1,42 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  {{ with .Resources.Get "resources/poster.png"}}
+  <figure class="workshop-poster"><img src="{{.}}" alt="workshop poster"></figure>
+  {{end}}
+  {{ .Content }}
+
+  <h2>Speakers</h2>
+    {{ $speakers := dict }}
+    {{ $path := "speakers.toml" }}
+    {{ with .Resources.Get $path }}
+    {{ with . | transform.Unmarshal }}
+        {{ $speakers = . }}
+    {{ end }}
+    {{ else }}
+    {{ errorf "Unable to get page resource %q" $path }}
+    {{ end }}
+      <div class="people-grid">
+        {{ range sort $speakers.speakers "last" }}
+      <div class="people-grid-item" >
+        {{ with .image }}
+        <img src="resources/{{.}}">
+        {{end}}
+            <h4>{{ .first }} {{ .last }}</h4>
+            {{ .institution  }}<br/>
+      </div>
+            {{ end }}
+      </div>
+      <h2>Schedule</h2>
+      <div class="workshop-schedule publications-flex">
+        {{ range sort $speakers.speakers "dateTime" }}
+        <div class="publications-item">
+        <h4>{{ .title }}</h4>
+        {{ $t := .dateTime }}
+        {{ $t = time.AsTime $t }}
+        {{ $t | time.Format ":date_long" }}
+        {{ $t | time.Format ":time_medium" }}<br/>
+        {{ .description }}
+        </div>
+        {{end}}
+      </div>
+{{ end }}
