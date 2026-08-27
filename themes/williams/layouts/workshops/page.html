@@ -8,7 +8,7 @@
   {{end}}
   {{ .Content }}
 
-  <h2>Speakers</h2>
+  <h2>Participants</h2>
     {{ $participants := dict }}
     {{ $path := "participants.toml" }}
     {{ with .Resources.Get $path }}
@@ -29,7 +29,8 @@
       </div>
             {{ end }}
       </div>
-      {{ $speakers := dict }}
+
+      {{/*  {{ $speakers := dict }}
     {{ $path := "speakers.toml" }}
     {{ with .Resources.Get $path }}
     {{ with . | transform.Unmarshal }}
@@ -50,5 +51,5 @@
         {{ .description }}
         </div>
         {{end}}
-      </div>
+      </div>  */}}
 {{ end }}

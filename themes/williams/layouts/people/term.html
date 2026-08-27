@@ -29,11 +29,11 @@
   </figure>
   {{ end }}
   <div class="person-links">
-    {{ with .Params.email }}<a href='{{ . }}'>{{.}}</a>{{ end }}
-    {{ with .Params.website }}<a href='{{ . }}'>{{.}}</a>{{ end }}
-    {{ with .Params.scholar }}<a href='{{ . }}'>{{.}}</a>{{ end }}
-    {{ with .Params.movebank }}<a href='{{ . }}'>{{.}}</a>{{ end }}
-    {{ with .Params.orcid }}<a href='{{ . }}'>{{.}}</a>{{ end }}
+    {{ with .Params.email }}<a href='{{ . }}'>{{.}}</a><br/>{{ end }}
+    {{ with .Params.website }}<a href='{{ . }}'>{{.}}</a><br/>{{ end }}
+    {{ with .Params.scholar }}<a href='{{ . }}'>{{.}}</a><br/>{{ end }}
+    {{ with .Params.movebank }}<a href='{{ . }}'>{{.}}</a><br/>{{ end }}
+    {{ with .Params.orcid }}<a href='{{ . }}'>{{.}}</a><br/>{{ end }}
   </div>
   </div>
   {{ .Content }}
