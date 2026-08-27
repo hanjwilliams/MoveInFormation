@@ -1,4 +1,7 @@
 {{ define "main" }}
+  {{- with .Params.invitation -}}
+  <h3>By invitation only</h3>
+  {{- end -}}
   <h1>{{ .Title }}</h1>
   {{ with .Resources.Get "resources/poster.png"}}
   <figure class="workshop-poster"><img src="{{.}}" alt="workshop poster"></figure>
@@ -6,17 +9,17 @@
   {{ .Content }}
 
   <h2>Speakers</h2>
-    {{ $speakers := dict }}
-    {{ $path := "speakers.toml" }}
+    {{ $participants := dict }}
+    {{ $path := "participants.toml" }}
     {{ with .Resources.Get $path }}
     {{ with . | transform.Unmarshal }}
-        {{ $speakers = . }}
+        {{ $participants = . }}
     {{ end }}
     {{ else }}
     {{ errorf "Unable to get page resource %q" $path }}
     {{ end }}
       <div class="people-grid">
-        {{ range sort $speakers.speakers "last" }}
+        {{ range sort $participants.participants "last" }}
       <div class="people-grid-item" >
         {{ with .image }}
         <img src="resources/{{.}}">
@@ -26,6 +29,15 @@
       </div>
             {{ end }}
       </div>
+      {{ $speakers := dict }}
+    {{ $path := "speakers.toml" }}
+    {{ with .Resources.Get $path }}
+    {{ with . | transform.Unmarshal }}
+        {{ $speakers = . }}
+    {{ end }}
+    {{ else }}
+    {{ errorf "Unable to get page resource %q" $path }}
+    {{ end }}
       <h2>Schedule</h2>
       <div class="workshop-schedule publications-flex">
         {{ range sort $speakers.speakers "dateTime" }}

@@ -6,6 +6,6 @@ positions = ['alumnus']
 foci = ['']
 image = 'bowie.webp'
 email = ''
-website = ''
+website = 'https://www.davidbowie.com/'
 scholar = ''
 +++

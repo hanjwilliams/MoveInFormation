@@ -30,7 +30,7 @@
       {{- $page := .RelPermalink }}
             {{- with .Params.image -}}
           <figure class="focus-image greyshot">
-                <a href="{{ $page }}"></a>
+                <a href="{{ $page }}">
           <img src="{{ $page }}{{ . }}" alt="{{ $.Page.Title }}">
           </a>
         </figure>

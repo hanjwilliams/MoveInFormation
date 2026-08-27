@@ -14,11 +14,11 @@
 		
 			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
 			<item>
-				<title>Collective Movement</title>
+				<title>Workshop: Collective Movement</title>
 				<link>http://localhost:1313/workshops/collective-movement/</link>
 				<pubDate>Sat, 22 Aug 2026 17:20:17 +0200</pubDate>
 				<guid>http://localhost:1313/workshops/collective-movement/</guid>
-				<description>&lt;p&gt;Workshop&lt;/p&gt;</description>
+				<description>&lt;p&gt;An interdisciplinary workshop on how moving agents — biological and engineered — acquire, represent and act on information under uncertainty. Day 1 covers sensing and information representation; Day 2 the information–movement–decision junction; Day 3 air-surface interface swarm robotics.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Science Outreach</title>

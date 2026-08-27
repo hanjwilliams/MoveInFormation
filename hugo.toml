@@ -44,8 +44,8 @@ theme = 'williams'
     weight = 50
   
   [[menus.main]]
-    name = 'Teaching and Communications'
-    pageRef = '/teaching'
+    name = 'Workshops and Communications'
+    pageRef = '/workshops/collective-movement'
     weight = 60
 
 [markup]

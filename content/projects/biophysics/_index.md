@@ -5,7 +5,7 @@ title = 'Biophysics of soaring birds'
 foci = ['biologging']
 funding = ['']
 image = 'placeholder.png'
-people = ['steinfeld-k']
+people = ['williams-h','steinfeld-k']
 weight = 130
 +++
 Our work on soaring birds focuses on the physical limits of flight, the aerodynamic challenges birds face when negotiating complex airflows, and the use of onboard sensors to quantify individual flight performance in free-ranging animals. Using high-resolution bio-logging, particularly inertial measurement units, GPS, magnetometers and related movement sensors, we investigate how birds climb, glide, turn and adjust their behaviour under changing atmospheric conditions. This allows us to recover fine-scale measures of performance from flight itself and to link body motion to flight strategy, space-use and proxies of energetic expenditure.

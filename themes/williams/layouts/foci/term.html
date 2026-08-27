@@ -33,7 +33,7 @@
 {{ define "sidebar" }}
 <aside>
   {{ $focus := slice .Data.Term }}
-<section class="sidebar">
+{{/*  <section class="sidebar">
   <h3>People</h3>
   <ul>
   {{ range (where .Pages "Section" "people") }}
@@ -48,7 +48,8 @@
   {{ end }}
   </ul>
   </section>
-  <hr/>
+  <hr/> */}}
+  
 <section class="sidebar">
   <h3>Relevant papers</h3>
   <ul>

@@ -30,11 +30,19 @@
           {{ range .Pages.ByTitle }}
           <div class="people-item" >
             {{- $page := .RelPermalink }}
+            {{- $image := .Params.image -}}
+            {{- $website := .Params.website -}}
             <div class="people-image {{ $group }}">
-             {{- with .Params.image -}}
-                <a href="{{ $page }}"><figure class="people-headshot greyshot">
-                  <img src="{{ $page }}{{ . }}" alt="{{ $.Page.Title }}">
+             {{- with $image -}}
+              {{- with $website -}}
+                <a href="{{ . }}"><figure class="people-headshot greyshot">
+                  <img src="{{ $page }}{{ $image }}" alt="{{ $.Page.Title }}">
                 </figure></a>
+                {{- else -}}
+                             <a href="{{ $page }}"><figure class="people-headshot greyshot">
+                  <img src="{{ $page }}{{ $image }}" alt="{{ $.Page.Title }}">
+                </figure></a>
+                {{- end -}}
             {{- end -}}
               </div>
             <div class="people-info">

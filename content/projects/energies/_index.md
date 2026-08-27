@@ -4,7 +4,7 @@ draft = false
 title = 'Perception of Energies to "up-the-odds" for efficent movement'
 foci = ['sensing']
 funding = ['']
-people = ['albrecht-c']
+people = ['williams-h','albrecht-c','gatti-e']
 image = ''
 weight = 90
 +++
