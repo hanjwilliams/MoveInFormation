@@ -155,12 +155,8 @@ ul li, ol li {
   }
 }
 a {
-  color: rgb(205, 74, 202);
-  text-decoration: none;
-}
-
-a:visited {
-  color: rgb(223, 135, 221);
+  color: rgb(92, 213, 243);
+  text-decoration: underline;
 }
 
 .main-navigation {

@@ -1,11 +1,11 @@
 @use "variables" as v;
 
 a {
-	color: v.$mif_purple;
-	text-decoration: none;
+	color: v.$mif_blue;
+	text-decoration: underline;
 }
 a:visited {
-	color: v.$mif_lightPurple;
+	//color: v.$mif_lightPurple;
 }
 
 .main-navigation {
