@@ -109,7 +109,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: rgb(170, 219, 119);
+  color: hsl(214, 30%, 79%);
 }
 
 .intro-text {
@@ -144,13 +144,23 @@ ul li, ol li {
     margin-left: 0;
   }
 }
+.typeCursor {
+  border-right: 0.05em solid rgb(228, 209, 87);
+  animation: caret 0.8s steps(1) infinite;
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}
 a {
   color: rgb(205, 74, 202);
   text-decoration: none;
 }
 
 a:visited {
-  color: rgb(245, 134, 36);
+  color: rgb(223, 135, 221);
 }
 
 .main-navigation {
@@ -280,6 +290,13 @@ a:visited {
     width: auto;
   }
 }
+.workshop-poster {
+  width: 100%;
+}
+.workshop-poster img {
+  width: 100%;
+}
+
 .icon-item {
   clear: both;
   min-height: 70px;

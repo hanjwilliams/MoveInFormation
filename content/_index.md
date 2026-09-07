@@ -4,8 +4,6 @@ draft = false
 title = 'Home'
 slug = 'home'
 +++
-<div class="intro">We study how animals move together. From a flock of birds wheeling on a thermal to a gaggle of paraglider pilots reading the same invisible air, collective movement is everywhere — and it is never free.</div>
-
 Every turn, climb, and glide has an energetic cost, and every individual is making decisions about when to follow the group and when to strike out alone. The MoveinFormation lab asks how those decisions are made, and what they reveal about the rules of life on the move.
 
 Our central idea is that energy is the common currency of movement. Whether an animal is migrating across a continent or crossing a valley, the same question recurs: how do you get where you're going for the lowest possible cost? We're especially interested in how social information — watching what others around you do — lets individuals find energy in the landscape they could never have found alone. Movement, information, and energetics are not separate problems. They are one problem, viewed from different angles.

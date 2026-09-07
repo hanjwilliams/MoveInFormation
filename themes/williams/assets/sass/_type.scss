@@ -10,8 +10,8 @@ p {
 }
 
 h1,h2,h3,h4,h5,h6 {
-    color: rgb(170, 219, 119);
-}
+    color: v.$mif_lightGrey;
+} 
 .intro-text {
     font-size: 1.6rem;
 }
@@ -47,4 +47,20 @@ ul, ol {
     ul, ol {
         margin-left: 0;
     }
+}
+
+//typeWriter
+#typewriter {
+	//border-bottom: 3px solid cyan;
+}
+
+.typeCursor {
+  border-right: .05em solid v.$mif_yellow;
+  animation: caret .8s steps(1) infinite;
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
 }
