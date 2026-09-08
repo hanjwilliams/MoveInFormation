@@ -99,7 +99,7 @@ url = 'http://jeb.biologists.org/content/early/2018/10/17/jeb.174995'
 doi = ''
 foci = ['']
 projects = ['biophysics']
-selected = false
+selected = true
 
 [[papers]]
 fig = 'figures/Fig_Wilson_2019_JAE_Estimates for energy expenditure in free‐living animals using acceleration.jpg'
@@ -136,7 +136,7 @@ url = 'https://besjournals.onlinelibrary.wiley.com/doi/10.1111/1365-2656.13094'
 doi = ''
 foci = ['']
 projects = ['biologdev','biophysics']
-selected = true
+selected = false
 
 [[papers]]
 fig = 'figures/Fig_Williams_2020_PNAS_Physical limits of flight performance in the heaviest soaring bird.jpg'
@@ -186,7 +186,7 @@ url = 'https://royalsocietypublishing.org/doi/10.1098/rstb.2020.0230'
 doi = ''
 foci = ['']
 projects = ['biologdev','biophysics']
-selected = true
+selected = false
 
 [[papers]]
 fig = 'figures/Fig_Williams_2021_TREE_Certainty and integration of options in animal movement.jpg'
@@ -249,7 +249,7 @@ issue = '32(20)'
 url = 'https://www.sciencedirect.com/science/article/abs/pii/S0960982222013057'
 doi = ''
 foci = ['']
-selected = false
+selected = true
 
 [[papers]]
 fig = 'figures/Fig_Williams_2023_eLife_Sensory collectives in natural systems.jpg'
@@ -262,7 +262,7 @@ url = 'https://elifesciences.org/articles/88028'
 doi = ''
 foci = ['']
 projects = ['eavesdropping','optimove']
-selected = true
+selected = false
 
 [[papers]]
 fig = 'figures/Zang_2024_EuroVis_Visualising the invisible - Exploring approaches for visual analysis of dynamic airflow in geographic environments using sensor data.png'
@@ -288,7 +288,7 @@ url = 'https://www.pnas.org/doi/abs/10.1073/pnas.2410947122'
 doi = ''
 foci = ['biologging']
 projects = ['biologdev','biophysics','optimove']
-selected = false
+selected = true
 
 [[papers]]
 fig = ''
