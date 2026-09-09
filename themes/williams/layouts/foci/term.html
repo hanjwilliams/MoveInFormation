@@ -55,7 +55,7 @@
   <ul>
   {{ $relevant := where .Site.Data.papers.papers "foci" "intersect" $focus }}
   {{ range sort $relevant "year" "desc"}}
-  <li>{{ .authors }} {{ .year }}. {{ .title }} {{ .publication }}. {{ .issue }}</li>
+  <li>{{ .authors }} {{ .year }}. <a href ='{{ .url }}' target="_blank" rel="noreferrer" rel="noopener" ><cite>{{ .title }}</cite></a> <strong>{{ .publication }}.</strong> {{ .issue }}.</li>
   {{ end }}
   </ul>
   </section>

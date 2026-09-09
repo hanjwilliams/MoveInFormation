@@ -1,10 +1,10 @@
 +++
 date = '2026-01-26T11:15:39+01:00'
 draft = false
-title = 'Perception of Energies to "up-the-odds" for efficent movement'
-foci = ['sensing']
+title = 'Navigating Dynamic Landscapes'
+foci = ['movement']
 funding = ['']
-people = ['williams-h','albrecht-c','gatti-e']
+people = ['williams-h','steinfield-k']
 image = ''
 weight = 90
 +++
@@ -14,4 +14,3 @@ Using paragliders as a model system, we combine high-tech, high-precision tracki
 
 Because paragliders face many of the same aerodynamic challenges as soaring birds, this system offers a fascinating route into questions that are otherwise very difficult to access directly in wild animals, and provides rare insight into how a bird may experience the energetic structure of the sky.
 
-Zhang et al. (2024) EuroVA 2024 Conference Proceedings

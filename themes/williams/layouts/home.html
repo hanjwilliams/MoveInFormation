@@ -25,7 +25,7 @@
   {{end}}
 
 {{ define "main" }}
-<div class="intro">We study <span id="typewriter">idea</span>.<br/> From a flock of birds wheeling on a thermal to a gaggle of paraglider pilots reading the same invisible air, collective movement is everywhere — and it is never free.</div>
+<div class="intro">We study <span id="typewriter">idea</span>.<br/> </div>
 
   {{ .Content }}
   {{/*  {{ range site.RegularPages }}
@@ -40,22 +40,7 @@
    {{ end }}
 
   {{ define "lower" }}
-    <div class="home-papers-section">
-      <div class="home-section-span">Selected Publications</div>
-    <div class="home-papers-flex">
-  {{ $papers := hugo.Data.papers.papers }}
-  {{ $selected := where $papers ".selected" true}}
-  {{ range first 5 $selected }}
-  <div class="home-papers-item">
-    <a href='{{ index . "url" }}'><img class="home-papers-fig" src='publications/{{ index . "fig" }}'></a>
-  <a href ='{{ index . "url" }}' target="_blank" rel="noreferrer" rel="noopener" ><cite>{{ index . "title" }}</cite></a> 
-  </div>
-  {{ end }}
-  <a href="/publications">All publications></a>
-  </div>
-  
-</div>
-  <div class="home-foci-section">
+    <div class="home-foci-section">
     <div class="home-section-span">Research Themes</div>
     <div class="home-foci-flex">
     {{ with ($.Site.GetPage "foci") }}
@@ -80,6 +65,21 @@
       {{end}}
   </div>
   </div>
+    <div class="home-papers-section">
+      <div class="home-section-span">Selected Publications</div>
+    <div class="home-papers-flex">
+  {{ $papers := hugo.Data.papers.papers }}
+  {{ $selected := where $papers ".selected" true}}
+  {{ range first 5 $selected }}
+  <div class="home-papers-item">
+    <a href='{{ index . "url" }}'><img class="home-papers-fig" src='publications/{{ index . "fig" }}'></a>
+  <a href ='{{ index . "url" }}' target="_blank" rel="noreferrer" rel="noopener" ><cite>{{ index . "title" }}</cite></a> 
+  </div>
+  {{ end }}
+  <a href="/publications">All publications></a>
+  </div>
+  
+</div>
 
     <div class="home-people-section">
   <div class="home-section-span">

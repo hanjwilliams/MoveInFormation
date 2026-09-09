@@ -1,4 +1,5 @@
 [[collaborators]]
+id = 'lambertucci-s'
 image = "Sergio Lambertucci.jpeg"
 first = "Sergio"
 last = "Lambertucci"
@@ -11,6 +12,7 @@ last = "Plaza"
 institution = ""
 
 [[collaborators]]
+id = 'safi-k'
 image = "Kamran Safi.jpg"
 first = "Kamran"
 last = "Safi"

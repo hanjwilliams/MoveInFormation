@@ -34,6 +34,14 @@
   {{ $project := slice .Data.Term }}
 <section class="sidebar">
 {{ partial "icons.html" (dict "taxonomy" "people" "page" .) }}
+<h4>Collaborators</h4>
+<ul>
+{{ range .Params.collaborators }}
+{{ range where hugo.Data.collaborators.collaborators "id" . }}
+  <li>{{ .first }} {{ .last }}</li>
+{{ end }}
+{{ end }}
+</ul>
   </section>
   <hr/>
 <section class="sidebar">
@@ -41,7 +49,7 @@
   <ul>
   {{ $relevant := where .Site.Data.papers.papers "projects" "intersect" $project }}
   {{ range sort $relevant "year" "desc"}}
-  <li>{{ .authors }} {{ .year }}. {{ .title }} {{ .publication }}. {{ .issue }}</li>
+  <li>{{ .authors }} {{ .year }}. <a href ='{{ .url }}' target="_blank" rel="noreferrer" rel="noopener" ><cite>{{ .title }}</cite></a> <strong>{{ .publication }}.</strong> {{ .issue }}.</li>
   {{ end }}
   </ul>
   </section>

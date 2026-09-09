@@ -7,7 +7,7 @@ publication = 'The Visual Computer'
 issue = '1-5'
 url = 'https://link.springer.com/article/10.1007/s00371-015-1112-0'
 doi = ''
-foci = ['biologging']
+foci = ['']
 projects = ['biologdev']
 selected = false
 
@@ -20,8 +20,8 @@ publication = 'Movement Ecology'
 issue = '3(29)'
 url = 'https://movementecologyjournal.biomedcentral.com/articles/10.1186/s40462-015-0056-3'
 doi = ''
-foci = ['movement', 'biologging']
-projects = ['biologdev']
+foci = ['biologging']
+projects = ['']
 selected = false
 
 [[papers]]
@@ -33,7 +33,7 @@ publication = 'Movement Ecology'
 issue = '3'
 url = 'https://movementecologyjournal.biomedcentral.com/articles/10.1186/s40462-015-0051-8'
 doi = ''
-foci = ['sensing']
+foci = ['']
 selected = false
 
 [[papers]]
@@ -45,8 +45,8 @@ publication = 'Animal Biotelemetry'
 issue = '3(45)'
 url = 'https://animalbiotelemetry.biomedcentral.com/articles/10.1186/s40317-015-0077-0'
 doi = ''
-foci = ['biologging']
-projects = ['biophysics']
+foci = ['']
+projects = ['']
 selected = false
 
 [[papers]]
@@ -58,8 +58,8 @@ publication = 'Movement Ecology'
 issue = '5(6)'
 url = 'https://movementecologyjournal.biomedcentral.com/articles/10.1186/s40462-017-0097-x'
 doi = ''
-foci = ['movement', 'biologging']
-projects = ['biophysics']
+foci = ['']
+projects = ['biologdev']
 selected = false
 
 [[papers]]
@@ -71,7 +71,7 @@ publication = 'MEE'
 issue = '9(11)'
 url = 'https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13069'
 doi = ''
-foci = ['movement', 'biologging']
+foci = ['']
 projects = ['biologdev']
 selected = false
 
@@ -84,8 +84,8 @@ publication = 'Royal Society Interface'
 issue = '15(148)'
 url = 'https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13069'
 doi = ''
-foci = ['movement', 'biologging']
-projects = ['biophysics','eavesdropping']
+foci = ['']
+projects = ['eavesdropping']
 selected = false
 
 [[papers]]
@@ -111,6 +111,7 @@ issue = '89(1)'
 url = 'https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/1365-2656.13040'
 doi = ''
 foci = ['']
+projects = ['biophysics']
 selected = false
 
 [[papers]]
@@ -134,8 +135,8 @@ publication = 'JAE'
 issue = '89(1)'
 url = 'https://besjournals.onlinelibrary.wiley.com/doi/10.1111/1365-2656.13094'
 doi = ''
-foci = ['']
-projects = ['biologdev','biophysics']
+foci = ['biologging']
+projects = ['']
 selected = false
 
 [[papers]]
@@ -161,6 +162,7 @@ issue = '9(43)'
 url = 'https://animalbiotelemetry.biomedcentral.com/articles/10.1186/s40317-021-00265-9'
 doi = ''
 foci = ['']
+projects = ['biologdev']
 selected = false
 
 [[papers]]
@@ -173,6 +175,7 @@ issue = '9(23)'
 url = 'https://animalbiotelemetry.biomedcentral.com/articles/10.1186/s40317-021-00245-z'
 doi = ''
 foci = ['']
+projects = ['biologdev']
 selected = false
 
 [[papers]]
@@ -184,8 +187,8 @@ publication = 'Phil. Trans. of the Roy. Soc. B'
 issue = '376(1831)'
 url = 'https://royalsocietypublishing.org/doi/10.1098/rstb.2020.0230'
 doi = ''
-foci = ['']
-projects = ['biologdev','biophysics']
+foci = ['biologging']
+projects = ['']
 selected = false
 
 [[papers]]
@@ -197,7 +200,7 @@ publication = 'Trends in Ecol. and Evol'
 issue = '36(11)'
 url = 'https://www.sciencedirect.com/science/article/pii/S0169534721001865'
 doi = ''
-foci = ['']
+foci = ['movement']
 projects = ['optimove']
 selected = false
 
@@ -223,8 +226,8 @@ publication = 'Trends in Ecology and Evolution'
 issue = '37(4)'
 url = 'https://www.sciencedirect.com/science/article/pii/S0169534721003165'
 doi = ''
-foci = ['']
-projects = ['biologdev']
+foci = ['biologging']
+projects = ['']
 selected = false
 
 [[papers]]
@@ -237,6 +240,7 @@ issue = '377(6607)'
 url = 'https://www.science.org/doi/full/10.1126/science.abn1663'
 doi = ''
 foci = ['']
+projects = ['ndl']
 selected = false
 
 [[papers]]
@@ -248,7 +252,8 @@ publication = 'Current Biology'
 issue = '32(20)'
 url = 'https://www.sciencedirect.com/science/article/abs/pii/S0960982222013057'
 doi = ''
-foci = ['']
+foci = ['movement', 'sensing']
+projects = ['']
 selected = true
 
 [[papers]]
@@ -260,7 +265,7 @@ publication = 'eLife'
 issue = '12(e88028)'
 url = 'https://elifesciences.org/articles/88028'
 doi = ''
-foci = ['']
+foci = ['sensing']
 projects = ['eavesdropping','optimove']
 selected = false
 
@@ -274,7 +279,7 @@ issue = 'The Eurographics Association'
 url = 'https://kops.uni-konstanz.de/entities/publication/f7aba55b-8597-4572-a619-146c38b48c6f'
 doi = ''
 foci = ['']
-projects = ['energies']
+projects = ['eavesdropping']
 selected = false
 
 [[papers]]
@@ -286,8 +291,8 @@ publication = 'Proceedings of the National Academy of Sciences'
 issue = '122(31)'
 url = 'https://www.pnas.org/doi/abs/10.1073/pnas.2410947122'
 doi = ''
-foci = ['biologging']
-projects = ['biologdev','biophysics','optimove']
+foci = ['movement', 'biologging']
+projects = ['']
 selected = true
 
 [[papers]]
@@ -299,8 +304,8 @@ publication = 'bioRxiv'
 issue = ''
 url = 'https://www.biorxiv.org/content/10.1101/2025.09.09.674951.abstract'
 doi = ''
-foci = ['biologging']
-projects = ['biologdev']
+foci = ['']
+projects = ['cobiologging']
 selected = false
 
 [[papers]]
@@ -313,6 +318,6 @@ issue = '23(240)'
 url = 'https://royalsocietypublishing.org/rsif/article/23/240/20251322/482458/Energetic-benefits-of-social-information-for'
 doi = ''
 people = ['gatti-e']
-foci = ['biologging']
-projects = ['biologdev','eavesdropping','optimove']
+foci = ['']
+projects = ['eavesdropping']
 selected = true

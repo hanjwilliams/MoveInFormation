@@ -2,7 +2,7 @@
 date = '2026-01-26T11:21:17+01:00'
 draft = false
 title = 'Eavesdropping on Social Information in Soaring-Gliding Flight'
-foci = ['movement','sensing']
+foci = ['sensing']
 funding = ['']
 image = ''
 people = ['williams-h','albrecht-c','gatti-e','steinfield-k']
