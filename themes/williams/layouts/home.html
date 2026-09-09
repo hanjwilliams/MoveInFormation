@@ -49,7 +49,7 @@
       {{- $page := .RelPermalink }}
             {{- with .Params.image -}}
                 <a href="{{ $page }}">
-          <img class="home-foci-fig" src="{{ $page }}{{ . }}" alt="{{ $.Page.Title }}">
+          <img class="home-foci-fig greyshot" src="{{ $page }}{{ . }}" alt="{{ $.Page.Title }}">
           </a>
         {{- end -}}
         <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
@@ -72,7 +72,7 @@
   {{ $selected := where $papers ".selected" true}}
   {{ range first 5 $selected }}
   <div class="home-papers-item">
-    <a href='{{ index . "url" }}'><img class="home-papers-fig" src='publications/{{ index . "fig" }}'></a>
+    <a href='{{ index . "url" }}'><img class="home-papers-fig greyshot" src='publications/{{ index . "fig" }}'></a>
   <a href ='{{ index . "url" }}' target="_blank" rel="noreferrer" rel="noopener" ><cite>{{ index . "title" }}</cite></a> 
   </div>
   {{ end }}
@@ -108,7 +108,7 @@
                       {{- $page := .RelPermalink }}
              {{- with .Params.image -}}
                        <div class="home-people-item" >
-                <a href="{{ $page }}"><figure class="gridshot">
+                <a href="{{ $page }}"><figure class="gridshot greyshot">
                   <img src="{{ $page }}{{ . }}" alt="{{ $.Page.Title }}">
                 </figure></a>
 
@@ -120,7 +120,7 @@
         {{ range $collaborators}}
         {{ with .image }}
         <div class="home-people-item" >
-        <a href="/people"><figure class="gridshot"><img src="/images/collaborators/{{.}}"></figure></a>
+        <a href="/people"><figure class="gridshot greyshot"><img src="/images/collaborators/{{.}}"></figure></a>
               </div>
         {{end}}
         {{end}}

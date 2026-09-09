@@ -6,6 +6,7 @@ last = "Lambertucci"
 institution = ""
 
 [[collaborators]]
+id = 'plaza-p'
 image = "Pablo Plaza.JPG"
 first = "Pablo"
 last = "Plaza"
@@ -19,36 +20,42 @@ last = "Safi"
 institution = ""
 
 [[collaborators]]
+id = 'wikelski-m'
 image = "martin Wikelski.JPG"
 first = "Martin"
 last = "Wikelski"
 institution = ""
 
 [[collaborators]]
+id = 'wilkes-m'
 image = "Matt Wilkes.jpeg"
 first = "Matt"
 last = "Wilkes"
 institution = ""
 
 [[collaborators]]
+id = 'mastrantunoi-o'
 image = "Orlando Mastrantuoni.JPG"
 first = "Orlando"
 last = "Mastrantuoni"
 institution = ""
 
 [[collaborators]]
+id = 'mattingly-s'
 image = "Sierra Mattingly.png"
 first = "Sierra"
 last = "Mattingly"
 institution = ""
 
 [[collaborators]]
+id = 'wild-t'
 image = "Timm Wild.jpeg"
 first = "Timm"
 last = "Wild"
 institution = ""
 
 [[collaborators]]
+id = 'zhang-y'
 image = "Ying Zhang.JPG"
 first = "Ying"
 last = "Zhang"
@@ -58,4 +65,18 @@ institution = ""
 image = "APN.JPG"
 first = ""
 last = "APN"
+institution = ""
+
+[[collaborators]]
+id = 'shepard-e'
+image = "Emily_Shepard.jpg"
+first = "Emily"
+last = "Shepard"
+institution = ""
+
+[[collaborators]]
+id = 'wilson-r'
+image = "Rory_Wilson.jpg"
+first = "Rory"
+last = "Wilson"
 institution = ""

@@ -34,24 +34,28 @@
   {{ $project := slice .Data.Term }}
 <section class="sidebar">
 {{ partial "icons.html" (dict "taxonomy" "people" "page" .) }}
+{{ with .Params.collaborators }}
 <h4>Collaborators</h4>
-<ul>
-{{ range .Params.collaborators }}
+{{ range . }}
 {{ range where hugo.Data.collaborators.collaborators "id" . }}
-  <li>{{ .first }} {{ .last }}</li>
+  <div class="icon-item">
+             {{ with .image }}
+                <figure class="icon-image">
+                    <img src="/images/collaborators/{{ . }}">
+                </figure>
+            {{ end }}
+            {{ .first }} {{ .last }}</div>
+      {{- end }}
 {{ end }}
-{{ end }}
-</ul>
+{{end}}
   </section>
   <hr/>
 <section class="sidebar">
   <h3>Relevant papers</h3>
-  <ul>
   {{ $relevant := where .Site.Data.papers.papers "projects" "intersect" $project }}
   {{ range sort $relevant "year" "desc"}}
-  <li>{{ .authors }} {{ .year }}. <a href ='{{ .url }}' target="_blank" rel="noreferrer" rel="noopener" ><cite>{{ .title }}</cite></a> <strong>{{ .publication }}.</strong> {{ .issue }}.</li>
+  <p>{{ .authors }} {{ .year }}. <a href ='{{ .url }}' target="_blank" rel="noreferrer" rel="noopener" ><cite>{{ .title }}</cite></a> <strong>{{ .publication }}.</strong> {{ .issue }}.</p>
   {{ end }}
-  </ul>
   </section>
   </aside>
   {{ end }}

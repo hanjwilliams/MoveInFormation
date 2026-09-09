@@ -5,6 +5,7 @@ title = 'Collective Bio-logging'
 foci = ['biologging']
 funding = ['']
 people = ['williams-h','steinfield-k']
+collaborators = ['wikelski-m','lambertucci-s']
 image = ''
 weight = 90
 +++

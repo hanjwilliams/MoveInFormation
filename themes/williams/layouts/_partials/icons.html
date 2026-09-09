@@ -14,17 +14,15 @@ For a given taxonomy, renders a list of terms assigned to the page.
   {{- $label := (index . 0).Parent.LinkTitle }}
   <div>
     <h3>{{ $label }}:</h3>
-    <ul>
       {{- range . }}
         {{ $page := .RelPermalink }}
-          <li class="icon-item">
+          <div class="icon-item">
              {{ with .Params.image }}
                 <figure class="icon-image">
                     <img src="{{ $page }}{{ . }}" alt="{{ $.Page.Title }}">
                 </figure>
             {{ end }}
-            <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+            <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></div>
       {{- end }}
-    </ul>
   </div>
 {{- end }}

@@ -91,11 +91,6 @@ aside {
 .sidebar {
     width: 20rem;
     padding: 2rem;
-    ul {
-        margin-left: 0;
-        padding: 0;
-        list-style: none;
-    }
 }
 
 @media screen and (max-width: v.$narrowWidth) {

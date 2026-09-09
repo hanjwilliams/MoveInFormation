@@ -25,8 +25,9 @@
 }
 
 .home-section-span {
-    max-width: v.$standardWidth;
+    width: 100%;
     margin: 2rem auto .5rem;
+    text-align: center;
     font-size: 1.4rem;
     color: white;
     flex: 0 0 auto;
@@ -74,6 +75,7 @@
     max-width: v.$standardWidth;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin: 3rem;
     gap: 1rem;
     }

@@ -6,6 +6,7 @@ foci = ['sensing']
 funding = ['']
 image = ''
 people = ['williams-h','albrecht-c','gatti-e','steinfield-k']
+collaborators = ['lambertucci-s', 'wilkes-m']
 weight = 90
 +++
 Our work asks how animals use the movements of others to make better decisions about when and where to move. These decisions can have major energetic consequences, especially in systems where conditions change rapidly and key resources are difficult to detect directly. This is particularly true for soaring birds, which must glide between rising air currents and risk losing valuable altitude with every poor decision. A central question in this research is therefore how do individuals reduce uncertainty when moving through environments where the most important resources, such as uplift, are invisible, dynamic and short-lived.

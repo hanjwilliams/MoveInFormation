@@ -52,10 +52,9 @@
   
 <section class="sidebar">
   <h3>Relevant papers</h3>
-  <ul>
   {{ $relevant := where .Site.Data.papers.papers "foci" "intersect" $focus }}
   {{ range sort $relevant "year" "desc"}}
-  <li>{{ .authors }} {{ .year }}. <a href ='{{ .url }}' target="_blank" rel="noreferrer" rel="noopener" ><cite>{{ .title }}</cite></a> <strong>{{ .publication }}.</strong> {{ .issue }}.</li>
+  <p>{{ .authors }} {{ .year }}. <a href ='{{ .url }}' target="_blank" rel="noreferrer" rel="noopener" ><cite>{{ .title }}</cite></a> <strong>{{ .publication }}.</strong> {{ .issue }}.</p>
   {{ end }}
   </ul>
   </section>

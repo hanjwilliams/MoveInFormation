@@ -5,6 +5,7 @@ title = 'Navigating Dynamic Landscapes'
 foci = ['movement']
 funding = ['']
 people = ['williams-h','steinfield-k']
+collaborators = ['hamann-h']
 image = ''
 weight = 90
 +++
