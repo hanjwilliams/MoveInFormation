@@ -83,12 +83,5 @@
 				<guid>http://localhost:1313/people/williams-h/</guid>
 				<description>&lt;p&gt;Hannah J. Williams is a behavioural ecologist whose research focuses on the fundamental processes that shape movement decisions in animals. Leader of the Move.inFormation research group at the University of Konstanz as a VolkswagenStiftung Freigeist Fellow.&lt;/p&gt;&#xA;&lt;p&gt;Her work explores how organisms navigate complex environments in which the energetic consequences of movement are uncertain and constantly changing. By integrating behavioural ecology with physics and information theory, she investigates how animals perceive environmental energy, how they use social cues to reduce uncertainty, and how these processes shape movement patterns across scales.&lt;/p&gt;</description>
 			</item>
-			<item>
-				<title>Steinfeld-K</title>
-				<link>http://localhost:1313/people/steinfeld-k/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/people/steinfeld-k/</guid>
-				<description></description>
-			</item>
 	</channel>
 </rss>

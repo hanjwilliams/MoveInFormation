@@ -6,7 +6,7 @@ foci = ['biologging']
 funding = ['']
 people = ['williams-h','steinfield-k']
 collaborators = ['wikelski-m','lambertucci-s']
-image = ''
+image = '/images/bio-logging.jpg'
 weight = 90
 +++
 Collective Bio-logging

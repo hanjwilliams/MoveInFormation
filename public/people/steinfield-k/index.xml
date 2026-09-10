@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Mon, 26 Jan 2026 11:23:56 +0100</lastBuildDate>
+			<lastBuildDate>Tue, 08 Sep 2026 16:29:04 +0200</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/people/steinfield-k/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Collective Bio-logging</title>
+				<link>http://localhost:1313/projects/cobiologging/</link>
+				<pubDate>Tue, 08 Sep 2026 16:29:04 +0200</pubDate>
+				<guid>http://localhost:1313/projects/cobiologging/</guid>
+				<description>&lt;p&gt;Collective Bio-logging&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>Eavesdropping on Social Information in Soaring-Gliding Flight</title>
 				<link>http://localhost:1313/projects/eavesdropping/</link>
@@ -21,18 +28,18 @@
 				<description>&lt;p&gt;Our work asks how animals use the movements of others to make better decisions about when and where to move. These decisions can have major energetic consequences, especially in systems where conditions change rapidly and key resources are difficult to detect directly. This is particularly true for soaring birds, which must glide between rising air currents and risk losing valuable altitude with every poor decision. A central question in this research is therefore how do individuals reduce uncertainty when moving through environments where the most important resources, such as uplift, are invisible, dynamic and short-lived.&lt;/p&gt;</description>
 			</item>
 			<item>
-				<title>Optimal Movement Theory</title>
-				<link>http://localhost:1313/projects/optimove/</link>
-				<pubDate>Tue, 13 Jan 2026 13:31:38 +0100</pubDate>
-				<guid>http://localhost:1313/projects/optimove/</guid>
-				<description>&lt;p&gt;Our work on Optimal Movement Theory aims to build a general framework for understanding how animals make movement decisions when multiple forms of energy and uncertainty must be considered together. Rather than treating movement only through food search, habitat choice, or locomotion costs in isolation, this work asks how animals decide where and when to move when chemical, mechanical and environmental energies all shape the outcome. At its core is the idea that movement is a decision problem: individuals must act on incomplete information, weigh expected gains against costs, and update their behaviour as new information becomes available.&lt;/p&gt;</description>
+				<title>Navigating Dynamic Landscapes</title>
+				<link>http://localhost:1313/projects/ndl/</link>
+				<pubDate>Mon, 26 Jan 2026 11:15:39 +0100</pubDate>
+				<guid>http://localhost:1313/projects/ndl/</guid>
+				<description>&lt;p&gt;Our work on the perception of energies asks how moving individuals detect and interpret forms of environmental energy that cannot be seen directly. We are especially interested in human pilots because, like soaring animals, they must negotiate dynamic airflows, locate usable uplift, and make rapid decisions under uncertainty. The difference is that humans can also share their knowledge with us directly. This gives us a rare opportunity to combine high-precision movement data with first-hand accounts of what individuals saw, sensed, expected and decided in flight.&lt;/p&gt;</description>
 			</item>
 			<item>
-				<title>Bio-logging development</title>
-				<link>http://localhost:1313/projects/biologdev/</link>
-				<pubDate>Mon, 26 Jan 2026 11:23:56 +0100</pubDate>
-				<guid>http://localhost:1313/projects/biologdev/</guid>
-				<description>&lt;p&gt;Our work in bio-logger development is driven by a simple idea: if we want to understand behaviour in the wild, we need devices and analytical systems that are built around the biology of the question, not only the engineering of the sensor. We have worked across the full pipeline, from Daily Diary methods and behaviour annotation to logger optimisation, data transmission, and multi-sensor system design. This includes work on how to deploy tags more effectively for movement ecology, how to recover richer behavioural information from onboard sensors, and how to move large quantities of data reliably from free-ranging animals. Together, these projects have helped build the methodological foundation for extracting behaviour, performance and ecology from increasingly complex biologging systems.&lt;/p&gt;</description>
+				<title>Biophysics of flight</title>
+				<link>http://localhost:1313/projects/biophysics/</link>
+				<pubDate>Mon, 26 Jan 2026 11:24:56 +0100</pubDate>
+				<guid>http://localhost:1313/projects/biophysics/</guid>
+				<description>&lt;p&gt;Our work on soaring birds focuses on the physical limits of flight, the aerodynamic challenges birds face when negotiating complex airflows, and the use of onboard sensors to quantify individual flight performance in free-ranging animals. Using high-resolution bio-logging, particularly inertial measurement units, GPS, magnetometers and related movement sensors, we investigate how birds climb, glide, turn and adjust their behaviour under changing atmospheric conditions. This allows us to recover fine-scale measures of performance from flight itself and to link body motion to flight strategy, space-use and proxies of energetic expenditure.&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>

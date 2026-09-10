@@ -13,10 +13,14 @@
   {{ end }}
 
   {{define "banner"}}
+  {{ $image := "/images/bird3.jpg" }}
+  {{ with .Params.image }}
+  {{ $image = . }}
+  {{ end }}
   {{ $args := dict
-"context" .
-"img" "/images/fisheye1.jpg"
-}}
+  "context" .
+  "img" $image
+  }}
   {{partial "andes.html" $args }}
   {{end}}
 

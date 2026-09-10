@@ -20,19 +20,5 @@
 				<guid>http://localhost:1313/projects/eavesdropping/</guid>
 				<description>&lt;p&gt;Our work asks how animals use the movements of others to make better decisions about when and where to move. These decisions can have major energetic consequences, especially in systems where conditions change rapidly and key resources are difficult to detect directly. This is particularly true for soaring birds, which must glide between rising air currents and risk losing valuable altitude with every poor decision. A central question in this research is therefore how do individuals reduce uncertainty when moving through environments where the most important resources, such as uplift, are invisible, dynamic and short-lived.&lt;/p&gt;</description>
 			</item>
-			<item>
-				<title>Perception of Energies to &#34;up-the-odds&#34; for efficent movement</title>
-				<link>http://localhost:1313/projects/energies/</link>
-				<pubDate>Mon, 26 Jan 2026 11:15:39 +0100</pubDate>
-				<guid>http://localhost:1313/projects/energies/</guid>
-				<description>&lt;p&gt;Our work on the perception of energies asks how moving individuals detect and interpret forms of environmental energy that cannot be seen directly. We are especially interested in human pilots because, like soaring animals, they must negotiate dynamic airflows, locate usable uplift, and make rapid decisions under uncertainty. The difference is that humans can also share their knowledge with us directly. This gives us a rare opportunity to combine high-precision movement data with first-hand accounts of what individuals saw, sensed, expected and decided in flight.&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>Optimal Movement Theory</title>
-				<link>http://localhost:1313/projects/optimove/</link>
-				<pubDate>Tue, 13 Jan 2026 13:31:38 +0100</pubDate>
-				<guid>http://localhost:1313/projects/optimove/</guid>
-				<description>&lt;p&gt;Our work on Optimal Movement Theory aims to build a general framework for understanding how animals make movement decisions when multiple forms of energy and uncertainty must be considered together. Rather than treating movement only through food search, habitat choice, or locomotion costs in isolation, this work asks how animals decide where and when to move when chemical, mechanical and environmental energies all shape the outcome. At its core is the idea that movement is a decision problem: individuals must act on incomplete information, weigh expected gains against costs, and update their behaviour as new information becomes available.&lt;/p&gt;</description>
-			</item>
 	</channel>
 </rss>
