@@ -24,8 +24,10 @@
   <h1>Team</h1>
   {{ .Content }}
   <div class="people-wrapper">
-  {{ with ($.Site.GetPage "positions") }}
-    {{ range .Pages.ByWeight }}
+  {{ with .Site.GetPage "positions" }}
+  {{ $alumni := where .Pages "Title" "eq" "Alumni" }}
+  {{ $positions := where .Pages "Title" "ne" "Alumni" }}
+    {{ range $positions.ByWeight }}
       {{- $group := .File.ContentBaseName }}
           {{ range .Pages.ByTitle }}
           <div class="people-item" >
@@ -33,17 +35,17 @@
             {{- $image := .Params.image -}}
             {{- $website := .Params.website -}}
             <div class="people-image {{ $group }}">
-             {{- with $image -}}
-              {{- with $website -}}
-                <a href="{{ . }}"><figure class="people-headshot greyshot">
-                  <img src="{{ $page }}{{ $image }}" alt="{{ $.Page.Title }}">
-                </figure></a>
-                {{- else -}}
-                             <a href="{{ $page }}"><figure class="people-headshot greyshot">
-                  <img src="{{ $page }}{{ $image }}" alt="{{ $.Page.Title }}">
-                </figure></a>
-                {{- end -}}
-            {{- end -}}
+              {{- with $image -}}
+                {{- with $website -}}
+                  <a href="{{ . }}"><figure class="people-headshot greyshot">
+                    <img src="{{ $page }}{{ $image }}" alt="{{ $.Page.Title }}">
+                  </figure></a>
+                  {{- else -}}
+                              <a href="{{ $page }}"><figure class="people-headshot greyshot">
+                    <img src="{{ $page }}{{ $image }}" alt="{{ $.Page.Title }}">
+                  </figure></a>
+                  {{- end -}}
+              {{- end -}}
               </div>
             <div class="people-info">
               <a href="{{ .RelPermalink }}"><h2>{{ .LinkTitle }}</h2></a><br/>
@@ -55,6 +57,23 @@
           {{ end }}
     {{ end }}
     </div>
+
+    <h2>Alumni</h2>
+    <div class="people-grid">
+      
+        {{ range $alumni.ByWeight }}
+        {{ range .Pages.ByTitle }}
+        {{- $page := .RelPermalink }}
+      <div class="people-grid-item" >
+        {{ with .Params.image }}
+        <img src="{{$page}}{{.}}">
+        {{end}}
+            {{ .Title }}
+        </div>
+            {{ end }}
+      </div>
+      {{end}}
+{{end}}
 <h2>Collaborators</h2>
     {{ $collaborators := hugo.Data.collaborators.collaborators }}
       <div class="people-grid">
@@ -67,7 +86,8 @@
       </div>
             {{ end }}
       </div>
-  {{end}}
+
+{{ end }}
   {{/*  {{ with ($.Site.GetPage "positions") }}
     {{ range .Pages.ByWeight }}
       {{- $group := .File.ContentBaseName }}
@@ -135,4 +155,3 @@
     {{- end }}
   </ul>  */}}
 
-{{ end }}

@@ -25,7 +25,7 @@ projects = ['']
 selected = false
 
 [[papers]]
-fig = ''
+fig = 'figures/Wilson_2015_MovEcol_In search of rules behind environmental framing; the case of head pitch.png'
 authors = 'Wilson, G.I., Norman, B., Walker, J., Williams, H.J., Holton, M.D., Clarke, D. and Wilson, R.P.'
 year = 2015
 title = 'In search of rules behind environmental framing; the case of head pitch.'
@@ -37,7 +37,7 @@ foci = ['']
 selected = false
 
 [[papers]]
-fig = ''
+fig = 'figures/Fig_Williams_2015_AnBiotel_Can accelerometry be used to distinguish between flight types in soaring birds.png'
 authors = 'Williams, H.J., Shepard, E.L.C., Duriez, O. and Lambertucci, S.A.'
 year = 2015
 title = 'Can Accelerometry be used to distinguish between flight types in soaring birds?'
@@ -76,7 +76,7 @@ projects = ['biologdev']
 selected = false
 
 [[papers]]
-fig = ''
+fig = 'figures/Fig_Williams_2018_Interface_Social eavesdropping allows for a more risky gliding strategy by thermal-soaring birds.png'
 authors = 'Williams, H.J., King, A.J., Duriez, O., Börger, L. and Shepard, E.L.C'
 year = 2018
 title = 'Social eavesdropping allows for a more risky gliding strategy by thermal-soaring birds.'
@@ -296,7 +296,7 @@ projects = ['']
 selected = true
 
 [[papers]]
-fig = ''
+fig = 'figures/Fig_Rogers_2026_MEE_Fine-scale animal proximity detection and localization via multi-sensor biologgers.png'
 authors = 'Rogers W., Mattingly S.J., Kohles J.E., Linek N., Williams H.J., Lenzi I., Wilbs G., Escher M., Richter N., van Schalkwyk L., Ezenwa V.O., Wikelski M., Dechmann D.KN., Wild T.A.'
 year = 2025
 title = 'Fine-scale animal proximity detection and localization via multi-sensor biologgers.'

@@ -2,7 +2,7 @@
 date = '2026-03-13T12:28:12+01:00'
 draft = false
 title = 'Lea Berring'
-positions = ['Intern']
+positions = ['alumnus']
 foci = ['']
 image = ''
 email = ''
