@@ -88,7 +88,7 @@ aside {
 footer {
   max-width: 100%;
   background-color: white;
-  height: 400px;
+  min-height: 400px;
 }
 footer p {
   color: rgb(31, 39, 46);
@@ -98,7 +98,6 @@ footer p {
   max-width: 90rem;
   margin: 0 auto;
   padding: 3rem;
-  height: 10rem;
 }
 
 body {
@@ -814,6 +813,27 @@ video#landing {
     width: 100%;
   }
 }
+footer h3 {
+  color: rgb(9, 112, 122);
+}
+footer a {
+  color: rgb(115, 16, 100);
+}
+
+.contact-flex {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.contact-info {
+  flex: 1 1 auto;
+}
+
+.contact-map {
+  flex: 0 0 auto;
+  min-width: 400px;
+}
+
 .support-flex {
   display: flex;
   width: 100%;

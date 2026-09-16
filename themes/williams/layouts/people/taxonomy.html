@@ -48,7 +48,7 @@
               {{- end -}}
               </div>
             <div class="people-info">
-              <a href="{{ .RelPermalink }}"><h2>{{ .LinkTitle }}</h2></a><br/>
+              <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2><br/>
               {{- with .Params.positions -}}{{ index . 0 }}{{- end }}
               <p>{{ .Summary }}</p>
               <a href="{{ .RelPermalink }}"><h4>Read More >></h4></a>

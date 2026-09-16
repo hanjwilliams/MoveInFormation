@@ -362,6 +362,25 @@
 }
 
 //footer
+footer {
+    h3 {
+        color: v.$mif_teal;
+    }
+    a {
+        color: v.$mif_darkPurple;
+    }
+}
+.contact-flex {
+    display: flex;
+    margin-bottom: 2rem;
+}
+.contact-info{
+    flex: 1 1 auto;
+}
+.contact-map {
+    flex: 0 0 auto;
+    min-width: 400px;
+}
 .support-flex {
     display: flex;
     width: 100%;

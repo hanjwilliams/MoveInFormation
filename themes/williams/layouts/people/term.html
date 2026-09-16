@@ -29,7 +29,7 @@
   </figure>
   {{ end }}
   <div class="person-links">
-    {{ with .Params.email }}<a href='{{ . }}'>{{.}}</a><br/>{{ end }}
+    {{ with .Params.email }}<a href='mailto:{{ . }}'>{{.}}</a><br/>{{ end }}
     {{ with .Params.website }}<a href='{{ . }}'>{{.}}</a><br/>{{ end }}
     {{ with .Params.scholar }}<a href='{{ . }}'>{{.}}</a><br/>{{ end }}
     {{ with .Params.movebank }}<a href='{{ . }}'>{{.}}</a><br/>{{ end }}
