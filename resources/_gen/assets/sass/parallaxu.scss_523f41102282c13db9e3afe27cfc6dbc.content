@@ -82,7 +82,7 @@ header {
   padding: 0;
   margin: 0;
   position: relative;
-  height: 700px;
+  height: 500px;
   transform-style: preserve-3d;
 }
 
@@ -98,20 +98,19 @@ header {
 }
 
 .image-slider {
-  height: 700px;
-  transform: translateY(-300px) translateZ(-5px) scale(3.5);
+  transform: translateY(-40vh) translateZ(-5px) scale(3.5);
 }
 
 .svg-slider-4 {
-  transform: translateY(-200px) translateZ(-4px) scale(3);
+  transform: translateY(0px) translateZ(-4px) scale(3);
 }
 
 .svg-slider-3 {
-  transform: translateY(-800px) translateZ(-3px) scale(2.5);
+  transform: translateY(-600px) translateZ(-3px) scale(2.5);
 }
 
 .svg-slider-2 {
-  transform: translateY(-1700px) translateZ(-2px) scale(2);
+  transform: translateY(-1500px) translateZ(-2px) scale(2);
 }
 
 .svg-slider-1 {
@@ -143,10 +142,6 @@ header {
 }
 
 .content {
-  background-color: rgb(48, 59, 71);
-}
-
-footer {
   background-color: rgb(48, 59, 71);
 }
 

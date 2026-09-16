@@ -1,6 +1,6 @@
 @use "variables" as v;
 
-$groupHeight: 700px;
+$groupHeight: 500px;
 $persp: 2;
 
 body {
@@ -121,8 +121,8 @@ margin: 0;
 }
 
 .image-slider {
-    height: calc($groupHeight);
-    transform:translateY(-300px) translateZ(-5px) scale(calc(1 + (-5 * -1) / $persp));
+    //height: calc($groupHeight);
+    transform:translateY(-40vh) translateZ(-5px) scale(calc(1 + (-5 * -1) / $persp));
 }
 
 .svg-slider-4 {
@@ -165,9 +165,5 @@ margin: 0;
 }
 
 .content {
-    background-color: v.$mif_grey;
-}
-
-footer {
     background-color: v.$mif_grey;
 }

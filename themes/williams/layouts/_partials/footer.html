@@ -1,3 +1,9 @@
 <div class="footer-content">
 <p>Copyright {{ now.Year }}. All rights reserved.</p>
+<div class="support-flex">
+    {{ $logos := resources.Match "support/*.{png,jpg}" }}
+    {{ range $logos }}
+        <img src="{{ .RelPermalink }}" alt="" class="support-logo">
+    {{ end }}
+</div>
 </div>

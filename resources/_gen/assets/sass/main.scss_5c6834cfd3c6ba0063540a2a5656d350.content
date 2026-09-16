@@ -77,13 +77,21 @@ aside {
   .content {
     display: block;
   }
+  main {
+    padding: 1rem;
+  }
   .sidebar {
     width: 100%;
+    padding: 1rem;
   }
 }
 footer {
   max-width: 100%;
-  background-color: rgb(48, 59, 71);
+  background-color: white;
+  height: 400px;
+}
+footer p {
+  color: rgb(31, 39, 46);
 }
 
 .footer-content {
@@ -124,6 +132,18 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 2.4rem;
 }
 
+@media screen and (max-width: 599px) {
+  p, .sidebar p {
+    font-size: 0.8rem;
+  }
+  .intro-text {
+    font-size: 1.2rem;
+  }
+  .intro {
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+  }
+}
 strong {
   font-weight: 600;
 }
@@ -497,10 +517,13 @@ video#landing {
 }
 
 .home-foci-section {
-  background-color: rgb(97, 125, 67);
+  background-color: rgb(9, 112, 122);
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+.home-foci-section a {
+  color: white;
 }
 .home-foci-section .home-foci-flex {
   max-width: 90rem;
@@ -622,21 +645,6 @@ video#landing {
   grid-gap: 1rem;
 }
 
-@media screen and (max-width: 1200px) {
-  .people-grid {
-    grid-template-columns: repeat(5, 1fr);
-  }
-}
-@media screen and (max-width: 50rem) {
-  .people-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-@media screen and (max-width: 35rem) {
-  .people-grid {
-    grid-template-columns: repeat(1, 1fr);
-  }
-}
 .people-grid-item {
   background-color: rgb(31, 39, 46);
   padding: 0.5rem;
@@ -680,17 +688,35 @@ video#landing {
   object-position: 50% 50%;
 }
 
+.people-info {
+  margin: 0;
+  padding: 1rem 2rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .people-grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+@media screen and (max-width: 50rem) {
+  .people-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (max-width: 35rem) {
+  .people-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .people-info {
+    padding: 1rem;
+  }
+}
 .greyshot {
   filter: grayscale(100%);
 }
 
 .greyshot:hover {
   filter: none;
-}
-
-.people-info {
-  margin: 0;
-  padding: 1rem 2rem;
 }
 
 .person-box {
@@ -775,6 +801,30 @@ video#landing {
   width: 200px;
   height: 200px;
   object-fit: cover;
+}
+@media screen and (max-width: 899px) {
+  .publications-flex {
+    display: block;
+  }
+  .publications-item {
+    display: block;
+    width: 100%;
+  }
+  .publications-item .pub-fig {
+    width: 100%;
+  }
+}
+.support-flex {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.support-logo {
+  height: 70px;
+  flex: 0 1 auto;
 }
 
 /*# sourceMappingURL=main.css.map */

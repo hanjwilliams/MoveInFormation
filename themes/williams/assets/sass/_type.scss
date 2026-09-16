@@ -27,6 +27,12 @@ h1,h2,h3,h4,h5,h6 {
     color: v.$mif_green;
         margin-bottom: 2.4rem;
 }
+@media screen and (max-width: 599px) {
+    p, .sidebar p {font-size: .8rem;}
+    .intro-text {font-size: 1.2rem;}
+    .intro {font-size: 1.6rem;
+    line-height: 1.6rem;}
+    }
 
 cite {
 

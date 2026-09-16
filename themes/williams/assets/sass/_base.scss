@@ -97,13 +97,21 @@ aside {
     .content {
     display: block
 }
+main {
+    padding: 1rem;
+}
 .sidebar {
     width: 100%;
+    padding: 1rem;
 }}
 
 footer {
     max-width: 100%;
-    background-color: v.$mif_grey;
+    background-color: white;
+    height: 400px;
+    p {
+            color: v.$mif_darkGrey;
+    }
 }
 
 .footer-content {
