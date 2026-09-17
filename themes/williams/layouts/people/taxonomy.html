@@ -79,8 +79,16 @@
       <div class="people-grid">
         {{ range $collaborators}}
       <div class="people-grid-item" >
-        {{ with .image }}
-        <img src="/images/collaborators/{{.}}">
+        {{ $first := .first }}
+        {{ $last := .last }}
+        {{ $image := .image }}
+        {{ $website := .website}}
+        {{ with $image }}
+          {{ with $website }}
+          <a href="{{$website}}" target="_blank" rel="noopener"><img src="/images/collaborators/{{$image}}" alt="{{$first}} {{$last}}"></a>
+          {{ else }}
+          <img src="/images/collaborators/{{$image}}">
+          {{ end }}
         {{end}}
             {{ .first }} {{ .last }}
       </div>

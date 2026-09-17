@@ -4,6 +4,7 @@ image = "Sergio Lambertucci.jpeg"
 first = "Sergio"
 last = "Lambertucci"
 institution = ""
+website = "https://grinbic.wordpress.com/integrantes/dr-sergio-a-lambertucci/"
 
 [[collaborators]]
 id = 'plaza-p'
@@ -11,6 +12,7 @@ image = "Pablo Plaza.JPG"
 first = "Pablo"
 last = "Plaza"
 institution = ""
+website = ""
 
 [[collaborators]]
 id = 'safi-k'
@@ -18,6 +20,7 @@ image = "Kamran Safi.jpg"
 first = "Kamran"
 last = "Safi"
 institution = ""
+website = "https://www.ab.mpg.de/safi"
 
 [[collaborators]]
 id = 'wikelski-m'
@@ -25,6 +28,7 @@ image = "martin Wikelski.JPG"
 first = "Martin"
 last = "Wikelski"
 institution = ""
+website = "https://www.ab.mpg.de/wikelski"
 
 [[collaborators]]
 id = 'wilkes-m'
@@ -32,6 +36,7 @@ image = "Matt Wilkes.jpeg"
 first = "Matt"
 last = "Wilkes"
 institution = ""
+website = "https://www.port.ac.uk/about-us/structure-and-governance/our-people/our-staff/matthew-wilkes"
 
 [[collaborators]]
 id = 'mastrantunoi-o'
@@ -39,6 +44,7 @@ image = "Orlando Mastrantuoni.JPG"
 first = "Orlando"
 last = "Mastrantuoni"
 institution = ""
+website = ""
 
 [[collaborators]]
 id = 'mattingly-s'
@@ -46,6 +52,7 @@ image = "Sierra Mattingly.png"
 first = "Sierra"
 last = "Mattingly"
 institution = ""
+website = ""
 
 [[collaborators]]
 id = 'wild-t'
@@ -53,6 +60,7 @@ image = "Timm Wild.jpeg"
 first = "Timm"
 last = "Wild"
 institution = ""
+website = ""
 
 [[collaborators]]
 id = 'zhang-y'
@@ -60,12 +68,14 @@ image = "Ying Zhang.JPG"
 first = "Ying"
 last = "Zhang"
 institution = ""
+website = ""
 
 [[collaborators]]
 image = "APN.JPG"
 first = ""
 last = "APN"
 institution = ""
+website = "https://quebradadelcondorito.com.ar/"
 
 [[collaborators]]
 id = 'shepard-e'
@@ -73,6 +83,7 @@ image = "Emily_Shepard.jpg"
 first = "Emily"
 last = "Shepard"
 institution = ""
+website = "https://www.swansea.ac.uk/staff/e.l.c.shepard/"
 
 [[collaborators]]
 id = 'wilson-r'
@@ -80,3 +91,4 @@ image = "Rory_Wilson.jpg"
 first = "Rory"
 last = "Wilson"
 institution = ""
+website = "https://www.swansea.ac.uk/staff/r.p.wilson/"
