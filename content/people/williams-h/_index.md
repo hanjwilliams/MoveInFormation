@@ -6,7 +6,7 @@ positions = ['Group Leader']
 foci = ['biologging', 'sensing', 'movement']
 image = 'hannah.jpeg'
 email = 'hannah.williams@uni-konstanz.de'
-website = 'https://www.hjwilliams.space'
+website = 'https://hjwilliams-move.info/'
 +++
 Hannah J. Williams is a behavioural ecologist whose research focuses on the fundamental processes that shape movement decisions in animals. Leader of the Move.inFormation research group at the University of Konstanz as a VolkswagenStiftung Freigeist Fellow.
 
