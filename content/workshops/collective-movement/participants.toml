@@ -1,44 +1,8 @@
 [[participants]]
 image = ""
-first = "Hannah"
-last = "Williams"
-institution = "Centre for the Advanced Study of Collective Behaviour, University of Konstanz"
-website = ""
-role = "Organiser"
-
-[[participants]]
-image = ""
-first = "Heiko"
-last = "Hamann"
-institution = "Department of Computer and Information Science, University of Konstanz"
-website = ""
-
-[[participants]]
-image = ""
-first = "Pranav"
-last = "Kedia"
-institution = "Department of Computer and Information Science, University of Konstanz"
-website = ""
-
-[[participants]]
-image = ""
-first = "Liang"
-last = "Li"
-institution = "Max Planck Institute of Animal Behavior, Konstanz"
-website = ""
-
-[[participants]]
-image = ""
-first = "Udoy Sankar"
-last = "Basak"
-institution = "Department of Collective Behaviour, Max Planck Institute of Animal Behavior, Konstanz"
-website = ""
-
-[[participants]]
-image = ""
-first = "Saikat"
-last = "Ray"
-institution = "Department of Brain Sciences, Weizmann Institute of Science"
+first = "Briana"
+last = "Abrahms"
+institution = "Department of Biology, University of Washington"
 website = ""
 
 [[participants]]
@@ -50,9 +14,81 @@ website = ""
 
 [[participants]]
 image = ""
-first = "Briana"
-last = "Abrahms"
-institution = "Department of Biology, University of Washington"
+first = "Armin"
+last = "Bahl"
+institution = "University of Konstanz"
+website = ""
+
+[[participants]]
+image = ""
+first = "Brendan"
+last = "Barrett"
+institution = "Department for the Ecology of Animal Societies, Max Planck Institute of Animal Behavior"
+website = ""
+
+[[participants]]
+image = ""
+first = "Udoy Sankar"
+last = "Basak"
+institution = "Department of Collective Behaviour, Max Planck Institute of Animal Behavior, Konstanz"
+website = ""
+
+[[participants]]
+image = ""
+first = "Hector"
+last = "Garcia"
+institution = "Departamento de Ingeniería de Computadores, Automática y Robótica, Universidad de granada"
+website = ""
+
+[[participants]]
+image = ""
+first = "Mathias"
+last = "Gunther"
+institution = "University of Konstanz"
+website = ""
+
+[[participants]]
+image = ""
+first = "Heiko"
+last = "Hamann"
+institution = "Department of Computer and Information Science, University of Konstanz"
+website = ""
+role = "Organiser"
+
+[[participants]]
+image = ""
+first = "Iacopo"
+last = "Iacopini"
+institution = "Network Science Institute, Northeastern University London"
+website = "https://www.networkscienceinstitute.org/people/iacopo-iacopini"
+
+[[participants]]
+image = ""
+first = "Pranav"
+last = "Kedia"
+institution = "Department of Computer and Information Science, University of Konstanz"
+website = ""
+role = "Organiser"
+
+[[participants]]
+image = ""
+first = "Liang"
+last = "Li"
+institution = "Max Planck Institute of Animal Behavior, Konstanz"
+website = ""
+
+[[participants]]
+image = ""
+first = "Kilian"
+last = "Meier"
+institution = "School of Civil, Aerospace and Design Engineering, University of Bristol"
+website = ""
+
+[[participants]]
+image = ""
+first = "Kilian"
+last = "Meier"
+institution = "School of Civil, Aerospace and Design Engineering, University of Bristol"
 website = ""
 
 [[participants]]
@@ -64,9 +100,16 @@ website = ""
 
 [[participants]]
 image = ""
-first = "Ariana"
-last = "Strandburg-Peshkin"
-institution = "University of Konstanz / Max Planck Institute of Animal Behavior"
+first = "Saikat"
+last = "Ray"
+institution = "Department of Brain Sciences, Weizmann Institute of Science"
+website = ""
+
+[[participants]]
+image = ""
+first = "Martin"
+last = "Saska"
+institution = "Multi-Robot Systems Group, Department of Cybernetics, Czech Technical University in Prague"
 website = ""
 
 [[participants]]
@@ -85,28 +128,22 @@ website = ""
 
 [[participants]]
 image = ""
-first = "Kilian"
-last = "Meier"
-institution = "School of Civil, Aerospace and Design Engineering, University of Bristol"
+first = "Ariana"
+last = "Strandburg-Peshkin"
+institution = "Department for the Ecology of Animal Societies, Max Planck Institute of Animal Behavior"
 website = ""
 
 [[participants]]
 image = ""
-first = "Mathias"
-last = "Gunther"
+first = "Katrin"
+last = "Vogt"
 institution = "University of Konstanz"
 website = ""
 
 [[participants]]
 image = ""
-first = "Iacopo"
-last = "Iacopini"
-institution = "Network Science Institute, Northeastern University London"
-website = "https://www.networkscienceinstitute.org/people/iacopo-iacopini"
-
-[[participants]]
-image = ""
-first = "Martin"
-last = "Saska"
-institution = "Multi-Robot Systems Group, Department of Cybernetics, Czech Technical University in Prague"
+first = "Hannah"
+last = "Williams"
+institution = "Centre for the Advanced Study of Collective Behaviour, University of Konstanz"
 website = ""
+role = "Organiser"
